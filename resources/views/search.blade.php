@@ -24,7 +24,7 @@
 <body>
   <div data-animation="default" class="navbar black w-nav" data-easing2="ease" data-easing="ease" data-collapse="medium" style="opacity:0" data-w-id="0b279315-78ec-e60b-d941-c73b08da38f3" role="banner" data-duration="400">
     <div class="container flex">
-      <a href="index.html" class="brand w-nav-brand">
+      <a href="/" class="brand w-nav-brand">
         <div class="logo-wrapper">
           <div class="logo-svg w-embed"><svg xmlns="http://www.w3.org/2000/svg" height="48px" viewbox="0 0 24 24" width="48px" fill="currentColor">
               <path d="M0 0h24v24H0V0z" fill="none"></path>
@@ -37,7 +37,7 @@
         </div>
       </a>
       <nav role="navigation" class="nav-menu w-nav-menu">
-        <a href="index.html" class="nav-link w-nav-link">Home</a>
+        <a href="/" class="nav-link w-nav-link">Home</a>
       </nav>
       <div class="menu-button w-nav-button">
         <div class="w-icon-nav-menu"></div>
@@ -77,7 +77,7 @@
               <div class="logo-text subtext">München</div>
             </div>
           </div>
-          <p id="w-node-_4aa0d7f3-2a4a-6a6b-69be-35f8e84120fd-e84120df" class="footer-text copyright">© 2023 Baucampus by <a href="https://ariet.is" target="_blank">Arietis </a>- <a href="legal/impressum.html">Impressum</a> - <a href="legal/datenschutz.html">Datenschutz</a>
+          <p id="w-node-_4aa0d7f3-2a4a-6a6b-69be-35f8e84120fd-e84120df" class="footer-text copyright">© 2023 Baucampus by <a href="https://ariet.is" target="_blank">Arietis </a>- <a href="legal/impressum">Impressum</a> - <a href="legal/datenschutz">Datenschutz</a>
           </p>
           <div id="w-node-_4aa0d7f3-2a4a-6a6b-69be-35f8e8412105-e84120df">
             <a href="tel:+35391760711" class="list-item-footer w-inline-block">

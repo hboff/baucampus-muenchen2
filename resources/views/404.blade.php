@@ -26,7 +26,7 @@
     <div class="utility-page-content">
       <h2>Page Non Existante</h2>
       <div>La page que vous recherchez n&#x27;existe pas ou a été déplacée.<br>
-        <a href="index.html">Acceuil</a>
+        <a href="/">Acceuil</a>
       </div>
     </div>
   </div>
