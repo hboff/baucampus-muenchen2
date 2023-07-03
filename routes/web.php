@@ -124,3 +124,23 @@ Route::get('/kunden/surveying-and-mapping', function () {
 Route::get('/kunden/vac-truck', function () {
     return view('kunden.vac-truck');
 });
+
+Route::get('/template-strings/changelog', function () {
+    return view('template-strings.changelog');
+});
+
+Route::get('/template-strings/csr', function () {
+    return view('template-strings.csr');
+});
+
+Route::get('/template-strings/instruction-and-recommendation', function () {
+    return view('template-strings.instruction-and-recommendation');
+});
+
+Route::get('/template-strings/license', function () {
+    return view('template-strings.license');
+});
+
+Route::get('/template-strings/untitled', function () {
+    return view('template-strings.untitled');
+});
