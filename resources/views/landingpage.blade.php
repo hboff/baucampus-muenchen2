@@ -5,7 +5,7 @@
 <html data-wf-page="648d0891096d52bfd9f271cf" data-wf-site="648d0891096d52bfd9f271dc" lang="fr">
 <head>
   <meta charset="utf-8">
-  <title>{{$city->{{$city->stadt}}}} - Baucampus</title>
+  <title>{{$city->stadt}} - Baucampus</title>
   <meta content="Ihr kompetenter Partner für Bauprojekte in {{$city->stadt}}. Profitieren Sie von unserer Expertise in Planung, Bauüberwachung und Abnahme. Mit Baucampus gewinnen Sie vertrauenswürdige Bauexperten, die Ihr Projekt sicher zum Erfolg führen." name="description">
   <meta content="{{$city->stadt}} - Baucampus" property="og:title">
   <meta content="Ihr kompetenter Partner für Bauprojekte in {{$city->stadt}}. Profitieren Sie von unserer Expertise in Planung, Bauüberwachung und Abnahme. Mit Baucampus gewinnen Sie vertrauenswürdige Bauexperten, die Ihr Projekt sicher zum Erfolg führen." property="og:description">
