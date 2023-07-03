@@ -56,15 +56,3 @@
       </div>
     </section>
   </footer>
-
-
-  @php
-                $i=0;
-                @endphp        
-   
-    @foreach($data as $cities)
-    @if ($i++ < 16)
-    <a class="link-dark" href="/{{$cities->stadt_umlaut}}/">Baugutachter {{$cities->stadt}}</a>
-    @else
-    @endif
-    @endforeach

@@ -1,14 +1,16 @@
+@foreach($ort as $city)
+@if ($ortsname == $city->{{$city->stadt}}_umlaut)
 <!DOCTYPE html><!--  This site was created in Webflow. https://www.webflow.com  -->
 <!--  Last Published: Thu Jun 29 2023 21:31:35 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="648d0891096d52bfd9f271cf" data-wf-site="648d0891096d52bfd9f271dc" lang="fr">
 <head>
   <meta charset="utf-8">
-  <title>STADT - Baucampus</title>
-  <meta content="Ihr kompetenter Partner für Bauprojekte in STADT. Profitieren Sie von unserer Expertise in Planung, Bauüberwachung und Abnahme. Mit Baucampus gewinnen Sie vertrauenswürdige Bauexperten, die Ihr Projekt sicher zum Erfolg führen." name="description">
-  <meta content="STADT - Baucampus" property="og:title">
-  <meta content="Ihr kompetenter Partner für Bauprojekte in STADT. Profitieren Sie von unserer Expertise in Planung, Bauüberwachung und Abnahme. Mit Baucampus gewinnen Sie vertrauenswürdige Bauexperten, die Ihr Projekt sicher zum Erfolg führen." property="og:description">
-  <meta content="STADT - Baucampus" property="twitter:title">
-  <meta content="Ihr kompetenter Partner für Bauprojekte in STADT. Profitieren Sie von unserer Expertise in Planung, Bauüberwachung und Abnahme. Mit Baucampus gewinnen Sie vertrauenswürdige Bauexperten, die Ihr Projekt sicher zum Erfolg führen." property="twitter:description">
+  <title>{{$city->{{$city->stadt}}}} - Baucampus</title>
+  <meta content="Ihr kompetenter Partner für Bauprojekte in {{$city->stadt}}. Profitieren Sie von unserer Expertise in Planung, Bauüberwachung und Abnahme. Mit Baucampus gewinnen Sie vertrauenswürdige Bauexperten, die Ihr Projekt sicher zum Erfolg führen." name="description">
+  <meta content="{{$city->stadt}} - Baucampus" property="og:title">
+  <meta content="Ihr kompetenter Partner für Bauprojekte in {{$city->stadt}}. Profitieren Sie von unserer Expertise in Planung, Bauüberwachung und Abnahme. Mit Baucampus gewinnen Sie vertrauenswürdige Bauexperten, die Ihr Projekt sicher zum Erfolg führen." property="og:description">
+  <meta content="{{$city->stadt}} - Baucampus" property="twitter:title">
+  <meta content="Ihr kompetenter Partner für Bauprojekte in {{$city->stadt}}. Profitieren Sie von unserer Expertise in Planung, Bauüberwachung und Abnahme. Mit Baucampus gewinnen Sie vertrauenswürdige Bauexperten, die Ihr Projekt sicher zum Erfolg führen." property="twitter:description">
   <meta property="og:type" content="website">
   <meta content="summary_large_image" name="twitter:card">
   <meta content="width=device-width, initial-scale=1" name="viewport">
@@ -35,7 +37,7 @@
           <div class="logo-wrapper"><img src="images/logo.png" loading="lazy" width="49" sizes="49px" srcset="images/logo-p-500.png 500w, images/logo-p-800.png 800w, images/logo-p-1080.png 1080w, images/logo.png 1172w" alt="">
             <div class="text-logo-wrapper">
               <div class="logo-text">Baucampus<br></div>
-              <div class="logo-text subtext">München</div>
+              <div class="logo-text subtext">{{$domainort}}</div>
             </div>
           </div>
         </a>
@@ -103,9 +105,9 @@
           <div class="uui-max-width-large-3">
             <div class="uui-blogpost04_header">
               <div class="uui-blogpost04_title-wrapper">
-                <h1 class="uui-heading-large">Bausachverständiger in STADT</h1>
+                <h1 class="uui-heading-large">Bausachverständiger in {{$city->stadt}}</h1>
                 <div class="uui-space-small"></div>
-                <div class="uui-text-size-xlarge">Ein <strong>Bausachverständiger oder auch Baugutachter</strong> in STADT ist der Spezialist für Gebäude und Bauleistungen. Oft glaubt man, dass ein Bausachverständiger nur hinzugezogen werden muss, wenn es Probleme bei der Sanierung eines Hauses oder bei einem Neubau gibt, doch dies ist ein Irrtum.</div>
+                <div class="uui-text-size-xlarge">Ein <strong>Bausachverständiger oder auch Baugutachter</strong> in {{$city->stadt}} ist der Spezialist für Gebäude und Bauleistungen. Oft glaubt man, dass ein Bausachverständiger nur hinzugezogen werden muss, wenn es Probleme bei der Sanierung eines Hauses oder bei einem Neubau gibt, doch dies ist ein Irrtum.</div>
               </div>
             </div>
           </div>
@@ -240,8 +242,8 @@
               <a href="kontakt" class="button-cta w-button">Kontaktieren</a>
               <div id="Energieberatung">
                 <div class="uui-text-rich-text w-richtext">
-                  <h4>STADT</h4>
-                  <p>Text Stadt</p>
+                  <h4>{{$city->stadt}}</h4>
+                  <p>Text {{$city->stadt}}</p>
                 </div>
               </div>
             </div>
@@ -462,3 +464,6 @@
   <script src="js/webflow.js" type="text/javascript"></script>
 </body>
 </html>
+
+@endif
+@endforeach
