@@ -421,6 +421,5 @@
 </body>
 </html>
 @endif
-@endif
 @endforeach
-@endsection
+
