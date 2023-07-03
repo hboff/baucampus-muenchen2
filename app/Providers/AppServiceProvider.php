@@ -6,6 +6,7 @@ use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\View;
 use App\Models\Ort;
 use App\Models\Orteat;
+use App\Models\Gutachter;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -28,5 +29,6 @@ class AppServiceProvider extends ServiceProvider
     {
         View::share('ort', Ort::all());
         View::share('ortat', Orteat::all());
+        View::share('gutachter', Gutachter::all());
     }
 }

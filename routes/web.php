@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\OrteatController;
+use App\Http\Controllers\GutachterController;
 use Illuminate\Support\Facades\DB;
 
 

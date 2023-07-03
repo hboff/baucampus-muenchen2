@@ -20,7 +20,6 @@ class OrteatController extends Controller
                 'breitengrad' => [47.79, 48.9],
                 'domainort' => 'München',
             ],
-            
         ];
         
         
