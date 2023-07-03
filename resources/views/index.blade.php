@@ -33,7 +33,7 @@
         <div class="logo-wrapper"><img src="images/logo.png" loading="lazy" width="49" sizes="49px" srcset="images/logo-p-500.png 500w, images/logo-p-800.png 800w, images/logo-p-1080.png 1080w, images/logo.png 1172w" alt="">
           <div class="text-logo-wrapper">
             <div class="logo-text">Baucampus</div>
-            <div class="logo-text subtext">München</div>
+            <div class="logo-text subtext">{{$domainort}}</div>
           </div>
         </div>
       </a>
@@ -99,7 +99,7 @@
         <div class="logo-wrapper"><img src="images/logo.png" loading="lazy" width="49" sizes="49px" srcset="images/logo-p-500.png 500w, images/logo-p-800.png 800w, images/logo-p-1080.png 1080w, images/logo.png 1172w" alt="">
           <div class="text-logo-wrapper">
             <div class="logo-text">Baucampus</div>
-            <div class="logo-text subtext">München</div>
+            <div class="logo-text subtext">{{$domainort}}</div>
           </div>
         </div>
       </a>
@@ -168,7 +168,7 @@
         <div class="line-element"></div>
         <div>Einfach und Kompetent</div>
       </div>
-      <h1 data-w-id="54adabf2-cbb8-69b7-1079-c5629eba7366" style="opacity:0" class="display-text for-home-page">Bausachverständige in<br>München</h1>
+      <h1 data-w-id="54adabf2-cbb8-69b7-1079-c5629eba7366" style="opacity:0" class="display-text for-home-page">Bausachverständige in<br>{{$domainort}}</h1>
       <div data-w-id="54adabf2-cbb8-69b7-1079-c5629eba736a" style="opacity:0" class="button-wrapper">
         <a href="leistungen" class="button-withe w-button">Leistungen</a>
         <a href="#" data-w-id="54adabf2-cbb8-69b7-1079-c5629eba736d" style="opacity:0" class="lightbox-link w-inline-block w-lightbox">
@@ -440,7 +440,7 @@
                     <div class="uui-testimonial14_client-image-wrapper"><img src="images/thispersondoesnotexist2.jpg" loading="lazy" sizes="48px" srcset="images/thispersondoesnotexist2-p-500.jpg 500w, images/thispersondoesnotexist2-p-800.jpg 800w, images/thispersondoesnotexist2.jpg 1024w" alt="" class="uui-testimonial14_customer-image"></div>
                     <div class="uui-testimonial14_client-info">
                       <div class="uui-testimonial14_client-heading">Johann Schmidt</div>
-                      <div class="uui-text-size-small">Zufriedener Kunde, München</div>
+                      <div class="uui-text-size-small">Zufriedener Kunde, {{$domainort}}</div>
                     </div>
                   </div>
                 </div>
@@ -477,7 +477,7 @@
                     <div class="uui-testimonial14_client-image-wrapper"><img src="images/thispersondoesnotexist.jpg" loading="lazy" sizes="48px" srcset="images/thispersondoesnotexist-p-500.jpg 500w, images/thispersondoesnotexist-p-800.jpg 800w, images/thispersondoesnotexist.jpg 1024w" alt="" class="uui-testimonial14_customer-image"></div>
                     <div class="uui-testimonial14_client-info">
                       <div class="uui-testimonial14_client-heading">Helga Bauer</div>
-                      <div class="uui-text-size-small">Zufriedene Kundin, München</div>
+                      <div class="uui-text-size-small">Zufriedene Kundin, {{$domainort}}</div>
                     </div>
                   </div>
                 </div>
@@ -514,7 +514,7 @@
                     <div class="uui-testimonial14_client-image-wrapper"><img src="images/thispersondoesnotexist_1.jpg" loading="lazy" sizes="48px" srcset="images/thispersondoesnotexist_1-p-500.jpg 500w, images/thispersondoesnotexist_1-p-800.jpg 800w, images/thispersondoesnotexist_1.jpg 1024w" alt="" class="uui-testimonial14_customer-image"></div>
                     <div class="uui-testimonial14_client-info">
                       <div class="uui-testimonial14_client-heading">Friedrich Müller</div>
-                      <div class="uui-text-size-small">Zufriedener Kunde, München</div>
+                      <div class="uui-text-size-small">Zufriedener Kunde, {{$domainort}}</div>
                     </div>
                   </div>
                 </div>
@@ -551,7 +551,7 @@
                     <div class="uui-testimonial14_client-image-wrapper"><img src="images/thispersondoesnotexist3.jpg" loading="lazy" sizes="48px" srcset="images/thispersondoesnotexist3-p-500.jpg 500w, images/thispersondoesnotexist3-p-800.jpg 800w, images/thispersondoesnotexist3.jpg 1024w" alt="" class="uui-testimonial14_customer-image"></div>
                     <div class="uui-testimonial14_client-info">
                       <div class="uui-testimonial14_client-heading">Elisabeth Hoffmann</div>
-                      <div class="uui-text-size-small">Zufriedene Kundin, München</div>
+                      <div class="uui-text-size-small">Zufriedene Kundin, {{$domainort}}</div>
                     </div>
                   </div>
                 </div>
@@ -588,7 +588,7 @@
                     <div class="uui-testimonial14_client-image-wrapper"><img src="images/thispersondoesnotexist3.jpg" loading="lazy" sizes="48px" srcset="images/thispersondoesnotexist3-p-500.jpg 500w, images/thispersondoesnotexist3-p-800.jpg 800w, images/thispersondoesnotexist3.jpg 1024w" alt="" class="uui-testimonial14_customer-image"></div>
                     <div class="uui-testimonial14_client-info">
                       <div class="uui-testimonial14_client-heading">Katarina Fischer</div>
-                      <div class="uui-text-size-small">Zufriedene Kundin, München</div>
+                      <div class="uui-text-size-small">Zufriedene Kundin, {{$domainort}}</div>
                     </div>
                   </div>
                 </div>
@@ -625,7 +625,7 @@
                     <div class="uui-testimonial14_client-image-wrapper"><img src="images/thispersondoesnotexist4.jpg" loading="lazy" sizes="48px" srcset="images/thispersondoesnotexist4-p-500.jpg 500w, images/thispersondoesnotexist4-p-800.jpg 800w, images/thispersondoesnotexist4.jpg 1024w" alt="" class="uui-testimonial14_customer-image"></div>
                     <div class="uui-testimonial14_client-info">
                       <div class="uui-testimonial14_client-heading">Stefan Schneider</div>
-                      <div class="uui-text-size-small">Zufriedener Kunde, München</div>
+                      <div class="uui-text-size-small">Zufriedener Kunde, {{$domainort}}</div>
                     </div>
                   </div>
                 </div>
@@ -816,8 +816,8 @@
       <div class="grid-for-heder-section">
         <div id="w-node-_9ab59575-c0ef-d0eb-9bd1-882e58bbdbe5-d9f271bb">
           <div class="sub-heding">Standort</div>
-          <h3 class="h1">Baucampus in München</h3>
-          <p>Baucampus in München bietet hochwertige Immobiliendienstleistungen und fügt dem gesamten Großraum München einen Mehrwert hinzu. Unser lokales Team von Immobilienexperten verfügt über tiefgreifende Kenntnisse des Münchner Immobilienmarktes, was es uns ermöglicht, genaue Bewertungen, gründliche Inspektionen, fundierte Beratungen und professionelle Schulungen anzubieten. <br><br>München, gelegen im schönen Bayern in Deutschland, ist eine pulsierende Stadt, reich an Kultur und Geschichte und bekannt für ihr gemäßigtes kontinentales Klima. Mit seinen malerischen Biergärten, faszinierender Architektur, lebhaften Märkten und exquisiter Küche zieht München Besucher aus der ganzen Welt an. Der Münchner Immobilienmarkt ist dynamisch und vielfältig, mit einer Palette von Immobilien, die von Stadtwohnungen bis hin zu luxuriösen Villen am Starnberger See reichen. Als wichtiger Akteur auf diesem Markt ist Baucampus stolz darauf, zur Prosperität der Stadt beizutragen, indem es seinen Kunden hilft, erfolgreich durch die Immobilienlandschaft Münchens zu navigieren.</p>
+          <h3 class="h1">Baucampus in {{$domainort}}</h3>
+          <p>Baucampus in {{$domainort}} bietet hochwertige Immobiliendienstleistungen und fügt dem gesamten Großraum {{$domainort}} einen Mehrwert hinzu. Unser lokales Team von Immobilienexperten verfügt über tiefgreifende Kenntnisse des Münchner Immobilienmarktes, was es uns ermöglicht, genaue Bewertungen, gründliche Inspektionen, fundierte Beratungen und professionelle Schulungen anzubieten. <br><br>{{$domainort}}, gelegen im schönen Bayern in Deutschland, ist eine pulsierende Stadt, reich an Kultur und Geschichte und bekannt für ihr gemäßigtes kontinentales Klima. Mit seinen malerischen Biergärten, faszinierender Architektur, lebhaften Märkten und exquisiter Küche zieht {{$domainort}} Besucher aus der ganzen Welt an. Der Münchner Immobilienmarkt ist dynamisch und vielfältig, mit einer Palette von Immobilien, die von Stadtwohnungen bis hin zu luxuriösen Villen am Starnberger See reichen. Als wichtiger Akteur auf diesem Markt ist Baucampus stolz darauf, zur Prosperität der Stadt beizutragen, indem es seinen Kunden hilft, erfolgreich durch die Immobilienlandschaft {{$domainort}}s zu navigieren.</p>
         </div>
         <div id="w-node-cbf1b3bc-8d5c-db86-10f6-dd363cb5250b-d9f271bb" class="parallax-image-wrapper"><img src="images/3cb45f6e59190e8213ce0a35394d0e11-nice-3612225719.jpg" sizes="(max-width: 479px) 100vw, (max-width: 767px) 95vw, (max-width: 991px) 52vw, (max-width: 1439px) 53vw, 685.7166748046875px" srcset="images/3cb45f6e59190e8213ce0a35394d0e11-nice-3612225719-p-500.jpg 500w, images/3cb45f6e59190e8213ce0a35394d0e11-nice-3612225719-p-800.jpg 800w, images/3cb45f6e59190e8213ce0a35394d0e11-nice-3612225719.jpg 1200w" alt="" class="parallax-image"></div>
       </div>
@@ -849,7 +849,7 @@
           <div id="w-node-_4aa0d7f3-2a4a-6a6b-69be-35f8e84120f6-e84120df" class="logo-wrapper fo-footer">
             <div class="text-logo-wrapper for-footer"><img src="images/logo.png" loading="lazy" width="50" height="50" srcset="images/logo-p-500.png 500w, images/logo-p-800.png 800w, images/logo-p-1080.png 1080w, images/logo.png 1172w" sizes="50px" alt="">
               <div class="logo-text">Baucampus</div>
-              <div class="logo-text subtext">München</div>
+              <div class="logo-text subtext">{{$domainort}}</div>
             </div>
           </div>
           <p id="w-node-_4aa0d7f3-2a4a-6a6b-69be-35f8e84120fd-e84120df" class="footer-text copyright">© 2023 Baucampus by <a href="https://ariet.is" target="_blank">Arietis </a>- <a href="legal/impressum">Impressum</a> - <a href="legal/datenschutz">Datenschutz</a>
