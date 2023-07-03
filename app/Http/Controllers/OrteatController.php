@@ -61,7 +61,7 @@ class OrteatController extends Controller
 "), [$breitengrad, $laengengrad, $breitengrad]);
         
       
-        return view('landingpage', [
+        return view('leistungen.landingpage', [
             'nearestCities' => $nearestCities,
             'expert' => $expert,
             'data' => $data,
