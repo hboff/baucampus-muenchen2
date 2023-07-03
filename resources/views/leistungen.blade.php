@@ -39,7 +39,7 @@
         </div>
       </a>
       <nav role="navigation" class="nav-menu w-nav-menu">
-        <a href="" class="nav-link w-nav-link">Home</a>
+        <a href="/" class="nav-link w-nav-link">Home</a>
         <div data-hover="true" data-delay="300" data-w-id="9962d9cc-619f-1e92-7f2b-747f23a8712f" class="navbar-menu-dropdown w-dropdown">
           <aside class="dropdown-toggle w-dropdown-toggle">
             <div class="dropdown-icon w-embed"><svg width="20" height="20" viewbox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
