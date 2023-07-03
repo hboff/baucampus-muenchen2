@@ -213,7 +213,7 @@
       </div>
       <ul role="list" class="list">
         <li>
-          <a href="kunden/management-in-the-engineering" class="blog-card w-inline-block">
+          <a href="/baubegleitung" class="blog-card w-inline-block">
             <div class="img-wrapper-blog-card">
               <div class="read-more-blog">Mehr Erfahren</div><img sizes="(max-width: 479px) 161.13333129882812px, (max-width: 767px) 34vw, (max-width: 991px) 30vw, (max-width: 1439px) 31vw, 396.66668701171875px" srcset="images/baubegleitung-p-500.webp 500w, images/baubegleitung-p-800.webp 800w, images/baubegleitung-p-1080.webp 1080w, images/baubegleitung.webp 1456w" src="images/baubegleitung.webp" alt="" class="blog-prew-img">
             </div>
@@ -223,7 +223,7 @@
           </a>
         </li>
         <li>
-          <a href="#" class="blog-card w-inline-block">
+          <a href="/bauschaden" class="blog-card w-inline-block">
             <div class="img-wrapper-blog-card">
               <div class="read-more-blog">Mehr Erfahren</div><img sizes="(max-width: 479px) 190px, (max-width: 767px) 40vw, (max-width: 991px) 30vw, (max-width: 1439px) 31vw, 396.6666564941406px" srcset="images/bauschaden-p-500.webp 500w, images/bauschaden-p-800.webp 800w, images/bauschaden-p-1080.webp 1080w, images/bauschaden.webp 1456w" src="images/bauschaden.webp" alt="" class="blog-prew-img">
             </div>
@@ -233,7 +233,7 @@
           </a>
         </li>
         <li>
-          <a href="#" class="blog-card w-inline-block">
+          <a href="/energieberatung" class="blog-card w-inline-block">
             <div class="img-wrapper-blog-card">
               <div class="read-more-blog">Mehr Erfahren</div><img sizes="(max-width: 479px) 144.43333435058594px, (max-width: 991px) 30vw, (max-width: 1439px) 31vw, 396.66668701171875px" srcset="images/energieberatung-p-500.webp 500w, images/energieberatung-p-800.webp 800w, images/energieberatung-p-1080.webp 1080w, images/energieberatung.webp 1456w" src="images/energieberatung.webp" alt="" class="blog-prew-img">
             </div>
@@ -243,7 +243,7 @@
           </a>
         </li>
         <li>
-          <a href="#" class="blog-card w-inline-block">
+          <a href="/hauskaufberatung" class="blog-card w-inline-block">
             <div class="img-wrapper-blog-card">
               <div class="read-more-blog">Mehr Erfahren</div><img sizes="(max-width: 479px) 161.13333129882812px, (max-width: 767px) 34vw, (max-width: 991px) 30vw, (max-width: 1439px) 31vw, 396.66668701171875px" srcset="images/beratung-p-500.webp 500w, images/beratung-p-800.webp 800w, images/beratung-p-1080.webp 1080w, images/beratung.webp 1456w" src="images/beratung.webp" alt="" class="blog-prew-img">
             </div>
@@ -253,7 +253,7 @@
           </a>
         </li>
         <li>
-          <a href="#" class="blog-card w-inline-block">
+          <a href="/immobilienbewertung" class="blog-card w-inline-block">
             <div class="img-wrapper-blog-card">
               <div class="read-more-blog">Mehr Erfahren</div><img sizes="(max-width: 479px) 190px, (max-width: 767px) 40vw, (max-width: 991px) 30vw, (max-width: 1439px) 31vw, 396.6666564941406px" srcset="images/inspektionen-p-500.webp 500w, images/inspektionen-p-800.webp 800w, images/inspektionen-p-1080.webp 1080w, images/inspektionen.webp 1456w" src="images/inspektionen.webp" alt="" class="blog-prew-img">
             </div>
@@ -263,7 +263,7 @@
           </a>
         </li>
         <li>
-          <a href="#" class="blog-card w-inline-block">
+          <a href="/schimmlepilz" class="blog-card w-inline-block">
             <div class="img-wrapper-blog-card">
               <div class="read-more-blog">Mehr Erfahren</div><img sizes="(max-width: 479px) 144.43333435058594px, (max-width: 991px) 30vw, (max-width: 1439px) 31vw, 396.66668701171875px" srcset="images/pilz-p-500.webp 500w, images/pilz-p-800.webp 800w, images/pilz-p-1080.webp 1080w, images/pilz.webp 1166w" src="images/pilz.webp" alt="" class="blog-prew-img">
             </div>

@@ -1,14 +1,14 @@
 <!DOCTYPE html><!--  This site was created in Webflow. https://www.webflow.com  -->
 <!--  Last Published: Thu Jun 29 2023 21:31:35 GMT+0000 (Coordinated Universal Time)  -->
-<html data-wf-page="648d0891096d52bfd9f271c6" data-wf-site="648d0891096d52bfd9f271dc" lang="fr">
+<html data-wf-page="649869f63a344d8f4a3df7ae" data-wf-site="648d0891096d52bfd9f271dc" lang="fr">
 <head>
   <meta charset="utf-8">
-  <title>Energieberatung - Baucampus STADT</title>
-  <meta content="Nutzen Sie unsere Expertise in [STADT] für eine umfassende Energieberatung. Wir helfen Ihnen, Energieeffizienz zu steigern, Kosten zu senken und einen Beitrag zum Umweltschutz zu leisten. Baucampus [STADT] - Ihr Partner für nachhaltige Energielösungen im Bauwesen." name="description">
-  <meta content="Energieberatung - Baucampus STADT" property="og:title">
-  <meta content="Nutzen Sie unsere Expertise in [STADT] für eine umfassende Energieberatung. Wir helfen Ihnen, Energieeffizienz zu steigern, Kosten zu senken und einen Beitrag zum Umweltschutz zu leisten. Baucampus [STADT] - Ihr Partner für nachhaltige Energielösungen im Bauwesen." property="og:description">
-  <meta content="Energieberatung - Baucampus STADT" property="twitter:title">
-  <meta content="Nutzen Sie unsere Expertise in [STADT] für eine umfassende Energieberatung. Wir helfen Ihnen, Energieeffizienz zu steigern, Kosten zu senken und einen Beitrag zum Umweltschutz zu leisten. Baucampus [STADT] - Ihr Partner für nachhaltige Energielösungen im Bauwesen." property="twitter:description">
+  <title>Inspektion - Baucampus STADT</title>
+  <meta content="Vertrauen Sie auf unser geschultes Auge für Ihre Bauprojekte in [STADT]. Unsere erfahrenen Experten bieten detaillierte Inspektionen, um die Qualität und den Fortschritt Ihres Projekts sicherzustellen. Baucampus [STADT] - Ihr Partner für eine zuverlässige Baustellenkontrolle." name="description">
+  <meta content="Inspektion - Baucampus STADT" property="og:title">
+  <meta content="Vertrauen Sie auf unser geschultes Auge für Ihre Bauprojekte in [STADT]. Unsere erfahrenen Experten bieten detaillierte Inspektionen, um die Qualität und den Fortschritt Ihres Projekts sicherzustellen. Baucampus [STADT] - Ihr Partner für eine zuverlässige Baustellenkontrolle." property="og:description">
+  <meta content="Inspektion - Baucampus STADT" property="twitter:title">
+  <meta content="Vertrauen Sie auf unser geschultes Auge für Ihre Bauprojekte in [STADT]. Unsere erfahrenen Experten bieten detaillierte Inspektionen, um die Qualität und den Fortschritt Ihres Projekts sicherzustellen. Baucampus [STADT] - Ihr Partner für eine zuverlässige Baustellenkontrolle." property="twitter:description">
   <meta property="og:type" content="website">
   <meta content="summary_large_image" name="twitter:card">
   <meta content="width=device-width, initial-scale=1" name="viewport">
@@ -50,32 +50,32 @@
           </aside>
           <nav class="dropdown-list w-dropdown-list">
             <div class="dropdown-link-list">
-              <a href="/dienstleistungen/bauschaden" class="dropdown-link w-inline-block">
+              <a href="/bauschaden" class="dropdown-link w-inline-block">
                 <div>
                   <div>Beratung Bauschaden</div>
                 </div>
               </a>
-              <a href="/dienstleistungen/schimmelpilz" class="dropdown-link w-inline-block">
+              <a href="/schimmelpilz" class="dropdown-link w-inline-block">
                 <div>
                   <div>Beratung Schimmmelpilz</div>
                 </div>
               </a>
-              <a href="/dienstleistungen/hauskaufberatung" class="dropdown-link w-inline-block">
+              <a href="/hauskaufberatung" class="dropdown-link w-inline-block">
                 <div>
                   <div>Kaufberatung</div>
                 </div>
               </a>
-              <a href="/dienstleistungen/baubegleitung" class="dropdown-link w-inline-block">
+              <a href="/baubegleitung" class="dropdown-link w-inline-block">
                 <div>
                   <div>Baubegleitung</div>
                 </div>
               </a>
-              <a href="/dienstleistungen/energieberatung" aria-current="page" class="dropdown-link w-inline-block w--current">
+              <a href="/energieberatung" class="dropdown-link w-inline-block">
                 <div>
                   <div>Energieberatung</div>
                 </div>
               </a>
-              <a href="/dienstleistungen/immobilienbewertung" class="dropdown-link w-inline-block">
+              <a href="/immobilienbewertung" class="dropdown-link w-inline-block">
                 <div id="w-node-c8909249-ed55-ded4-b3d1-381c167e4fbc-23a87122">
                   <div>Immobilienbewertung</div>
                 </div>
@@ -95,39 +95,78 @@
   </div>
   <div data-w-id="6fca50ab-de2f-362b-39cc-d7d7b0ef92d4" class="main-section services wf-section">
     <div class="container relative">
-      <h3 data-w-id="d3349579-0b18-6f19-95a4-d1bb8ad22c13" style="opacity:0" class="display-text">Energieberatung</h3>
+      <h3 data-w-id="d3349579-0b18-6f19-95a4-d1bb8ad22c13" style="opacity:0" class="display-text"><strong>Immobilieninspektion: Ihr Garant für Qualität und Sicherheit</strong></h3>
     </div>
-    <div class="background-overlay"></div><img src="../images/Trimble-GPS-Machine-Control-.webp" loading="lazy" sizes="100vw" srcset="../images/Trimble-GPS-Machine-Control--p-500.webp 500w, ../images/Trimble-GPS-Machine-Control--p-800.webp 800w, ../images/Trimble-GPS-Machine-Control-.webp 1024w" alt="" class="background-img">
+    <div class="background-overlay"></div>
   </div>
   <div data-w-id="4c341b8b-2ef7-5a8c-1192-6185da71e66f" class="section sub-main wf-section">
     <div class="container">
       <div class="column-grid-post-main two">
-        <div data-w-id="04297b0d-1249-7c77-a3e2-8c234f4ef296" style="opacity:0" class="card-name-text">Energieberatung</div>
+        <div data-w-id="04297b0d-1249-7c77-a3e2-8c234f4ef296" style="opacity:0" class="card-name-text">Immobilieninspektion</div>
         <div data-w-id="04297b0d-1249-7c77-a3e2-8c234f4ef293" style="opacity:0">
-          <p><em>Entdecken Sie Möglichkeiten zur Energieeinsparung und Verbesserung der Energieeffizienz mit unseren kompetenten Energieberatern. Wir analysieren den Energieverbrauch Ihrer Immobilie und identifizieren Potenziale für Optimierungen, um Ihnen dabei zu helfen, Energiekosten zu senken und zur Umweltfreundlichkeit beizutragen. Lassen Sie uns gemeinsam einen Schritt in Richtung eines grüneren, energieeffizienteren und kostensparenderen Zuhause gehen.</em><br></p>
+          <p><strong>Die Immobilienbewertung ist ein entscheidender Aspekt bei jeder Immobilieninvestition. Durch eine genaue Bewertung kann der reale Marktwert einer Immobilie ermittelt werden, was wiederum die Basis für Preisverhandlungen und Finanzierungsentscheidungen bildet. Bei Baucampus führen unsere Experten gründliche Untersuchungen durch, unter Berücksichtigung einer Vielzahl von Faktoren wie Lage, Zustand, Größe und aktuelle Markttrends, um eine genaue und objektive Bewertung zu gewährleisten.<em></em></strong><br></p>
         </div>
       </div>
     </div>
   </div>
   <div data-w-id="6bb3502d-11a7-7305-cc26-615d8fce3ac0" class="section services wf-section">
     <div class="container max-1080-px">
-      <div class="parallax-image-wrapper"><img src="../images/energieberatungps.webp" sizes="(max-width: 479px) 91vw, (max-width: 767px) 95vw, (max-width: 1439px) 96vw, 1080px" srcset="../images/energieberatungps-p-500.webp 500w, ../images/energieberatungps-p-800.webp 800w, ../images/energieberatungps-p-1080.webp 1080w, ../images/energieberatungps.webp 1456w" alt="" class="parallax-image second-img-for-service-page"></div>
+      <div class="parallax-image-wrapper"><img src="../images/beratung.webp" sizes="(max-width: 479px) 91vw, (max-width: 767px) 95vw, (max-width: 1439px) 96vw, 1080px" srcset="../images/beratung-p-500.webp 500w, ../images/beratung-p-800.webp 800w, ../images/beratung-p-1080.webp 1080w, ../images/beratung.webp 1456w" alt="" class="parallax-image second-img-for-service-page"></div>
       <div class="w-richtext">
-        <p>Die Energieberatung durch einen zertifizierten Energieberater an ihrer Immobilie, soll ihnen einen Überblick über mögliche <strong>Modernisierungsmaßnahmen</strong> sowie <strong>Fördermöglichkeiten</strong> geben. Unsere Energieberater beraten wertneutral und objektiv und zeigen ihnen auf welche Maßnahmen im Rahmen der Energieberatung durch einen Energieberater sinnvoll sind und welche zu einem späteren Zeitpunkt durchgeführt werden können. </p>
-        <p>Der Energieberater wird während der Energieberatung auf ihre Immobilie eingehen und sich ebenfalls mit den Gegebenheiten ihrer Immobilie auseinandersetzen.</p>
-        <p>Da die meisten Menschen weniger über den <strong>Energiebedarf von Immobilien</strong> wissen, als bei anderen Gegenständen des täglichen Lebens wie z.B. Autos oder Haushaltsgeräten hat sich der Gesetzgeber dafür entschieden, dass für den Verkauf und die Vermietung von Gebäuden gültige Energieausweise gem. ENEV vorzulegen sind. Erschwert wird die Einschätzung häufig noch für Privatpersonen, dadurch das allgemeingültige Informationen über den Energieausweis Mangelware sind und Vergleichsobjekte fehlen. Der Energieberater kann ihnen sowohl bei der Erstellung des Energieausweises für ihre Immobilie helfen, als auch bei dem Kauf einer Immobilie eine <strong>energetische Einschätzung</strong> geben.</p>
-        <p>Es gibt zwei verschieden Arten von Energieausweisen zum einen gibt es den <strong>Verbrauchsausweis</strong>, welcher auf von Kunden gelieferten Informationen bezüglich des Energieverbrauch der letzten drei Jahre basiert. Zum anderen gibt es den Bedarfsausweis. Der <strong>Bedarfsausweis</strong> wird verwendet wenn es keine bisherigen Werte gibt, die als Grundlage dienen können. Hier wird zur Berechnung die Bauform, das Alter der Immobilie, die Heizung als auch die Dämmung verwendet.</p>
+        <blockquote><strong><em>Warum ist eine genaue Immobilienbewertung unerlässlich?</em></strong></blockquote>
+        <h2><strong>Immobilieninspektionen: Ihr Garant für Qualität und Sicherheit</strong></h2>
+        <p>Immobilieninspektionen sind ein entscheidender Schritt beim Kauf, Verkauf oder der Verwaltung einer Immobilie. Sie bieten eine detaillierte Übersicht über den Zustand einer Immobilie und können potenzielle Probleme aufdecken, die sonst übersehen werden könnten. Bei Baucampus führen unsere erfahrenen Inspektoren gründliche Inspektionen durch, um sicherzustellen, dass alle Aspekte der Immobilie, von der Struktur bis zu den Systemen, in bestem Zustand sind.</p>
+        <h5><em>Was macht eine Immobilieninspektion so wertvoll?</em></h5>
+        <ul role="list">
+          <li>Aufdeckung potenzieller Probleme oder Mängel</li>
+          <li>Sicherstellung der Sicherheit und Qualität der Immobilie</li>
+          <li>Vermeidung unerwarteter Kosten nach dem Kauf</li>
+          <li>Verhandlungsgrundlage bei Kauf- oder Verkaufsentscheidungen</li>
+        </ul>
+        <h3><strong>Warum sind Immobilieninspektionen unerlässlich?</strong></h3>
+        <p>Eine gründliche Immobilieninspektion bietet mehr als nur Sicherheit - sie ist ein wesentlicher Bestandteil einer fundierten Immobilieninvestition. Sie hilft Käufern und Verkäufern, fundierte Entscheidungen zu treffen und potenzielle Risiken zu minimieren.</p>
+        <p><strong><em>Buchen Sie jetzt eine Immobilieninspektion mit Baucampus und sichern Sie Ihre Investition.</em></strong></p>
         <p>‍</p>
-        <blockquote>&quot;Energieeffizienz ist kein Luxus, sondern eine Notwendigkeit. Mit der richtigen Energieberatung können Sie nicht nur Ihren ökologischen Fußabdruck verkleinern, sondern auch Ihren finanziellen Fußabdruck. Es ist an der Zeit, kluge Entscheidungen zu treffen, die unserem Planeten und Ihrer Brieftasche zugutekommen.&quot; </blockquote>
+        <p>‍</p>
+        <p>‍</p>
+        <p>‍</p>
+        <p>‍</p>
+        <blockquote><strong>Was macht eine Immobilienbewertung so wichtig?</strong></blockquote>
       </div>
       <div class="w-layout-grid grid-service-page">
-        <div id="w-node-_2e19e198-f3de-3628-d31f-0c9184d0f60f-d9f271c6" class="layout-content">
+        <div id="w-node-_2e19e198-f3de-3628-d31f-0c9184d0f60f-4a3df7ae" class="layout-content">
+          <div class="w-layout-grid layout-item-list">
+            <div id="w-node-bef11c27-3e8e-cfe8-4daf-db22c13688b9-4a3df7ae" class="layout-item">
+              <div>
+                <h3><strong>Ermittlung des Marktwerts für Verkaufsverhandlungen</strong></h3>
+                <div>With drones, businesses can easily conduct aerial surveys and create 3D maps of their inventory. This allows for more accurate tracking of stock levels, reducing the risk of overstocking or stockouts.</div>
+              </div>
+            </div>
+            <div id="w-node-bef11c27-3e8e-cfe8-4daf-db22c13688c1-4a3df7ae" class="layout-item">
+              <div>
+                <h3><strong>Beurteilung der Rentabilität einer Immobilieninvestition</strong></h3>
+                <div>Drones are increasingly being used to inspect infrastructure such as bridges, power lines, and pipelines. This is a safer and more efficient alternative to traditional methods, which often require workers to climb to dangerous heights or work in confined spaces.</div>
+              </div>
+            </div>
+            <div id="w-node-bef11c27-3e8e-cfe8-4daf-db22c13688c9-4a3df7ae" class="layout-item">
+              <div>
+                <h3><strong>Erfüllung von Finanzierungs- und Steueranforderungen</strong></h3>
+                <div>Drones are being used to deliver packages in areas that are difficult to reach by traditional methods. This includes remote areas, disaster zones, and even urban areas where traffic congestion is a problem.</div>
+              </div>
+            </div>
+            <div id="w-node-bef11c27-3e8e-cfe8-4daf-db22c13688d1-4a3df7ae" class="layout-item">
+              <div>
+                <h3><strong>Strategische Planung und Entscheidungsfindung</strong></h3>
+                <div>Drones are being used to improve security in a variety of settings. They can be used to patrol borders, monitor crowds, and even track wildlife in conservation areas.</div>
+              </div>
+            </div>
+          </div>
           <div class="button-row">
-            <a href="/kontakt" class="button-cta flat w-button">Fragen Sie uns</a>
+            <a href="/kontakt" class="button-cta flat w-button">Kontaktieren</a>
           </div>
         </div>
         <div class="layout-image-wrapper">
-          <a href="#" class="lightbox-second-page w-inline-block w-lightbox"><img src="../images/energieberatungps.webp" width="1326" sizes="(max-width: 479px) 91vw, (max-width: 767px) 95vw, (max-width: 1439px) 96vw, 1080px" srcset="../images/energieberatungps-p-500.webp 500w, ../images/energieberatungps-p-800.webp 800w, ../images/energieberatungps-p-1080.webp 1080w, ../images/energieberatungps.webp 1456w" alt="">
+          <a href="#" class="lightbox-second-page w-inline-block w-lightbox"><img src="../images/1.1Photo_11.1Photo.webp" width="1326" sizes="(max-width: 479px) 91vw, (max-width: 767px) 95vw, (max-width: 1439px) 96vw, 1080px" srcset="../images/1.1Photo_1-p-500.png 500w, ../images/1.1Photo_1-p-800.png 800w, ../images/1.1Photo_11.1Photo.webp 1024w" alt="">
             <script type="application/json" class="w-json">{
   "items": [
     {
@@ -197,7 +236,7 @@
               <div class="logo-text subtext">München</div>
             </div>
           </div>
-          <p id="w-node-_4aa0d7f3-2a4a-6a6b-69be-35f8e84120fd-e84120df" class="footer-text copyright">© 2023 Baucampus by <a href="https://ariet.is" target="_blank">Arietis </a>- <a href="/legal/impressum">Impressum</a> - <a href="/legal/datenschutz">Datenschutz</a>
+          <p id="w-node-_4aa0d7f3-2a4a-6a6b-69be-35f8e84120fd-e84120df" class="footer-text copyright">© 2023 Baucampus by <a href="https://ariet.is" target="_blank">Arietis </a>- <a href="/impressum">Impressum</a> - <a href="/datenschutz">Datenschutz</a>
           </p>
           <div id="w-node-_4aa0d7f3-2a4a-6a6b-69be-35f8e8412105-e84120df">
             <a href="tel:+35391760711" class="list-item-footer w-inline-block">

@@ -1,14 +1,14 @@
 <!DOCTYPE html><!--  This site was created in Webflow. https://www.webflow.com  -->
 <!--  Last Published: Thu Jun 29 2023 21:31:35 GMT+0000 (Coordinated Universal Time)  -->
-<html data-wf-page="649869f63a344d8f4a3df7ae" data-wf-site="648d0891096d52bfd9f271dc" lang="fr">
+<html data-wf-page="64986a10967f83483932a627" data-wf-site="648d0891096d52bfd9f271dc" lang="fr">
 <head>
   <meta charset="utf-8">
-  <title>Inspektion - Baucampus STADT</title>
-  <meta content="Vertrauen Sie auf unser geschultes Auge für Ihre Bauprojekte in [STADT]. Unsere erfahrenen Experten bieten detaillierte Inspektionen, um die Qualität und den Fortschritt Ihres Projekts sicherzustellen. Baucampus [STADT] - Ihr Partner für eine zuverlässige Baustellenkontrolle." name="description">
-  <meta content="Inspektion - Baucampus STADT" property="og:title">
-  <meta content="Vertrauen Sie auf unser geschultes Auge für Ihre Bauprojekte in [STADT]. Unsere erfahrenen Experten bieten detaillierte Inspektionen, um die Qualität und den Fortschritt Ihres Projekts sicherzustellen. Baucampus [STADT] - Ihr Partner für eine zuverlässige Baustellenkontrolle." property="og:description">
-  <meta content="Inspektion - Baucampus STADT" property="twitter:title">
-  <meta content="Vertrauen Sie auf unser geschultes Auge für Ihre Bauprojekte in [STADT]. Unsere erfahrenen Experten bieten detaillierte Inspektionen, um die Qualität und den Fortschritt Ihres Projekts sicherzustellen. Baucampus [STADT] - Ihr Partner für eine zuverlässige Baustellenkontrolle." property="twitter:description">
+  <title>Ausblidung - Baucampus STADT</title>
+  <meta content="Starten Sie Ihre Karriere im Bauwesen in [STADT] mit einer Ausbildung bei Baucampus. Lernen Sie von unseren erfahrenen Experten und profitieren Sie von unserem praxisorientierten Lehrplan. Baucampus [STADT] - Ihre Chance für eine erfolgreiche Zukunft im Bauwesen." name="description">
+  <meta content="Ausblidung - Baucampus STADT" property="og:title">
+  <meta content="Starten Sie Ihre Karriere im Bauwesen in [STADT] mit einer Ausbildung bei Baucampus. Lernen Sie von unseren erfahrenen Experten und profitieren Sie von unserem praxisorientierten Lehrplan. Baucampus [STADT] - Ihre Chance für eine erfolgreiche Zukunft im Bauwesen." property="og:description">
+  <meta content="Ausblidung - Baucampus STADT" property="twitter:title">
+  <meta content="Starten Sie Ihre Karriere im Bauwesen in [STADT] mit einer Ausbildung bei Baucampus. Lernen Sie von unseren erfahrenen Experten und profitieren Sie von unserem praxisorientierten Lehrplan. Baucampus [STADT] - Ihre Chance für eine erfolgreiche Zukunft im Bauwesen." property="twitter:description">
   <meta property="og:type" content="website">
   <meta content="summary_large_image" name="twitter:card">
   <meta content="width=device-width, initial-scale=1" name="viewport">
@@ -50,32 +50,32 @@
           </aside>
           <nav class="dropdown-list w-dropdown-list">
             <div class="dropdown-link-list">
-              <a href="/dienstleistungen/bauschaden" class="dropdown-link w-inline-block">
+              <a href="/bauschaden" class="dropdown-link w-inline-block">
                 <div>
                   <div>Beratung Bauschaden</div>
                 </div>
               </a>
-              <a href="/dienstleistungen/schimmelpilz" class="dropdown-link w-inline-block">
+              <a href="/schimmelpilz" class="dropdown-link w-inline-block">
                 <div>
                   <div>Beratung Schimmmelpilz</div>
                 </div>
               </a>
-              <a href="/dienstleistungen/hauskaufberatung" class="dropdown-link w-inline-block">
+              <a href="/hauskaufberatung" class="dropdown-link w-inline-block">
                 <div>
                   <div>Kaufberatung</div>
                 </div>
               </a>
-              <a href="/dienstleistungen/baubegleitung" class="dropdown-link w-inline-block">
+              <a href="/baubegleitung" class="dropdown-link w-inline-block">
                 <div>
                   <div>Baubegleitung</div>
                 </div>
               </a>
-              <a href="/dienstleistungen/energieberatung" class="dropdown-link w-inline-block">
+              <a href="/energieberatung" class="dropdown-link w-inline-block">
                 <div>
                   <div>Energieberatung</div>
                 </div>
               </a>
-              <a href="/dienstleistungen/immobilienbewertung" class="dropdown-link w-inline-block">
+              <a href="/immobilienbewertung" class="dropdown-link w-inline-block">
                 <div id="w-node-c8909249-ed55-ded4-b3d1-381c167e4fbc-23a87122">
                   <div>Immobilienbewertung</div>
                 </div>
@@ -95,14 +95,14 @@
   </div>
   <div data-w-id="6fca50ab-de2f-362b-39cc-d7d7b0ef92d4" class="main-section services wf-section">
     <div class="container relative">
-      <h3 data-w-id="d3349579-0b18-6f19-95a4-d1bb8ad22c13" style="opacity:0" class="display-text"><strong>Immobilieninspektion: Ihr Garant für Qualität und Sicherheit</strong></h3>
+      <h3 data-w-id="d3349579-0b18-6f19-95a4-d1bb8ad22c13" style="opacity:0" class="display-text"><strong>Immobilienbewertung: Der Schlüssel zu einer erfolgreichen Investition</strong><strong><em></em></strong></h3>
     </div>
     <div class="background-overlay"></div>
   </div>
   <div data-w-id="4c341b8b-2ef7-5a8c-1192-6185da71e66f" class="section sub-main wf-section">
     <div class="container">
       <div class="column-grid-post-main two">
-        <div data-w-id="04297b0d-1249-7c77-a3e2-8c234f4ef296" style="opacity:0" class="card-name-text">Immobilieninspektion</div>
+        <div data-w-id="04297b0d-1249-7c77-a3e2-8c234f4ef296" style="opacity:0" class="card-name-text">Immobilienbewertung</div>
         <div data-w-id="04297b0d-1249-7c77-a3e2-8c234f4ef293" style="opacity:0">
           <p><strong>Die Immobilienbewertung ist ein entscheidender Aspekt bei jeder Immobilieninvestition. Durch eine genaue Bewertung kann der reale Marktwert einer Immobilie ermittelt werden, was wiederum die Basis für Preisverhandlungen und Finanzierungsentscheidungen bildet. Bei Baucampus führen unsere Experten gründliche Untersuchungen durch, unter Berücksichtigung einer Vielzahl von Faktoren wie Lage, Zustand, Größe und aktuelle Markttrends, um eine genaue und objektive Bewertung zu gewährleisten.<em></em></strong><br></p>
         </div>
@@ -111,50 +111,38 @@
   </div>
   <div data-w-id="6bb3502d-11a7-7305-cc26-615d8fce3ac0" class="section services wf-section">
     <div class="container max-1080-px">
-      <div class="parallax-image-wrapper"><img src="../images/beratung.webp" sizes="(max-width: 479px) 91vw, (max-width: 767px) 95vw, (max-width: 1439px) 96vw, 1080px" srcset="../images/beratung-p-500.webp 500w, ../images/beratung-p-800.webp 800w, ../images/beratung-p-1080.webp 1080w, ../images/beratung.webp 1456w" alt="" class="parallax-image second-img-for-service-page"></div>
+      <div class="parallax-image-wrapper"><img src="../images/ausbildung.webp" sizes="(max-width: 479px) 91vw, (max-width: 767px) 95vw, (max-width: 1439px) 96vw, 1080px" srcset="../images/ausbildung-p-500.webp 500w, ../images/ausbildung-p-800.webp 800w, ../images/ausbildung-p-1080.webp 1080w, ../images/ausbildung.webp 1456w" alt="" class="parallax-image second-img-for-service-page"></div>
       <div class="w-richtext">
         <blockquote><strong><em>Warum ist eine genaue Immobilienbewertung unerlässlich?</em></strong></blockquote>
-        <h2><strong>Immobilieninspektionen: Ihr Garant für Qualität und Sicherheit</strong></h2>
-        <p>Immobilieninspektionen sind ein entscheidender Schritt beim Kauf, Verkauf oder der Verwaltung einer Immobilie. Sie bieten eine detaillierte Übersicht über den Zustand einer Immobilie und können potenzielle Probleme aufdecken, die sonst übersehen werden könnten. Bei Baucampus führen unsere erfahrenen Inspektoren gründliche Inspektionen durch, um sicherzustellen, dass alle Aspekte der Immobilie, von der Struktur bis zu den Systemen, in bestem Zustand sind.</p>
-        <h5><em>Was macht eine Immobilieninspektion so wertvoll?</em></h5>
-        <ul role="list">
-          <li>Aufdeckung potenzieller Probleme oder Mängel</li>
-          <li>Sicherstellung der Sicherheit und Qualität der Immobilie</li>
-          <li>Vermeidung unerwarteter Kosten nach dem Kauf</li>
-          <li>Verhandlungsgrundlage bei Kauf- oder Verkaufsentscheidungen</li>
-        </ul>
-        <h3><strong>Warum sind Immobilieninspektionen unerlässlich?</strong></h3>
-        <p>Eine gründliche Immobilieninspektion bietet mehr als nur Sicherheit - sie ist ein wesentlicher Bestandteil einer fundierten Immobilieninvestition. Sie hilft Käufern und Verkäufern, fundierte Entscheidungen zu treffen und potenzielle Risiken zu minimieren.</p>
-        <p><strong><em>Buchen Sie jetzt eine Immobilieninspektion mit Baucampus und sichern Sie Ihre Investition.</em></strong></p>
-        <p>‍</p>
-        <p>‍</p>
+        <p><em>Eine genaue Immobilienbewertung ist nicht nur für den Verkauf oder Kauf einer Immobilie wichtig, sondern auch für die langfristige Planung und strategische Entscheidungsfindung. Sie hilft Investoren, den potenziellen Ertrag ihrer Investition zu verstehen und Risiken zu minimieren.</em><strong><em>‍</em></strong></p>
+        <p><strong><em>Nutzen Sie die Expertise von Baucampus für eine genaue Immobilienbewertung.</em></strong></p>
         <p>‍</p>
         <p>‍</p>
         <p>‍</p>
         <blockquote><strong>Was macht eine Immobilienbewertung so wichtig?</strong></blockquote>
       </div>
       <div class="w-layout-grid grid-service-page">
-        <div id="w-node-_2e19e198-f3de-3628-d31f-0c9184d0f60f-4a3df7ae" class="layout-content">
+        <div id="w-node-_2e19e198-f3de-3628-d31f-0c9184d0f60f-3932a627" class="layout-content">
           <div class="w-layout-grid layout-item-list">
-            <div id="w-node-bef11c27-3e8e-cfe8-4daf-db22c13688b9-4a3df7ae" class="layout-item">
+            <div id="w-node-bef11c27-3e8e-cfe8-4daf-db22c13688b9-3932a627" class="layout-item">
               <div>
                 <h3><strong>Ermittlung des Marktwerts für Verkaufsverhandlungen</strong></h3>
                 <div>With drones, businesses can easily conduct aerial surveys and create 3D maps of their inventory. This allows for more accurate tracking of stock levels, reducing the risk of overstocking or stockouts.</div>
               </div>
             </div>
-            <div id="w-node-bef11c27-3e8e-cfe8-4daf-db22c13688c1-4a3df7ae" class="layout-item">
+            <div id="w-node-bef11c27-3e8e-cfe8-4daf-db22c13688c1-3932a627" class="layout-item">
               <div>
                 <h3><strong>Beurteilung der Rentabilität einer Immobilieninvestition</strong></h3>
                 <div>Drones are increasingly being used to inspect infrastructure such as bridges, power lines, and pipelines. This is a safer and more efficient alternative to traditional methods, which often require workers to climb to dangerous heights or work in confined spaces.</div>
               </div>
             </div>
-            <div id="w-node-bef11c27-3e8e-cfe8-4daf-db22c13688c9-4a3df7ae" class="layout-item">
+            <div id="w-node-bef11c27-3e8e-cfe8-4daf-db22c13688c9-3932a627" class="layout-item">
               <div>
                 <h3><strong>Erfüllung von Finanzierungs- und Steueranforderungen</strong></h3>
                 <div>Drones are being used to deliver packages in areas that are difficult to reach by traditional methods. This includes remote areas, disaster zones, and even urban areas where traffic congestion is a problem.</div>
               </div>
             </div>
-            <div id="w-node-bef11c27-3e8e-cfe8-4daf-db22c13688d1-4a3df7ae" class="layout-item">
+            <div id="w-node-bef11c27-3e8e-cfe8-4daf-db22c13688d1-3932a627" class="layout-item">
               <div>
                 <h3><strong>Strategische Planung und Entscheidungsfindung</strong></h3>
                 <div>Drones are being used to improve security in a variety of settings. They can be used to patrol borders, monitor crowds, and even track wildlife in conservation areas.</div>
@@ -236,7 +224,7 @@
               <div class="logo-text subtext">München</div>
             </div>
           </div>
-          <p id="w-node-_4aa0d7f3-2a4a-6a6b-69be-35f8e84120fd-e84120df" class="footer-text copyright">© 2023 Baucampus by <a href="https://ariet.is" target="_blank">Arietis </a>- <a href="/legal/impressum">Impressum</a> - <a href="/legal/datenschutz">Datenschutz</a>
+          <p id="w-node-_4aa0d7f3-2a4a-6a6b-69be-35f8e84120fd-e84120df" class="footer-text copyright">© 2023 Baucampus by <a href="https://ariet.is" target="_blank">Arietis </a>- <a href="/impressum">Impressum</a> - <a href="/datenschutz">Datenschutz</a>
           </p>
           <div id="w-node-_4aa0d7f3-2a4a-6a6b-69be-35f8e8412105-e84120df">
             <a href="tel:+35391760711" class="list-item-footer w-inline-block">

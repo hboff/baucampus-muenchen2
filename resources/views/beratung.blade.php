@@ -1,14 +1,14 @@
 <!DOCTYPE html><!--  This site was created in Webflow. https://www.webflow.com  -->
 <!--  Last Published: Thu Jun 29 2023 21:31:35 GMT+0000 (Coordinated Universal Time)  -->
-<html data-wf-page="648d0891096d52bfd9f271c8" data-wf-site="648d0891096d52bfd9f271dc" lang="fr">
+<html data-wf-page="64986a06ab9a6cff127c6fb1" data-wf-site="648d0891096d52bfd9f271dc" lang="fr">
 <head>
   <meta charset="utf-8">
-  <title>Hauskaufberatung - Baucampus STADT</title>
-  <meta content="Mit unserer professionellen Hauskaufberatung in [STADT] treffen Sie die richtige Entscheidung. Wir analysieren den Zustand der Immobilie, bewerten den Preis und beraten Sie umfassend. Baucampus [STADT] - Ihr zuverlässiger Partner beim Immobilienkauf." name="description">
-  <meta content="Hauskaufberatung - Baucampus STADT" property="og:title">
-  <meta content="Mit unserer professionellen Hauskaufberatung in [STADT] treffen Sie die richtige Entscheidung. Wir analysieren den Zustand der Immobilie, bewerten den Preis und beraten Sie umfassend. Baucampus [STADT] - Ihr zuverlässiger Partner beim Immobilienkauf." property="og:description">
-  <meta content="Hauskaufberatung - Baucampus STADT" property="twitter:title">
-  <meta content="Mit unserer professionellen Hauskaufberatung in [STADT] treffen Sie die richtige Entscheidung. Wir analysieren den Zustand der Immobilie, bewerten den Preis und beraten Sie umfassend. Baucampus [STADT] - Ihr zuverlässiger Partner beim Immobilienkauf." property="twitter:description">
+  <title>Beratung - Baucampus STADT</title>
+  <meta content="Baucampus bietet umfassende Beratungsleistungen in den Bereichen Immobilienbewertung, strategische Planung und Entscheidungsfindung. Unsere Expertise und langjährige Erfahrung helfen Ihnen, fundierte Immobilieninvestitionen zu tätigen und Ihr Vermögen optimal zu verwalten." name="description">
+  <meta content="Beratung - Baucampus STADT" property="og:title">
+  <meta content="Baucampus bietet umfassende Beratungsleistungen in den Bereichen Immobilienbewertung, strategische Planung und Entscheidungsfindung. Unsere Expertise und langjährige Erfahrung helfen Ihnen, fundierte Immobilieninvestitionen zu tätigen und Ihr Vermögen optimal zu verwalten." property="og:description">
+  <meta content="Beratung - Baucampus STADT" property="twitter:title">
+  <meta content="Baucampus bietet umfassende Beratungsleistungen in den Bereichen Immobilienbewertung, strategische Planung und Entscheidungsfindung. Unsere Expertise und langjährige Erfahrung helfen Ihnen, fundierte Immobilieninvestitionen zu tätigen und Ihr Vermögen optimal zu verwalten." property="twitter:description">
   <meta property="og:type" content="website">
   <meta content="summary_large_image" name="twitter:card">
   <meta content="width=device-width, initial-scale=1" name="viewport">
@@ -50,32 +50,32 @@
           </aside>
           <nav class="dropdown-list w-dropdown-list">
             <div class="dropdown-link-list">
-              <a href="/dienstleistungen/bauschaden" class="dropdown-link w-inline-block">
+              <a href="/bauschaden" class="dropdown-link w-inline-block">
                 <div>
                   <div>Beratung Bauschaden</div>
                 </div>
               </a>
-              <a href="/dienstleistungen/schimmelpilz" class="dropdown-link w-inline-block">
+              <a href="/schimmelpilz" class="dropdown-link w-inline-block">
                 <div>
                   <div>Beratung Schimmmelpilz</div>
                 </div>
               </a>
-              <a href="/dienstleistungen/hauskaufberatung" aria-current="page" class="dropdown-link w-inline-block w--current">
+              <a href="/hauskaufberatung" class="dropdown-link w-inline-block">
                 <div>
                   <div>Kaufberatung</div>
                 </div>
               </a>
-              <a href="/dienstleistungen/baubegleitung" class="dropdown-link w-inline-block">
+              <a href="/baubegleitung" class="dropdown-link w-inline-block">
                 <div>
                   <div>Baubegleitung</div>
                 </div>
               </a>
-              <a href="/dienstleistungen/energieberatung" class="dropdown-link w-inline-block">
+              <a href="/energieberatung" class="dropdown-link w-inline-block">
                 <div>
                   <div>Energieberatung</div>
                 </div>
               </a>
-              <a href="/dienstleistungen/immobilienbewertung" class="dropdown-link w-inline-block">
+              <a href="/immobilienbewertung" class="dropdown-link w-inline-block">
                 <div id="w-node-c8909249-ed55-ded4-b3d1-381c167e4fbc-23a87122">
                   <div>Immobilienbewertung</div>
                 </div>
@@ -95,69 +95,64 @@
   </div>
   <div data-w-id="6fca50ab-de2f-362b-39cc-d7d7b0ef92d4" class="main-section services wf-section">
     <div class="container relative">
-      <h3 data-w-id="d3349579-0b18-6f19-95a4-d1bb8ad22c13" style="opacity:0" class="display-text">Hauskaufberatung</h3>
+      <h3 data-w-id="d3349579-0b18-6f19-95a4-d1bb8ad22c13" style="opacity:0" class="display-text"><strong>Beratung: Ihr Wegweiser im Immobilienmarkt</strong></h3>
     </div>
-    <div class="background-overlay"></div><img src="../images/Trimble-GPS-Machine-Control-.webp" loading="lazy" sizes="100vw" srcset="../images/Trimble-GPS-Machine-Control--p-500.webp 500w, ../images/Trimble-GPS-Machine-Control--p-800.webp 800w, ../images/Trimble-GPS-Machine-Control-.webp 1024w" alt="" class="background-img">
+    <div class="background-overlay"></div>
   </div>
   <div data-w-id="4c341b8b-2ef7-5a8c-1192-6185da71e66f" class="section sub-main wf-section">
     <div class="container">
       <div class="column-grid-post-main two">
-        <div data-w-id="04297b0d-1249-7c77-a3e2-8c234f4ef296" style="opacity:0" class="card-name-text">Hauskaufberatung</div>
+        <div data-w-id="04297b0d-1249-7c77-a3e2-8c234f4ef296" style="opacity:0" class="card-name-text">Immobilienberatung</div>
         <div data-w-id="04297b0d-1249-7c77-a3e2-8c234f4ef293" style="opacity:0">
-          <p><em>Beim Erwerb Ihrer Traumimmobilie lassen wir Sie nicht alleine: Unsere qualifizierten Bausachverständigen unterstützen Sie mit einer gründlichen, unvoreingenommenen Hauskaufberatung. Wir liefern fundierte Einschätzungen über den Zustand des Gebäudes und potenzielle Sanierungsanforderungen, um Ihnen bei Ihrer Kaufentscheidung Sicherheit zu geben. Nach eingehender Prüfung der Immobilie erläutern wir alle wichtigen Details, damit Sie Ihre Traumimmobilie mit vollstem Vertrauen erwerben können.</em><br></p>
+          <p><strong>Der Immobilienmarkt kann ein komplexes Feld sein. Deshalb bietet Baucampus eine professionelle Beratung, um Kunden bei der Navigation durch diesen Markt zu unterstützen. Unsere Berater sind Experten in ihrem Fachgebiet und verfügen über umfassendes Wissen über den Immobilienmarkt. Sie beraten Sie in allen Aspekten der Immobilienbranche, von Kauf und Verkauf über Finanzierung bis hin zu Verwaltung und Entwicklung.</strong><br></p>
         </div>
       </div>
     </div>
   </div>
   <div data-w-id="6bb3502d-11a7-7305-cc26-615d8fce3ac0" class="section services wf-section">
     <div class="container max-1080-px">
-      <div class="parallax-image-wrapper"><img src="../images/beratung.webp" sizes="(max-width: 479px) 91vw, (max-width: 767px) 95vw, (max-width: 1439px) 96vw, 1080px" srcset="../images/beratung-p-500.webp 500w, ../images/beratung-p-800.webp 800w, ../images/beratung-p-1080.webp 1080w, ../images/beratung.webp 1456w" alt="" class="parallax-image second-img-for-service-page"></div>
+      <div class="parallax-image-wrapper"><img src="../images/ausbildung.webp" sizes="(max-width: 479px) 91vw, (max-width: 767px) 95vw, (max-width: 1439px) 96vw, 1080px" srcset="../images/ausbildung-p-500.webp 500w, ../images/ausbildung-p-800.webp 800w, ../images/ausbildung-p-1080.webp 1080w, ../images/ausbildung.webp 1456w" alt="" class="parallax-image second-img-for-service-page"></div>
       <div class="w-richtext">
-        <p>Beim <strong>Kauf eines Hauses</strong> oder einer <strong>Eigentumswohnung</strong> stellen sich viele Fragen. Mit einer professionellen und unabhängigen <strong>Hauskaufberatung</strong> durch unsere Bausachverständigen gehen Sie den richtigen Schritt, um ein Haus oder eine Eigentumswohnung auf der Basis klarer <strong>Fakten</strong> zu erwerben.</p>
-        <p>Im Vorfeld der Hauskaufberatung prüft ihr Bausachverständiger die <strong>vorhandenen Unterlagen</strong>, meist das Exposé und bereitet den Termin anhand der Eckdaten des Gebäudes durch eine <strong>Marktwerteinschätzung</strong> vor. Vor Ort begeht der Sachverständige mit Ihnen gemeinsam die Immobilie, die Sie erwerben möchten und stellt den <strong>baulichen Zustand</strong> und den eventuellen <strong>Sanierungsbedarf</strong> des Objektes fest. Zudem beantwortet der Baugutachter Fragestellungen, auf die es Ihnen besonders ankommt, z.B. bzgl. eines Umbaus.</p>
-        <p>Im Anschluss an die Besichtigung der Immobilie findet eine <strong>abschließende Besprechung</strong> statt, bei der Ihnen ihr Bausachverständiger noch einmal alle Fakten, die Sie zum Kauf der Immobilie wissen müssen, verständlich und klar nachvollziehbar erklärt. Die Beratung durch unsere Bausachverständigen beim Kauf eines Hauses oder einer Eigentumswohnung gibt ihnen <strong>Sicherheit</strong>, so dass Sie ihre Kaufentscheidung beruhigt treffen können.</p>
-        <p>‍</p>
-        <blockquote>&quot;Der Kauf eines Hauses ist mehr als nur eine finanzielle Investition; es ist der Beginn eines neuen Kapitels Ihres Lebens. Eine fundierte Hauskaufberatung hilft Ihnen dabei, eine weise Entscheidung zu treffen, die sowohl Ihr Herz erfüllt als auch Ihren Geldbeutel schont.&quot; </blockquote>
-        <p>Hauskaufberatung</p>
+        <blockquote><strong><em>Warum ist eine professionelle Beratung im Immobilienmarkt unerlässlich?</em></strong></blockquote>
+        <p>Eine professionelle Beratung im Immobilienmarkt ist unerlässlich, da sie verschiedene Aspekte umfasst, die für einen erfolgreichen Immobilienkauf oder -verkauf entscheidend sind. In einem komplexen und dynamischen Markt wie dem Immobilienmarkt kann es schwierig sein, auf dem neuesten Stand zu bleiben und fundierte Entscheidungen zu treffen. Ein professioneller Berater hat das notwendige Fachwissen und die Erfahrung, um Sie durch den Prozess zu führen. Er kann Ihnen helfen, die aktuellen Markttrends zu verstehen, die richtige Bewertung für eine Immobilie zu finden und die Risiken und Chancen einer potenziellen Investition zu bewerten. Darüber hinaus kann ein professioneller Berater Sie bei der Entwicklung einer langfristigen Immobilienstrategie unterstützen, die auf Ihren persönlichen Zielen und Bedürfnissen basiert. Ein weiterer Vorteil der professionellen Beratung ist, dass sie Ihnen dabei helfen kann, Fallstricke und häufige Fehler zu vermeiden, die oft mit Immobilientransaktionen verbunden sind. Bei komplexen rechtlichen und finanziellen Aspekten, die bei Immobilientransaktionen eine Rolle spielen, kann eine professionelle Beratung sicherstellen, dass Sie alle notwendigen Schritte korrekt durchführen. Insgesamt kann die Unterstützung durch einen professionellen Immobilienberater dazu beitragen, den Kauf oder Verkauf einer Immobilie zu einer weniger stressigen und erfolgreicheren Erfahrung zu machen. Nehmen Sie noch heute Kontakt zu den Beratern von Baucampus auf und lassen Sie sich professionell beraten. Nutzen Sie die Expertise von Baucampus für eine genaue Immobilienbewertung.</p>
+        <p><strong><em>Nehmen Sie noch heute Kontakt zu den Beratern von Baucampus auf und lassen Sie sich professionell beraten.</em></strong></p>
+        <p><strong><em>Nutzen Sie die Expertise von Baucampus für eine genaue Immobilienbewertung.</em></strong></p>
+        <blockquote><strong>Warum ist professionelle Beratung wichtig?</strong></blockquote>
       </div>
       <div class="w-layout-grid grid-service-page">
-        <div id="w-node-_2e19e198-f3de-3628-d31f-0c9184d0f60f-d9f271c8" class="layout-content">
+        <div id="w-node-_2e19e198-f3de-3628-d31f-0c9184d0f60f-127c6fb1" class="layout-content">
           <div class="w-layout-grid layout-item-list">
-            <div id="w-node-bef11c27-3e8e-cfe8-4daf-db22c13688b9-d9f271c8" class="layout-item">
-              <div class="icon-wrapper"><img src="../images/GPS.svg" loading="lazy" width="59" alt="" class="icon-service-page"></div>
+            <div id="w-node-bef11c27-3e8e-cfe8-4daf-db22c13688b9-127c6fb1" class="layout-item">
               <div>
-                <h3><strong>Erstgespräch und Sichtung der Unterlagen</strong>: </h3>
-                <div>In einem ersten Kontakt werden Art und Umfang der Hauskaufberatung festgelegt und notwendige Unterlagen ausgetauscht.</div>
+                <h3><strong>Unterstützung bei der Kauf- und Verkaufsentscheidung</strong></h3>
+                <div>Ein professioneller Immobilienberater kann eine unparteiische und fundierte Perspektive auf den Wert einer Immobilie bieten und Sie so bei der Entscheidung unterstützen, ob ein Kauf oder Verkauf zum gegebenen Zeitpunkt sinnvoll ist.</div>
               </div>
             </div>
-            <div id="w-node-bef11c27-3e8e-cfe8-4daf-db22c13688c1-d9f271c8" class="layout-item">
-              <div class="icon-wrapper"><img src="../images/Vuc.svg" loading="lazy" width="59" alt="" class="icon-service-page"></div>
+            <div id="w-node-bef11c27-3e8e-cfe8-4daf-db22c13688c1-127c6fb1" class="layout-item">
               <div>
-                <h3>Gemeinsame Begehung:</h3>
-                <div>Gemeinsame Begehung der Immobilie zur Begutachtung des tatsächlichen baulichen und energetischen Zustandes.</div>
+                <h3><strong>Beratung bei Finanzierungsfragen</strong></h3>
+                <div>Immobilienberater haben oft ein tiefes Verständnis für Hypotheken und Finanzierungsstrategien, das sie nutzen können, um Sie bei der Auswahl der besten Finanzierungsoption für Ihre speziellen Bedürfnisse zu beraten.</div>
               </div>
             </div>
-            <div id="w-node-bef11c27-3e8e-cfe8-4daf-db22c13688c9-d9f271c8" class="layout-item">
-              <div class="icon-wrapper"><img src="../images/Menegment.svg" loading="lazy" width="59" alt="" class="icon-service-page"></div>
+            <div id="w-node-bef11c27-3e8e-cfe8-4daf-db22c13688c9-127c6fb1" class="layout-item">
               <div>
-                <h3><strong>Nachbesprechung und Bewertung:</strong></h3>
-                <div>Umfassende Nachbesprechung und Erläuterung der Begehung gewonnene Erkenntnisse und Relevanz für Nutzung und Kaufpreis.</div>
+                <h3><strong>Hilfe bei Verwaltungs- und Entwicklungsfragen</strong></h3>
+                <div>Wenn Sie eine Immobilie als Investment besitzen, kann ein Berater Ihnen dabei helfen, effektive Strategien zur Bewirtschaftung und Entwicklung Ihrer Immobilien zu erarbeiten, um den Ertrag und die Wertsteigerung zu maximieren.</div>
               </div>
             </div>
-            <div id="w-node-bef11c27-3e8e-cfe8-4daf-db22c13688d1-d9f271c8" class="layout-item">
-              <div class="icon-wrapper"><img src="../images/Serving.svg" loading="lazy" width="59" alt="" class="icon-service-page"></div>
+            <div id="w-node-bef11c27-3e8e-cfe8-4daf-db22c13688d1-127c6fb1" class="layout-item">
               <div>
-                <h3><strong>Umbau und Modernisierungswünsche:</strong></h3>
-                <div>Beratung über die notwendigen und geplanten Umbau-, Sanierungs- und Modernisierungswünsche der besichtigten Immobilie.</div>
+                <h3><strong>Einblicke in Markttrends und -dynamiken</strong></h3>
+                <div>Professionelle Immobilienberater verfolgen ständig die neuesten Markttrends und -dynamiken, was ihnen ermöglicht, Ihnen einen Überblick über das aktuelle Marktumfeld zu geben und Sie dabei zu unterstützen, fundierte Entscheidungen auf der Grundlage aktueller und zukünftiger Marktprognosen zu treffen.</div>
               </div>
             </div>
           </div>
           <div class="button-row">
-            <a href="/kontakt" class="button-cta flat w-button">Fragen Sie uns</a>
+            <a href="/kontakt" class="button-cta flat w-button">Kontaktieren</a>
           </div>
         </div>
         <div class="layout-image-wrapper">
-          <a href="#" class="lightbox-second-page w-inline-block w-lightbox"><img src="../images/My-project-1.jpg" width="1326" sizes="(max-width: 479px) 91vw, (max-width: 767px) 95vw, (max-width: 1125px) 96vw, 1080px" srcset="../images/My-project-1-p-500.jpg 500w, ../images/My-project-1-p-800.jpg 800w, ../images/My-project-1.jpg 1080w" alt="">
+          <a href="#" class="lightbox-second-page w-inline-block w-lightbox"><img src="../images/1.1Photo_11.1Photo.webp" width="1326" sizes="(max-width: 479px) 91vw, (max-width: 767px) 95vw, (max-width: 1439px) 96vw, 1080px" srcset="../images/1.1Photo_1-p-500.png 500w, ../images/1.1Photo_1-p-800.png 800w, ../images/1.1Photo_11.1Photo.webp 1024w" alt="">
             <script type="application/json" class="w-json">{
   "items": [
     {
@@ -227,7 +222,7 @@
               <div class="logo-text subtext">München</div>
             </div>
           </div>
-          <p id="w-node-_4aa0d7f3-2a4a-6a6b-69be-35f8e84120fd-e84120df" class="footer-text copyright">© 2023 Baucampus by <a href="https://ariet.is" target="_blank">Arietis </a>- <a href="/legal/impressum">Impressum</a> - <a href="/legal/datenschutz">Datenschutz</a>
+          <p id="w-node-_4aa0d7f3-2a4a-6a6b-69be-35f8e84120fd-e84120df" class="footer-text copyright">© 2023 Baucampus by <a href="https://ariet.is" target="_blank">Arietis </a>- <a href="/impressum">Impressum</a> - <a href="/datenschutz">Datenschutz</a>
           </p>
           <div id="w-node-_4aa0d7f3-2a4a-6a6b-69be-35f8e8412105-e84120df">
             <a href="tel:+35391760711" class="list-item-footer w-inline-block">

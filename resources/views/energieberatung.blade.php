@@ -1,14 +1,14 @@
 <!DOCTYPE html><!--  This site was created in Webflow. https://www.webflow.com  -->
 <!--  Last Published: Thu Jun 29 2023 21:31:35 GMT+0000 (Coordinated Universal Time)  -->
-<html data-wf-page="64986a10967f83483932a627" data-wf-site="648d0891096d52bfd9f271dc" lang="fr">
+<html data-wf-page="648d0891096d52bfd9f271c6" data-wf-site="648d0891096d52bfd9f271dc" lang="fr">
 <head>
   <meta charset="utf-8">
-  <title>Ausblidung - Baucampus STADT</title>
-  <meta content="Starten Sie Ihre Karriere im Bauwesen in [STADT] mit einer Ausbildung bei Baucampus. Lernen Sie von unseren erfahrenen Experten und profitieren Sie von unserem praxisorientierten Lehrplan. Baucampus [STADT] - Ihre Chance für eine erfolgreiche Zukunft im Bauwesen." name="description">
-  <meta content="Ausblidung - Baucampus STADT" property="og:title">
-  <meta content="Starten Sie Ihre Karriere im Bauwesen in [STADT] mit einer Ausbildung bei Baucampus. Lernen Sie von unseren erfahrenen Experten und profitieren Sie von unserem praxisorientierten Lehrplan. Baucampus [STADT] - Ihre Chance für eine erfolgreiche Zukunft im Bauwesen." property="og:description">
-  <meta content="Ausblidung - Baucampus STADT" property="twitter:title">
-  <meta content="Starten Sie Ihre Karriere im Bauwesen in [STADT] mit einer Ausbildung bei Baucampus. Lernen Sie von unseren erfahrenen Experten und profitieren Sie von unserem praxisorientierten Lehrplan. Baucampus [STADT] - Ihre Chance für eine erfolgreiche Zukunft im Bauwesen." property="twitter:description">
+  <title>Energieberatung - Baucampus STADT</title>
+  <meta content="Nutzen Sie unsere Expertise in [STADT] für eine umfassende Energieberatung. Wir helfen Ihnen, Energieeffizienz zu steigern, Kosten zu senken und einen Beitrag zum Umweltschutz zu leisten. Baucampus [STADT] - Ihr Partner für nachhaltige Energielösungen im Bauwesen." name="description">
+  <meta content="Energieberatung - Baucampus STADT" property="og:title">
+  <meta content="Nutzen Sie unsere Expertise in [STADT] für eine umfassende Energieberatung. Wir helfen Ihnen, Energieeffizienz zu steigern, Kosten zu senken und einen Beitrag zum Umweltschutz zu leisten. Baucampus [STADT] - Ihr Partner für nachhaltige Energielösungen im Bauwesen." property="og:description">
+  <meta content="Energieberatung - Baucampus STADT" property="twitter:title">
+  <meta content="Nutzen Sie unsere Expertise in [STADT] für eine umfassende Energieberatung. Wir helfen Ihnen, Energieeffizienz zu steigern, Kosten zu senken und einen Beitrag zum Umweltschutz zu leisten. Baucampus [STADT] - Ihr Partner für nachhaltige Energielösungen im Bauwesen." property="twitter:description">
   <meta property="og:type" content="website">
   <meta content="summary_large_image" name="twitter:card">
   <meta content="width=device-width, initial-scale=1" name="viewport">
@@ -50,32 +50,32 @@
           </aside>
           <nav class="dropdown-list w-dropdown-list">
             <div class="dropdown-link-list">
-              <a href="/dienstleistungen/bauschaden" class="dropdown-link w-inline-block">
+              <a href="/bauschaden" class="dropdown-link w-inline-block">
                 <div>
                   <div>Beratung Bauschaden</div>
                 </div>
               </a>
-              <a href="/dienstleistungen/schimmelpilz" class="dropdown-link w-inline-block">
+              <a href="/schimmelpilz" class="dropdown-link w-inline-block">
                 <div>
                   <div>Beratung Schimmmelpilz</div>
                 </div>
               </a>
-              <a href="/dienstleistungen/hauskaufberatung" class="dropdown-link w-inline-block">
+              <a href="/hauskaufberatung" class="dropdown-link w-inline-block">
                 <div>
                   <div>Kaufberatung</div>
                 </div>
               </a>
-              <a href="/dienstleistungen/baubegleitung" class="dropdown-link w-inline-block">
+              <a href="/baubegleitung" class="dropdown-link w-inline-block">
                 <div>
                   <div>Baubegleitung</div>
                 </div>
               </a>
-              <a href="/dienstleistungen/energieberatung" class="dropdown-link w-inline-block">
+              <a href="/energieberatung" aria-current="page" class="dropdown-link w-inline-block w--current">
                 <div>
                   <div>Energieberatung</div>
                 </div>
               </a>
-              <a href="/dienstleistungen/immobilienbewertung" class="dropdown-link w-inline-block">
+              <a href="/immobilienbewertung" class="dropdown-link w-inline-block">
                 <div id="w-node-c8909249-ed55-ded4-b3d1-381c167e4fbc-23a87122">
                   <div>Immobilienbewertung</div>
                 </div>
@@ -95,66 +95,39 @@
   </div>
   <div data-w-id="6fca50ab-de2f-362b-39cc-d7d7b0ef92d4" class="main-section services wf-section">
     <div class="container relative">
-      <h3 data-w-id="d3349579-0b18-6f19-95a4-d1bb8ad22c13" style="opacity:0" class="display-text"><strong>Immobilienbewertung: Der Schlüssel zu einer erfolgreichen Investition</strong><strong><em></em></strong></h3>
+      <h3 data-w-id="d3349579-0b18-6f19-95a4-d1bb8ad22c13" style="opacity:0" class="display-text">Energieberatung</h3>
     </div>
-    <div class="background-overlay"></div>
+    <div class="background-overlay"></div><img src="../images/Trimble-GPS-Machine-Control-.webp" loading="lazy" sizes="100vw" srcset="../images/Trimble-GPS-Machine-Control--p-500.webp 500w, ../images/Trimble-GPS-Machine-Control--p-800.webp 800w, ../images/Trimble-GPS-Machine-Control-.webp 1024w" alt="" class="background-img">
   </div>
   <div data-w-id="4c341b8b-2ef7-5a8c-1192-6185da71e66f" class="section sub-main wf-section">
     <div class="container">
       <div class="column-grid-post-main two">
-        <div data-w-id="04297b0d-1249-7c77-a3e2-8c234f4ef296" style="opacity:0" class="card-name-text">Immobilienbewertung</div>
+        <div data-w-id="04297b0d-1249-7c77-a3e2-8c234f4ef296" style="opacity:0" class="card-name-text">Energieberatung</div>
         <div data-w-id="04297b0d-1249-7c77-a3e2-8c234f4ef293" style="opacity:0">
-          <p><strong>Die Immobilienbewertung ist ein entscheidender Aspekt bei jeder Immobilieninvestition. Durch eine genaue Bewertung kann der reale Marktwert einer Immobilie ermittelt werden, was wiederum die Basis für Preisverhandlungen und Finanzierungsentscheidungen bildet. Bei Baucampus führen unsere Experten gründliche Untersuchungen durch, unter Berücksichtigung einer Vielzahl von Faktoren wie Lage, Zustand, Größe und aktuelle Markttrends, um eine genaue und objektive Bewertung zu gewährleisten.<em></em></strong><br></p>
+          <p><em>Entdecken Sie Möglichkeiten zur Energieeinsparung und Verbesserung der Energieeffizienz mit unseren kompetenten Energieberatern. Wir analysieren den Energieverbrauch Ihrer Immobilie und identifizieren Potenziale für Optimierungen, um Ihnen dabei zu helfen, Energiekosten zu senken und zur Umweltfreundlichkeit beizutragen. Lassen Sie uns gemeinsam einen Schritt in Richtung eines grüneren, energieeffizienteren und kostensparenderen Zuhause gehen.</em><br></p>
         </div>
       </div>
     </div>
   </div>
   <div data-w-id="6bb3502d-11a7-7305-cc26-615d8fce3ac0" class="section services wf-section">
     <div class="container max-1080-px">
-      <div class="parallax-image-wrapper"><img src="../images/ausbildung.webp" sizes="(max-width: 479px) 91vw, (max-width: 767px) 95vw, (max-width: 1439px) 96vw, 1080px" srcset="../images/ausbildung-p-500.webp 500w, ../images/ausbildung-p-800.webp 800w, ../images/ausbildung-p-1080.webp 1080w, ../images/ausbildung.webp 1456w" alt="" class="parallax-image second-img-for-service-page"></div>
+      <div class="parallax-image-wrapper"><img src="../images/energieberatungps.webp" sizes="(max-width: 479px) 91vw, (max-width: 767px) 95vw, (max-width: 1439px) 96vw, 1080px" srcset="../images/energieberatungps-p-500.webp 500w, ../images/energieberatungps-p-800.webp 800w, ../images/energieberatungps-p-1080.webp 1080w, ../images/energieberatungps.webp 1456w" alt="" class="parallax-image second-img-for-service-page"></div>
       <div class="w-richtext">
-        <blockquote><strong><em>Warum ist eine genaue Immobilienbewertung unerlässlich?</em></strong></blockquote>
-        <p><em>Eine genaue Immobilienbewertung ist nicht nur für den Verkauf oder Kauf einer Immobilie wichtig, sondern auch für die langfristige Planung und strategische Entscheidungsfindung. Sie hilft Investoren, den potenziellen Ertrag ihrer Investition zu verstehen und Risiken zu minimieren.</em><strong><em>‍</em></strong></p>
-        <p><strong><em>Nutzen Sie die Expertise von Baucampus für eine genaue Immobilienbewertung.</em></strong></p>
+        <p>Die Energieberatung durch einen zertifizierten Energieberater an ihrer Immobilie, soll ihnen einen Überblick über mögliche <strong>Modernisierungsmaßnahmen</strong> sowie <strong>Fördermöglichkeiten</strong> geben. Unsere Energieberater beraten wertneutral und objektiv und zeigen ihnen auf welche Maßnahmen im Rahmen der Energieberatung durch einen Energieberater sinnvoll sind und welche zu einem späteren Zeitpunkt durchgeführt werden können. </p>
+        <p>Der Energieberater wird während der Energieberatung auf ihre Immobilie eingehen und sich ebenfalls mit den Gegebenheiten ihrer Immobilie auseinandersetzen.</p>
+        <p>Da die meisten Menschen weniger über den <strong>Energiebedarf von Immobilien</strong> wissen, als bei anderen Gegenständen des täglichen Lebens wie z.B. Autos oder Haushaltsgeräten hat sich der Gesetzgeber dafür entschieden, dass für den Verkauf und die Vermietung von Gebäuden gültige Energieausweise gem. ENEV vorzulegen sind. Erschwert wird die Einschätzung häufig noch für Privatpersonen, dadurch das allgemeingültige Informationen über den Energieausweis Mangelware sind und Vergleichsobjekte fehlen. Der Energieberater kann ihnen sowohl bei der Erstellung des Energieausweises für ihre Immobilie helfen, als auch bei dem Kauf einer Immobilie eine <strong>energetische Einschätzung</strong> geben.</p>
+        <p>Es gibt zwei verschieden Arten von Energieausweisen zum einen gibt es den <strong>Verbrauchsausweis</strong>, welcher auf von Kunden gelieferten Informationen bezüglich des Energieverbrauch der letzten drei Jahre basiert. Zum anderen gibt es den Bedarfsausweis. Der <strong>Bedarfsausweis</strong> wird verwendet wenn es keine bisherigen Werte gibt, die als Grundlage dienen können. Hier wird zur Berechnung die Bauform, das Alter der Immobilie, die Heizung als auch die Dämmung verwendet.</p>
         <p>‍</p>
-        <p>‍</p>
-        <p>‍</p>
-        <blockquote><strong>Was macht eine Immobilienbewertung so wichtig?</strong></blockquote>
+        <blockquote>&quot;Energieeffizienz ist kein Luxus, sondern eine Notwendigkeit. Mit der richtigen Energieberatung können Sie nicht nur Ihren ökologischen Fußabdruck verkleinern, sondern auch Ihren finanziellen Fußabdruck. Es ist an der Zeit, kluge Entscheidungen zu treffen, die unserem Planeten und Ihrer Brieftasche zugutekommen.&quot; </blockquote>
       </div>
       <div class="w-layout-grid grid-service-page">
-        <div id="w-node-_2e19e198-f3de-3628-d31f-0c9184d0f60f-3932a627" class="layout-content">
-          <div class="w-layout-grid layout-item-list">
-            <div id="w-node-bef11c27-3e8e-cfe8-4daf-db22c13688b9-3932a627" class="layout-item">
-              <div>
-                <h3><strong>Ermittlung des Marktwerts für Verkaufsverhandlungen</strong></h3>
-                <div>With drones, businesses can easily conduct aerial surveys and create 3D maps of their inventory. This allows for more accurate tracking of stock levels, reducing the risk of overstocking or stockouts.</div>
-              </div>
-            </div>
-            <div id="w-node-bef11c27-3e8e-cfe8-4daf-db22c13688c1-3932a627" class="layout-item">
-              <div>
-                <h3><strong>Beurteilung der Rentabilität einer Immobilieninvestition</strong></h3>
-                <div>Drones are increasingly being used to inspect infrastructure such as bridges, power lines, and pipelines. This is a safer and more efficient alternative to traditional methods, which often require workers to climb to dangerous heights or work in confined spaces.</div>
-              </div>
-            </div>
-            <div id="w-node-bef11c27-3e8e-cfe8-4daf-db22c13688c9-3932a627" class="layout-item">
-              <div>
-                <h3><strong>Erfüllung von Finanzierungs- und Steueranforderungen</strong></h3>
-                <div>Drones are being used to deliver packages in areas that are difficult to reach by traditional methods. This includes remote areas, disaster zones, and even urban areas where traffic congestion is a problem.</div>
-              </div>
-            </div>
-            <div id="w-node-bef11c27-3e8e-cfe8-4daf-db22c13688d1-3932a627" class="layout-item">
-              <div>
-                <h3><strong>Strategische Planung und Entscheidungsfindung</strong></h3>
-                <div>Drones are being used to improve security in a variety of settings. They can be used to patrol borders, monitor crowds, and even track wildlife in conservation areas.</div>
-              </div>
-            </div>
-          </div>
+        <div id="w-node-_2e19e198-f3de-3628-d31f-0c9184d0f60f-d9f271c6" class="layout-content">
           <div class="button-row">
-            <a href="/kontakt" class="button-cta flat w-button">Kontaktieren</a>
+            <a href="/kontakt" class="button-cta flat w-button">Fragen Sie uns</a>
           </div>
         </div>
         <div class="layout-image-wrapper">
-          <a href="#" class="lightbox-second-page w-inline-block w-lightbox"><img src="../images/1.1Photo_11.1Photo.webp" width="1326" sizes="(max-width: 479px) 91vw, (max-width: 767px) 95vw, (max-width: 1439px) 96vw, 1080px" srcset="../images/1.1Photo_1-p-500.png 500w, ../images/1.1Photo_1-p-800.png 800w, ../images/1.1Photo_11.1Photo.webp 1024w" alt="">
+          <a href="#" class="lightbox-second-page w-inline-block w-lightbox"><img src="../images/energieberatungps.webp" width="1326" sizes="(max-width: 479px) 91vw, (max-width: 767px) 95vw, (max-width: 1439px) 96vw, 1080px" srcset="../images/energieberatungps-p-500.webp 500w, ../images/energieberatungps-p-800.webp 800w, ../images/energieberatungps-p-1080.webp 1080w, ../images/energieberatungps.webp 1456w" alt="">
             <script type="application/json" class="w-json">{
   "items": [
     {
@@ -224,7 +197,7 @@
               <div class="logo-text subtext">München</div>
             </div>
           </div>
-          <p id="w-node-_4aa0d7f3-2a4a-6a6b-69be-35f8e84120fd-e84120df" class="footer-text copyright">© 2023 Baucampus by <a href="https://ariet.is" target="_blank">Arietis </a>- <a href="/legal/impressum">Impressum</a> - <a href="/legal/datenschutz">Datenschutz</a>
+          <p id="w-node-_4aa0d7f3-2a4a-6a6b-69be-35f8e84120fd-e84120df" class="footer-text copyright">© 2023 Baucampus by <a href="https://ariet.is" target="_blank">Arietis </a>- <a href="/impressum">Impressum</a> - <a href="/datenschutz">Datenschutz</a>
           </p>
           <div id="w-node-_4aa0d7f3-2a4a-6a6b-69be-35f8e8412105-e84120df">
             <a href="tel:+35391760711" class="list-item-footer w-inline-block">
