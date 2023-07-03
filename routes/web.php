@@ -37,6 +37,21 @@ Route::get('/landingpage', function () {
     return view('landingpage');
 });
 
+Route::get('/detail_categories', function () {
+    return view('detail_categories');
+});
+
+Route::get('/detail_post', function () {
+    return view('detail_post');
+});
+
+Route::get('/401', function () {
+    return view('401');
+});
+
+Route::get('/404', function () {
+    return view('404');
+});
 
 Route::get('/dienstleistungen/bauschaden', function () {
     return view('dienstleistungen.bauschaden');
@@ -84,4 +99,28 @@ Route::get('/leistungen/bewertung', function () {
 
 Route::get('/leistungen/inspektion', function () {
     return view('leistungen.inspektion');
+});
+
+Route::get('/kunden/civil-engineering-contractors', function () {
+    return view('kunden.civil-engineering-contractors');
+});
+
+Route::get('/kunden/earth-and-mining', function () {
+    return view('kunden.earth-and-mining');
+});
+
+Route::get('/kunden/management-in-the-engineering', function () {
+    return view('kunden.management-in-the-engineering');
+});
+
+Route::get('/kunden/public-document', function () {
+    return view('kunden.public-document');
+});
+
+Route::get('/kunden/surveying-and-mapping', function () {
+    return view('kunden.surveying-and-mapping');
+});
+
+Route::get('/kunden/vac-truck', function () {
+    return view('kunden.vac-truck');
 });
