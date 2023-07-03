@@ -54,32 +54,32 @@
             </aside>
             <nav class="dropdown-list w-dropdown-list">
               <div class="dropdown-link-list">
-                <a href="dienstleistungen/bauschaden" class="dropdown-link w-inline-block">
+                <a href="/bauschaden" class="dropdown-link w-inline-block">
                   <div>
                     <div>Beratung Bauschaden</div>
                   </div>
                 </a>
-                <a href="dienstleistungen/schimmelpilz" class="dropdown-link w-inline-block">
+                <a href="/schimmelpilz" class="dropdown-link w-inline-block">
                   <div>
                     <div>Beratung Schimmmelpilz</div>
                   </div>
                 </a>
-                <a href="dienstleistungen/hauskaufberatung" class="dropdown-link w-inline-block">
+                <a href="/hauskaufberatung" class="dropdown-link w-inline-block">
                   <div>
                     <div>Kaufberatung</div>
                   </div>
                 </a>
-                <a href="dienstleistungen/baubegleitung" class="dropdown-link w-inline-block">
+                <a href="/baubegleitung" class="dropdown-link w-inline-block">
                   <div>
                     <div>Baubegleitung</div>
                   </div>
                 </a>
-                <a href="dienstleistungen/energieberatung" class="dropdown-link w-inline-block">
+                <a href="/energieberatung" class="dropdown-link w-inline-block">
                   <div>
                     <div>Energieberatung</div>
                   </div>
                 </a>
-                <a href="dienstleistungen/immobilienbewertung" class="dropdown-link w-inline-block">
+                <a href="/immobilienbewertung" class="dropdown-link w-inline-block">
                   <div id="w-node-c8909249-ed55-ded4-b3d1-381c167e4fbc-23a87122">
                     <div>Immobilienbewertung</div>
                   </div>
