@@ -1,5 +1,5 @@
 @foreach($ort as $city)
-@if ($ortsname == $city->{{$city->stadt}}_umlaut)
+@if ($ortsname == $city->stadt_umlaut)
 <!DOCTYPE html><!--  This site was created in Webflow. https://www.webflow.com  -->
 <!--  Last Published: Thu Jun 29 2023 21:31:35 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="648d0891096d52bfd9f271cf" data-wf-site="648d0891096d52bfd9f271dc" lang="fr">
