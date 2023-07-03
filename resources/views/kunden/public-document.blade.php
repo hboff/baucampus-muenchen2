@@ -24,7 +24,7 @@
 <body class="body">
   <div data-collapse="medium" data-animation="default" data-duration="400" data-w-id="9962d9cc-619f-1e92-7f2b-747f23a87122" data-easing="ease" data-easing2="ease" role="banner" class="navbar w-nav">
     <div class="container flex">
-      <a href="..//" class="brand w-nav-brand">
+      <a href="/" class="brand w-nav-brand">
         <div class="logo-wrapper"><img src="../images/logo.png" loading="lazy" width="49" sizes="49px" srcset="../images/logo-p-500.png 500w, ../images/logo-p-800.png 800w, ../images/logo-p-1080.png 1080w, ../images/logo.png 1172w" alt="">
           <div class="text-logo-wrapper">
             <div class="logo-text">Baucampus<br></div>
@@ -33,44 +33,44 @@
         </div>
       </a>
       <nav role="navigation" class="nav-menu w-nav-menu">
-        <a href="..//" class="nav-link w-nav-link">Home</a>
+        <a href="/" class="nav-link w-nav-link">Home</a>
         <div data-hover="true" data-delay="300" data-w-id="9962d9cc-619f-1e92-7f2b-747f23a8712f" class="navbar-menu-dropdown w-dropdown">
           <aside class="dropdown-toggle w-dropdown-toggle">
             <div class="dropdown-icon w-embed"><svg width="20" height="20" viewbox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M5 7.5L10 12.5L15 7.5" stroke="currentColor" stroke-width="1.67" stroke-linecap="round" stroke-linejoin="round"></path>
               </svg></div>
-            <a href="../leistungen" class="link-for-dropdown w-inline-block">
+            <a href="/leistungen" class="link-for-dropdown w-inline-block">
               <div>Dienstleistungen</div>
             </a>
           </aside>
           <nav class="dropdown-list w-dropdown-list">
             <div class="dropdown-link-list">
-              <a href="../dienstleistungen/bauschaden" class="dropdown-link w-inline-block">
+              <a href="/dienstleistungen/bauschaden" class="dropdown-link w-inline-block">
                 <div>
                   <div>Beratung Bauschaden</div>
                 </div>
               </a>
-              <a href="../dienstleistungen/schimmelpilz" class="dropdown-link w-inline-block">
+              <a href="/dienstleistungen/schimmelpilz" class="dropdown-link w-inline-block">
                 <div>
                   <div>Beratung Schimmmelpilz</div>
                 </div>
               </a>
-              <a href="../dienstleistungen/hauskaufberatung" class="dropdown-link w-inline-block">
+              <a href="/dienstleistungen/hauskaufberatung" class="dropdown-link w-inline-block">
                 <div>
                   <div>Kaufberatung</div>
                 </div>
               </a>
-              <a href="../dienstleistungen/baubegleitung" class="dropdown-link w-inline-block">
+              <a href="/dienstleistungen/baubegleitung" class="dropdown-link w-inline-block">
                 <div>
                   <div>Baubegleitung</div>
                 </div>
               </a>
-              <a href="../dienstleistungen/energieberatung" class="dropdown-link w-inline-block">
+              <a href="/dienstleistungen/energieberatung" class="dropdown-link w-inline-block">
                 <div>
                   <div>Energieberatung</div>
                 </div>
               </a>
-              <a href="../dienstleistungen/immobilienbewertung" class="dropdown-link w-inline-block">
+              <a href="/dienstleistungen/immobilienbewertung" class="dropdown-link w-inline-block">
                 <div id="w-node-c8909249-ed55-ded4-b3d1-381c167e4fbc-23a87122">
                   <div>Immobilienbewertung</div>
                 </div>
@@ -79,8 +79,8 @@
           </nav>
         </div>
         <a href="https://baucampus.com" target="_blank" class="nav-link w-nav-link">Baucampus</a>
-        <a href="../preise" class="nav-link w-nav-link">Preise</a>
-        <a href="../kontakt" class="nav-link w-nav-link">Kontakt</a>
+        <a href="/preise" class="nav-link w-nav-link">Preise</a>
+        <a href="/kontakt" class="nav-link w-nav-link">Kontakt</a>
         <a href="tel:+495722913800" class="button-cta w-button">+49 5722 913800</a>
       </nav>
       <div class="menu-button w-nav-button">
@@ -91,9 +91,9 @@
   <div data-w-id="6fca50ab-de2f-362b-39cc-d7d7b0ef92d4" class="main-section services wf-section">
     <div class="container relative">
       <div data-w-id="bf8531e1-198a-24de-4582-6d1ae146a6f6" style="opacity:0" class="bread-crumbs-wrapper">
-        <a href="..//" class="bread-crumbs">Home</a>
+        <a href="/" class="bread-crumbs">Home</a>
         <div class="bread-crumbs active"> / </div>
-        <a href="../leistungen" class="bread-crumbs">Service</a>
+        <a href="/leistungen" class="bread-crumbs">Service</a>
         <div class="bread-crumbs active"> / </div>
         <div class="bread-crumbs active">Public Document</div>
       </div>
@@ -158,7 +158,7 @@
             </div>
           </div>
           <div class="button-row">
-            <a href="../kontakt" class="button-cta flat w-button">Get In Touch</a>
+            <a href="/kontakt" class="button-cta flat w-button">Get In Touch</a>
           </div>
         </div>
         <div class="layout-image-wrapper">
@@ -232,7 +232,7 @@
               <div class="logo-text subtext">München</div>
             </div>
           </div>
-          <p id="w-node-_4aa0d7f3-2a4a-6a6b-69be-35f8e84120fd-e84120df" class="footer-text copyright">© 2023 Baucampus by <a href="https://ariet.is" target="_blank">Arietis </a>- <a href="../legal/impressum">Impressum</a> - <a href="../legal/datenschutz">Datenschutz</a>
+          <p id="w-node-_4aa0d7f3-2a4a-6a6b-69be-35f8e84120fd-e84120df" class="footer-text copyright">© 2023 Baucampus by <a href="https://ariet.is" target="_blank">Arietis </a>- <a href="/legal/impressum">Impressum</a> - <a href="/legal/datenschutz">Datenschutz</a>
           </p>
           <div id="w-node-_4aa0d7f3-2a4a-6a6b-69be-35f8e8412105-e84120df">
             <a href="tel:+35391760711" class="list-item-footer w-inline-block">
