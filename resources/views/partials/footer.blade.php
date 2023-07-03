@@ -46,7 +46,7 @@
    
     @foreach($data as $cities)
     @if ($i++ < 16)
-            <a href="/{{$cities->stadt_umlaut}}/baugutachter" class="list-item-footer w-inline-block">Baugutachter {{$cities->stadt}}</a>
+            <a href="/{{$cities->stadt_umlaut}}/landingpage" class="list-item-footer w-inline-block">Baugutachter {{$cities->stadt}}</a>
             @else
     @endif
     @endforeach
