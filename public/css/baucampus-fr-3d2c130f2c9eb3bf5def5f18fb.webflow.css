@@ -92,7 +92,7 @@ img {
 }
 
 blockquote {
-  background-image: url('/images/qq_pp-1.svg');
+  background-image: url('../images/qq_pp-1.svg');
   background-position: 98% 20px;
   background-repeat: no-repeat;
   background-size: 5%;
@@ -110,7 +110,7 @@ blockquote {
   max-height: 995px;
   min-height: 100vh;
   color: #fff;
-  background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .3) 68%), url('/images/Layer-600.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .3) 68%), url('../images/Layer-600.jpg');
   background-position: 0 0, 50%;
   background-repeat: repeat, no-repeat;
   background-size: auto, cover;
@@ -123,7 +123,7 @@ blockquote {
 
 .main-section.aiming-high {
   min-height: 500px;
-  background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .3) 68%), url('/images/iuyff1.webp');
+  background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .3) 68%), url('../images/iuyff1.webp');
   padding-top: 140px;
   padding-bottom: 140px;
   overflow: hidden;
@@ -372,7 +372,7 @@ blockquote {
 .section.our-project {
   color: #fff;
   background-color: #242020;
-  background-image: url('/images/3.png');
+  background-image: url('../images/3.png');
   background-position: 0 0;
   background-size: 150px;
   padding: 100px 0 0;
@@ -394,7 +394,7 @@ blockquote {
 }
 
 .section.footer {
-  background-image: url('/images/3.png');
+  background-image: url('../images/3.png');
   background-position: 0 0;
   background-size: 150px;
 }
@@ -488,7 +488,7 @@ blockquote {
 .card-vertical-with-img:hover {
   color: #fff;
   background-color: #3155b6;
-  background-image: url('/images/3.png');
+  background-image: url('../images/3.png');
   background-position: 0 0;
   background-size: 125px;
   box-shadow: inset 0 4px #3183b6;
@@ -615,7 +615,7 @@ blockquote {
 .grid-for-card-project {
   grid-column-gap: 0px;
   grid-row-gap: 0px;
-  background-image: linear-gradient(rgba(36, 32, 32, .78), rgba(22, 20, 20, .48)), url('/images/energieberatungps.webp');
+  background-image: linear-gradient(rgba(36, 32, 32, .78), rgba(22, 20, 20, .48)), url('../images/energieberatungps.webp');
   background-position: 0 0, 50%;
   background-size: auto, cover;
   background-attachment: scroll, fixed;
@@ -626,7 +626,7 @@ blockquote {
 }
 
 .grid-for-card-project.current-projects {
-  background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, 0) 63%), url('/images/My-project-1.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, 0) 63%), url('../images/My-project-1.jpg');
   background-position: 0 0, 50% 100%;
   background-size: auto, cover;
 }
@@ -804,7 +804,7 @@ blockquote {
 .read-more-blog.search-icon {
   min-width: 60px;
   background-color: #fff;
-  background-image: url('/images/serche2x_1serche@2x.png');
+  background-image: url('../images/serche2x_1serche@2x.png');
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: 17px;
@@ -901,7 +901,7 @@ blockquote {
 .footer {
   color: #e6e6e6;
   background-color: #242020;
-  background-image: url('/images/3.png');
+  background-image: url('../images/3.png');
   background-position: 0 0;
   background-size: 150px;
   background-attachment: fixed;
@@ -1017,7 +1017,7 @@ blockquote {
 .card-about-post:hover {
   color: #fff;
   background-color: #242020;
-  background-image: url('/images/3.png');
+  background-image: url('../images/3.png');
   background-position: 0 0;
   background-size: 125px;
 }
@@ -1188,7 +1188,7 @@ blockquote {
   color: #262626;
   text-align: center;
   background-color: #fff;
-  background-image: url('/images/serche2x_1serche@2x.png');
+  background-image: url('../images/serche2x_1serche@2x.png');
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: 17px;
@@ -1555,7 +1555,7 @@ blockquote {
 
 .section-step {
   background-color: #242020;
-  background-image: url('/images/3.png');
+  background-image: url('../images/3.png');
   background-position: 0 0;
   background-size: 150px;
   padding-bottom: 500px;
@@ -1568,7 +1568,7 @@ blockquote {
 .section-for-heading {
   color: #fff;
   background-color: #242020;
-  background-image: url('/images/3.png');
+  background-image: url('../images/3.png');
   background-position: 0 0;
   background-size: 150px;
   padding: 100px 20px 20px;
@@ -1686,7 +1686,7 @@ blockquote {
   backdrop-filter: blur(16px);
   color: #fff;
   background-color: rgba(36, 32, 32, .98);
-  background-image: url('/images/3.png');
+  background-image: url('../images/3.png');
   background-position: 0 0;
   background-size: 150px;
   border: 1px solid #403939;
@@ -1880,7 +1880,7 @@ blockquote {
 }
 
 .parallax-image {
-  background-image: url('/images/3cb45f6e59190e8213ce0a35394d0e11-nice-3612225719.jpg');
+  background-image: url('../images/3cb45f6e59190e8213ce0a35394d0e11-nice-3612225719.jpg');
   background-position: 0 0;
   background-size: auto;
 }
@@ -1896,7 +1896,7 @@ blockquote {
   text-align: center;
   mix-blend-mode: multiply;
   background-color: #000;
-  background-image: linear-gradient(rgba(0, 0, 0, .86), rgba(0, 0, 0, .86)), url('/images/7.png');
+  background-image: linear-gradient(rgba(0, 0, 0, .86), rgba(0, 0, 0, .86)), url('../images/7.png');
   background-position: 0 0, 0 0;
   background-size: auto, cover;
   background-attachment: scroll, fixed;
@@ -1980,7 +1980,7 @@ blockquote {
   z-index: 1;
   width: 100%;
   height: 100%;
-  background-image: linear-gradient(rgba(36, 32, 32, .81), rgba(36, 32, 32, .85)), url('/images/beratung.webp');
+  background-image: linear-gradient(rgba(36, 32, 32, .81), rgba(36, 32, 32, .85)), url('../images/beratung.webp');
   background-position: 0 0, 0 0;
   background-size: auto, auto;
   position: absolute;
@@ -4621,7 +4621,7 @@ blockquote {
 .uui-blogpost04_image-wrapper {
   width: 100%;
   height: 23%;
-  background-image: url('/images/Blog-Image-6.jpg');
+  background-image: url('../images/Blog-Image-6.jpg');
   background-position: 50%;
   background-size: cover;
   background-attachment: fixed;
@@ -4819,7 +4819,7 @@ blockquote {
 .uui-form-checkbox-icon.w--redirected-checked {
   box-shadow: none;
   background-color: #f9f5ff;
-  background-image: url('/images/check.svg');
+  background-image: url('../images/check.svg');
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: .875rem .875rem;
@@ -5506,7 +5506,7 @@ blockquote {
 
   .nav-menu {
     background-color: rgba(36, 32, 32, .98);
-    background-image: url('/images/3.png');
+    background-image: url('../images/3.png');
     background-position: 0 0;
     background-size: 150px;
     padding-top: 20px;
@@ -6074,7 +6074,7 @@ blockquote {
     color: #fafafa;
     text-align: left;
     background-color: rgba(36, 32, 32, .8);
-    background-image: url('/images/3.png');
+    background-image: url('../images/3.png');
     background-position: 0 0;
     background-size: 150px;
     border: 1px solid #3155b6;
@@ -6865,7 +6865,7 @@ blockquote {
   }
 
   .grid-for-card-project {
-    background-image: linear-gradient(rgba(36, 32, 32, .78), rgba(22, 20, 20, .48)), url('/images/CSR.webp');
+    background-image: linear-gradient(rgba(36, 32, 32, .78), rgba(22, 20, 20, .48)), url('../images/CSR.webp');
     background-position: 0 0, 100%;
     background-size: auto, cover;
     grid-template-columns: 1fr;
@@ -8188,63 +8188,63 @@ blockquote {
 
 @font-face {
   font-family: 'Gilroy';
-  src: url('/fonts/Gilroy-UltraLight.ttf') format('truetype');
+  src: url('../fonts/Gilroy-UltraLight.ttf') format('truetype');
   font-weight: 200;
   font-style: normal;
   font-display: auto;
 }
 @font-face {
   font-family: 'Gilroy';
-  src: url('/fonts/Gilroy-Thin.ttf') format('truetype');
+  src: url('../fonts/Gilroy-Thin.ttf') format('truetype');
   font-weight: 100;
   font-style: normal;
   font-display: auto;
 }
 @font-face {
   font-family: 'Gilroy';
-  src: url('/fonts/Gilroy-Regular.ttf') format('truetype');
+  src: url('../fonts/Gilroy-Regular.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
   font-display: auto;
 }
 @font-face {
   font-family: 'Gilroy';
-  src: url('/fonts/Gilroy-Medium.ttf') format('truetype');
+  src: url('../fonts/Gilroy-Medium.ttf') format('truetype');
   font-weight: 500;
   font-style: normal;
   font-display: auto;
 }
 @font-face {
   font-family: 'Gilroy';
-  src: url('/fonts/Gilroy-SemiBold.ttf') format('truetype');
+  src: url('../fonts/Gilroy-SemiBold.ttf') format('truetype');
   font-weight: 600;
   font-style: normal;
   font-display: auto;
 }
 @font-face {
   font-family: 'Gilroy';
-  src: url('/fonts/Gilroy-Light.ttf') format('truetype');
+  src: url('../fonts/Gilroy-Light.ttf') format('truetype');
   font-weight: 300;
   font-style: normal;
   font-display: auto;
 }
 @font-face {
   font-family: 'Gilroy';
-  src: url('/fonts/Gilroy-Heavy.ttf') format('truetype'), url('/fonts/Gilroy-Black.ttf') format('truetype');
+  src: url('../fonts/Gilroy-Heavy.ttf') format('truetype'), url('../fonts/Gilroy-Black.ttf') format('truetype');
   font-weight: 900;
   font-style: normal;
   font-display: auto;
 }
 @font-face {
   font-family: 'Gilroy';
-  src: url('/fonts/Gilroy-ExtraBold.ttf') format('truetype'), url('/fonts/Gilroy-Bold.ttf') format('truetype');
+  src: url('../fonts/Gilroy-ExtraBold.ttf') format('truetype'), url('../fonts/Gilroy-Bold.ttf') format('truetype');
   font-weight: 700;
   font-style: normal;
   font-display: auto;
 }
 @font-face {
   font-family: 'Fontawesome webfont';
-  src: url('/fonts/fontawesome-webfont.ttf') format('truetype');
+  src: url('../fonts/fontawesome-webfont.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
   font-display: auto;
