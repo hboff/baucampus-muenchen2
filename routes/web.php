@@ -71,8 +71,9 @@ Route::domain($domain)->group(function () use ($routes, $domainData) {
         View::share('data', $data);
         return view('index', ['expert' => $expert,'domainort' => $domainData['domainort']]);
     });
-    Route::get('/{ort}', [OrteatController::class, 'show'], function () use ($domainData) {})
+    Route::get('/{ort}/landingpage', [OrteatController::class, 'show'], function () use ($domainData) {})
             ->middleware('cache.headers:private;max_age=3600');
+
 foreach ($routes as $route) {
 Route::get($route, function () use ($route, $domainData) {
 $data = DB::table('city_data')
