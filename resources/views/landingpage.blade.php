@@ -37,7 +37,7 @@
           <div class="logo-wrapper"><img src="images/logo.png" loading="lazy" width="49" sizes="49px" srcset="images/logo-p-500.png 500w, images/logo-p-800.png 800w, images/logo-p-1080.png 1080w, images/logo.png 1172w" alt="">
             <div class="text-logo-wrapper">
               <div class="logo-text">Baucampus<br></div>
-              <div class="logo-text subtext">{{$$domainData->domainort}}</div>
+              <div class="logo-text subtext">{{$domainData->domainort}}</div>
             </div>
           </div>
         </a>
