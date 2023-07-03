@@ -66,7 +66,6 @@ class OrteatController extends Controller
             'expert' => $expert,
             'data' => $data,
             'ortsname'=> $ortat,
-          
             ]);    }  
         }       
     
