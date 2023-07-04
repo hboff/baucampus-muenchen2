@@ -114,8 +114,7 @@
           <div class="uui-blogpost04_image-wrapper"></div>
           <div data-hover="true" data-delay="0" data-w-id="3136068b-5c85-f9f4-53cb-ddae8a5af0b6" class="brix---dropdown-wrapper w-dropdown">
             <div class="brix---dropdown-toggle w-dropdown-toggle">
-              <div>Verzeichnis</div><img src="/images/line-rounded-chevron-down-black-brix-templates.svg" data-w-id="3136068b-5c85-f9f4-53cb-ddae8a5af0ba" style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0)" alt="Icon Rounded Chevron Dark - BRIX Templates" class="brix---dropdown-chevron">
-            </div>
+              
             <nav class="brix---dropdown-column-wrapper w-dropdown-list">
               <div data-w-id="3136068b-5c85-f9f4-53cb-ddae8a5af0bc" style="display:none;height:0px;opacity:0;-webkit-transform:translate3d(null, 10px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(null, 10px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(null, 10px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(null, 10px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="brix---dropdown-card">
                 <div class="brix---dropdown-pd">
