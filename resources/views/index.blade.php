@@ -100,7 +100,7 @@ $found = false;
     @endif
 @endforeach
 
-@if (!$found)
+@if ($found == false)
     <a href="tel:+495722913800" class="button-cta w-button">+49 5722 913800</a>
 @endif
 
