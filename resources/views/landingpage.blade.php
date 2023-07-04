@@ -33,7 +33,7 @@
   <div>
     <div data-collapse="medium" data-animation="default" data-duration="400" data-w-id="9962d9cc-619f-1e92-7f2b-747f23a87122" data-easing="ease" data-easing2="ease" role="banner" class="navbar w-nav">
       <div class="container flex">
-        <a href="index.html" class="brand w-nav-brand">
+        <a href="/" class="brand w-nav-brand">
           <div class="logo-wrapper"><img src="/images/logo.png" loading="lazy" width="49" sizes="49px" srcset="/images/logo-p-500.png 500w, /images/logo-p-800.png 800w, /images/logo-p-1080.png 1080w, /images/logo.png 1172w" alt="">
             <div class="text-logo-wrapper">
               <div class="logo-text">Baucampus<br></div>
@@ -42,44 +42,44 @@
           </div>
         </a>
         <nav role="navigation" class="nav-menu w-nav-menu">
-          <a href="index.html" class="nav-link w-nav-link">Home</a>
+          <a href="/" class="nav-link w-nav-link">Home</a>
           <div data-hover="true" data-delay="300" data-w-id="9962d9cc-619f-1e92-7f2b-747f23a8712f" class="navbar-menu-dropdown w-dropdown">
             <aside class="dropdown-toggle w-dropdown-toggle">
               <div class="dropdown-icon w-embed"><svg width="20" height="20" viewbox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M5 7.5L10 12.5L15 7.5" stroke="currentColor" stroke-width="1.67" stroke-linecap="round" stroke-linejoin="round"></path>
                 </svg></div>
-              <a href="leistungen.html" class="link-for-dropdown w-inline-block">
+              <a href="/leistungen" class="link-for-dropdown w-inline-block">
                 <div>Dienstleistungen</div>
               </a>
             </aside>
             <nav class="dropdown-list w-dropdown-list">
               <div class="dropdown-link-list">
-                <a href="dienstleistungen/bauschaden.html" class="dropdown-link w-inline-block">
+                <a href="/bauschaden" class="dropdown-link w-inline-block">
                   <div>
                     <div>Beratung Bauschaden</div>
                   </div>
                 </a>
-                <a href="dienstleistungen/schimmelpilz.html" class="dropdown-link w-inline-block">
+                <a href="/schimmelpilz" class="dropdown-link w-inline-block">
                   <div>
                     <div>Beratung Schimmmelpilz</div>
                   </div>
                 </a>
-                <a href="dienstleistungen/hauskaufberatung.html" class="dropdown-link w-inline-block">
+                <a href="/hauskaufberatung" class="dropdown-link w-inline-block">
                   <div>
                     <div>Kaufberatung</div>
                   </div>
                 </a>
-                <a href="dienstleistungen/baubegleitung.html" class="dropdown-link w-inline-block">
+                <a href="/baubegleitung" class="dropdown-link w-inline-block">
                   <div>
                     <div>Baubegleitung</div>
                   </div>
                 </a>
-                <a href="dienstleistungen/energieberatung.html" class="dropdown-link w-inline-block">
+                <a href="/energieberatung" class="dropdown-link w-inline-block">
                   <div>
                     <div>Energieberatung</div>
                   </div>
                 </a>
-                <a href="dienstleistungen/immobilienbewertung.html" class="dropdown-link w-inline-block">
+                <a href="/immobilienbewertung" class="dropdown-link w-inline-block">
                   <div id="w-node-c8909249-ed55-ded4-b3d1-381c167e4fbc-23a87122">
                     <div>Immobilienbewertung</div>
                   </div>
@@ -88,8 +88,8 @@
             </nav>
           </div>
           <a href="https://baucampus.com" target="_blank" class="nav-link w-nav-link">Baucampus</a>
-          <a href="preise.html" class="nav-link w-nav-link">Preise</a>
-          <a href="kontakt.html" class="nav-link w-nav-link">Kontakt</a>
+          <a href="preise" class="nav-link w-nav-link">Preise</a>
+          <a href="/kontakt" class="nav-link w-nav-link">Kontakt</a>
           <a href="tel:+495722913800" class="button-cta w-button">+49 5722 913800</a>
         </nav>
         <div class="menu-button w-nav-button">
@@ -124,7 +124,7 @@
                 <p>Die <strong>Aufgabenbereiche</strong> des Sachverständigen sind vielfältig und reichen von der Beratung bei einem <strong>Bauschaden</strong> über die <strong>Baubegleitung</strong> eines Neubaus bis hin zur <strong>Hauskaufberatung</strong> und <strong>Energieberatung</strong>. Durch seine hohe Sachkunde und seine fachliche Kompetenz ist der Immobiliengutachter ihr Ansprechpartner bei allen Baumaßnahmen in Berlin, der frühzeitig hinzugezogen werden sollte, um Fehleinschätzungen zu vermeiden.</p>
                 <p>Auf den folgenden Seiten können Sie sich einen Einblick in das <strong>Leistungsspektrum</strong> unser Bausachverständige, Baugutachter und Immobiliengutachter in <strong>Berlin</strong> verschaffen. Selbstverständlich können Sie sich auch <strong>telefonisch</strong> oder <strong>per E-Mail</strong> über unsere Leistungen rund um ihre Immobilie informieren lassen.</p>
               </div>
-              <a href="kontakt.html" class="button-cta w-button">Kontaktieren</a>
+              <a href="/kontakt" class="button-cta w-button">Kontaktieren</a>
               <div id="Baubegleitung">
                 <div class="uui-text-rich-text w-richtext">
                   <h4>Baubegleitung</h4>
@@ -145,7 +145,7 @@
                   <p>Alle Termine, die unsere Sachverständigen im Rahmen der <strong>baubegleitenden Qualitätssicherung</strong> durchführen, können flexibel als <strong>Einzeltermine beauftragt</strong> werden. So können sie für ihr Bauprojekt sicherstellen, dass genau zu der Zeit, wenn sie <strong>Hilfe</strong> auf der Baustelle benötigen, unsere Bausachverständigen für sie da sind.</p>
                 </div>
               </div>
-              <a href="kontakt.html" class="button-cta w-button">Kontaktieren</a>
+              <a href="/kontakt" class="button-cta w-button">Kontaktieren</a>
               <div id="Bauschaden">
                 <div class="uui-text-rich-text w-richtext">
                   <h4>Bausachverständiger - Bauschaden und Baumangel</h4>
@@ -158,7 +158,7 @@
                   <p>Bauschäden, die durch <strong>äußere Einwirkungen</strong>, wie z.B. Sturm, Brand oder Unfall entstehen, sind besonders ärgerlich für den Besitzer eines Hauses. Auch hier kann ein Bausachverständiger versiert und umfassend Hilfestellung geben. Insbesondere bei der <strong>Ursachenermittlung</strong> und der schnellen Einleitung von sogenannten Erstmaßnahmen steht er mit wertvollem Rat zur Seite, um den Schaden zu begrenzen. Im weiteren Verlauf kann der Bausachverständige im Umgang mit der Versicherung und bei der Umsetzung der Sanierungsmaßnahmen helfend eingreifen und kostenintensive Fehler vermeiden. Ein Bausachverständiger ist bei einem Bauschaden, welcher Art auch immer, ein <strong>kompetenter Ansprechpartner</strong>. Auch für Bauschäden ist eine flexible Terminvereinbarung mit einem Bausachverständigen und die Durchführung eines Termins jederzeit möglich.</p>
                 </div>
               </div>
-              <a href="kontakt.html" class="button-cta w-button">Kontaktieren</a>
+              <a href="/kontakt" class="button-cta w-button">Kontaktieren</a>
               <div id="Sanierung">
                 <div class="uui-text-rich-text w-richtext">
                   <h4>Sanierung -  Baugutachter Berlin</h4>
@@ -166,7 +166,7 @@
                   <p>Die <strong>besondere Sachkunde des Gutachters</strong> ist bei sogenannten Altbauten besonders wichtig. Ist bereits ein Schaden bei der Immobilie in Berlin aufgetreten, verlangt es die besondere Umsicht und Kenntnis des Bausachverständigen, um schnell und fachlich richtig die <strong>Ursachen</strong> zu erkennen und zielgenau die ersten Maßnahmen zu ergreifen, damit der <strong>Schaden</strong> nicht noch größer wird. Das kompetente Eingreifen eines Immobiliengutachters ermöglicht einen reibungslosen Bauablauf und hilft teure Folgekosten aufgrund falscher Sanierungsmaßnahmen zu vermeiden.</p>
                 </div>
               </div>
-              <a href="kontakt.html" class="button-cta w-button">Kontaktieren</a>
+              <a href="/kontakt" class="button-cta w-button">Kontaktieren</a>
               <div id="Hauskaufberatung">
                 <div class="uui-text-rich-text w-richtext">
                   <h4>Hauskaufberatung in Berlin</h4>
@@ -185,7 +185,7 @@
                   <p>Die Vereinbarung eines <strong>Termines</strong> mit den Bausachverständigen ist kurzfristig möglich, um ihnen als Käufer den <strong>Druck</strong> durch die <strong>Makler und Verkäufer</strong> nehmen zu könne und ihnen mit Rat und Tat bei Seite stehen zu können. Schriftliche oder telefonische Anfragen zur Durchführung und zur Vereinbarung des Termins werden zeitnah und kompetent beantwortet</p>
                 </div>
               </div>
-              <a href="kontakt.html" class="button-cta w-button">Kontaktieren</a>
+              <a href="/kontakt" class="button-cta w-button">Kontaktieren</a>
               <div id="Wertermittlung">
                 <div class="uui-text-rich-text w-richtext">
                   <h4>Bausachverständiger - Wertermittlung und Wertschätzung</h4>
@@ -193,7 +193,7 @@
                   <p>Ein <strong>Wertgutachten</strong> von einem Bausachverständigen ermöglicht eine realistische Feststellung des <strong>tatsächlichen Wertes</strong> einer Immobilie unter Berücksichtigung aller wertsteigernden, aber auch wertmindernden Faktoren. Kurz gesagt eine Wertermittlung enthält alle <strong>notwendigen Informationen</strong> über ihre Immobilie. Auch für steuerliche oder bilanzielle Zwecke kann ein Wertgutachten eines Bausachverständigen für Gewerbetreibende aus wirtschaftlicher Sicht interessant sein.</p>
                 </div>
               </div>
-              <a href="kontakt.html" class="button-cta w-button">Kontaktieren</a>
+              <a href="/kontakt" class="button-cta w-button">Kontaktieren</a>
               <div id="Energieberatungs">
                 <div class="uui-text-rich-text w-richtext">
                   <h4> Energieberatung Berlin</h4>
@@ -202,7 +202,7 @@
                   <p>Somit ist Bausachverständige durch seine hohe fachliche Kompetenz der optimale <strong>regionale Partner</strong> bei allen Bau-, Umbau-, Kauf- und Sanierungsmaßnahmen rund um ihre <strong>Immobilie</strong>.</p>
                 </div>
               </div>
-              <a href="kontakt.html" class="button-cta w-button">Kontaktieren</a>
+              <a href="/kontakt" class="button-cta w-button">Kontaktieren</a>
               <div id="Architekt">
                 <div class="uui-text-rich-text w-richtext">
                   <h4>Architekt</h4>
@@ -211,7 +211,7 @@
                   <p>Unsere <strong>langjährige Erfahrung</strong> im Hochbau ermöglicht eine kompetente Betreuung von Neubauten, Modernisierungs- und Sanierungsmaßnahmen. Mit der Hilfe unserer Architekten entsteht so eine qualitativ <strong>hochwertige Bauleistung</strong>, an der Sie, als Bauherr, sich lange erfreuen können.</p>
                 </div>
               </div>
-              <a href="kontakt.html" class="button-cta w-button">Kontaktieren</a>
+              <a href="/kontakt" class="button-cta w-button">Kontaktieren</a>
               <div id="GewerbeKunden">
                 <div class="uui-text-rich-text w-richtext">
                   <h4>Gewerbekunden</h4>
@@ -219,7 +219,7 @@
                   <p>Aufgrund der großen Unterschiede sind hier keine pauschalen Preise ohne mehr Informationen zum Objekt möglich. Daher bitten wir Sie um eine <strong>Kontaktaufnahme</strong> per E-Mail oder Telefon, um uns einen Überblick über ihr Vorhaben verschaffen zu können.</p>
                 </div>
               </div>
-              <a href="kontakt.html" class="button-cta w-button">Kontaktieren</a>
+              <a href="/kontakt" class="button-cta w-button">Kontaktieren</a>
               <div id="Energieberatung">
                 <div class="uui-text-rich-text w-richtext">
                   <h4>{{$city->stadt}}</h4>
@@ -247,7 +247,7 @@
                           <div class="uui-form-field-wrapper"><label for="Contact-01-name-2" class="uui-field-label">Name</label><input type="text" class="uui-form_input w-input" maxlength="256" name="Contact-01-name-2" data-name="Contact 01 Name 2" placeholder="Ihr Name" id="Contact-01-name-2" required=""><label for="Contact-01-name" class="uui-field-label">Telefonnummer</label><input type="tel" class="uui-form_input w-input" maxlength="256" name="Contact-01-tel" data-name="Contact 01 tel" placeholder="Ihre Telefonnummer" id="Contact-01-tel" required=""></div>
                           <div class="uui-form-field-wrapper"><label for="Contact-01-email" class="uui-field-label">Email</label><input type="email" class="uui-form_input w-input" maxlength="256" name="Contact-01-email" data-name="Contact 01 email" placeholder="Ihre E-Mail Adresse" id="Contact-01-email" required=""></div>
                           <div class="uui-form-field-wrapper"><label for="Contact-01-message" class="uui-field-label">Message</label><textarea id="Contact-01-message" name="Contact-01-message" maxlength="5000" data-name="Contact 01 message" placeholder="Ihre Nachricht..." required="" class="uui-form_input text-area w-input"></textarea></div><label id="Contact-1-Checkbox" class="w-checkbox uui-form-checkbox">
-                            <div class="w-checkbox-input w-checkbox-input--inputType-custom uui-form-checkbox-icon"></div><input type="checkbox" id="Contact-01-checkbox" name="Contact-01-checkbox" data-name="Contact 01 checkbox" required="" style="opacity:0;position:absolute;z-index:-1"><span for="Contact-01-checkbox" class="uui-form-checkbox-label w-form-label">Sie stimmen unserem <a href="kontakt.html">Datenschutz</a> zu.</span>
+                            <div class="w-checkbox-input w-checkbox-input--inputType-custom uui-form-checkbox-icon"></div><input type="checkbox" id="Contact-01-checkbox" name="Contact-01-checkbox" data-name="Contact 01 checkbox" required="" style="opacity:0;position:absolute;z-index:-1"><span for="Contact-01-checkbox" class="uui-form-checkbox-label w-form-label">Sie stimmen unserem <a href="/kontakt">Datenschutz</a> zu.</span>
                           </label>
                           <div id="w-node-_48f21bd3-3947-0310-924c-9b51cd6d296a-d9f271cf" class="uui-form-button-wrapper"><input type="submit" value="Send message" data-wait="Please wait..." id="w-node-_48f21bd3-3947-0310-924c-9b51cd6d296b-d9f271cf" class="uui-button-2 w-button"></div>
                         </form>
