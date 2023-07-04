@@ -38,20 +38,17 @@
               <p class="footer-text">info@baucampus.de</p>
             </a>
           </div>
+          <div>
           @php
-                $i=0;
-                @endphp        
-   
-    @foreach($data as $cities)
-    @if ($i++ < 16)
-            <a href="/baugutachter/{{$cities->stadt_umlaut}}" class="list-item-footer w-inline-block">Baugutachter {{$cities->stadt}}</a><br>
-            @else
-    @endif
-    @endforeach
-          
-          
-
-        </div>
+          $i=0;
+          @endphp        
+          @foreach($data as $cities)
+          @if ($i++ < 16)
+          <a href="/baugutachter/{{$cities->stadt_umlaut}}" class="list-item-footer w-inline-block">Baugutachter {{$cities->stadt}}</a>
+          @else
+          @endif
+          @endforeach
+          </div>
       </div>
     </section>
     <section class="section footer wf-section">
