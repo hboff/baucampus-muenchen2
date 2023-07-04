@@ -44,7 +44,8 @@
           @endphp        
           @foreach($data as $cities)
           @if ($i++ < 16)
-          <a href="/baugutachter/{{$cities->stadt_umlaut}}" class="list-item-footer">Baugutachter {{$cities->stadt}}</a>
+          <a href="/baugutachter/{{$cities->stadt_umlaut}}" style="color: white;">Baugutachter {{$cities->stadt}}</a>
+
           @else
           @endif
           @endforeach
