@@ -29,11 +29,11 @@
             </div>
           </div>
           <div id="w-node-_4aa0d7f3-2a4a-6a6b-69be-35f8e8412105-e84120df">
-            <a href="tel:+35391760711" class="list-item-footer w-inline-block">
+            <a href="tel:+35391760711">
               <p id="w-node-_4aa0d7f3-2a4a-6a6b-69be-35f8e8412107-e84120df" class="footer-text"><strong>T:</strong></p>
               <p class="footer-text">+49 5722 913800</p>
             </a>
-            <a href="#" class="list-item-footer w-inline-block">
+            <a href="#" >
               <p id="w-node-_4aa0d7f3-2a4a-6a6b-69be-35f8e841210d-e84120df" class="footer-text"><strong>E:</strong></p>
               <p class="footer-text">info@baucampus.de</p>
             </a>
@@ -48,11 +48,9 @@
           @else
           @endif
           @endforeach
+          <p id="w-node-_4aa0d7f3-2a4a-6a6b-69be-35f8e84120fd-e84120df" class="footer-text copyright">© 2023 Baucampus by <a href="https://ariet.is" target="_blank">Arietis </a>- <a href="legal/impressum">Impressum</a> - <a href="legal/datenschutz">Datenschutz</a>
+          </p>
           </div>
       </div>
-    </section>
-    <section class="section footer wf-section">
-      <p id="w-node-_4aa0d7f3-2a4a-6a6b-69be-35f8e84120fd-e84120df" class="footer-text copyright">© 2023 Baucampus by <a href="https://ariet.is" target="_blank">Arietis </a>- <a href="legal/impressum">Impressum</a> - <a href="legal/datenschutz">Datenschutz</a>
-          </p>
     </section>
   </footer>
