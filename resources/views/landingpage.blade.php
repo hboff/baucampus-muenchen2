@@ -34,7 +34,7 @@
     <div data-collapse="medium" data-animation="default" data-duration="400" data-w-id="9962d9cc-619f-1e92-7f2b-747f23a87122" data-easing="ease" data-easing2="ease" role="banner" class="navbar w-nav">
       <div class="container flex">
         <a href="index.html" class="brand w-nav-brand">
-          <div class="logo-wrapper"><img src="images/logo.png" loading="lazy" width="49" sizes="49px" srcset="images/logo-p-500.png 500w, images/logo-p-800.png 800w, images/logo-p-1080.png 1080w, images/logo.png 1172w" alt="">
+          <div class="logo-wrapper"><img src="/images/logo.png" loading="lazy" width="49" sizes="49px" srcset="/images/logo-p-500.png 500w, /images/logo-p-800.png 800w, /images/logo-p-1080.png 1080w, /images/logo.png 1172w" alt="">
             <div class="text-logo-wrapper">
               <div class="logo-text">Baucampus<br></div>
               <div class="logo-text subtext">München</div>
@@ -114,7 +114,7 @@
           <div class="uui-blogpost04_image-wrapper"></div>
           <div data-hover="true" data-delay="0" data-w-id="3136068b-5c85-f9f4-53cb-ddae8a5af0b6" class="brix---dropdown-wrapper w-dropdown">
             <div class="brix---dropdown-toggle w-dropdown-toggle">
-              <div>Verzeichnis</div><img src="images/line-rounded-chevron-down-black-brix-templates.svg" data-w-id="3136068b-5c85-f9f4-53cb-ddae8a5af0ba" style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0)" alt="Icon Rounded Chevron Dark - BRIX Templates" class="brix---dropdown-chevron">
+              <div>Verzeichnis</div><img src="/images/line-rounded-chevron-down-black-brix-templates.svg" data-w-id="3136068b-5c85-f9f4-53cb-ddae8a5af0ba" style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0)" alt="Icon Rounded Chevron Dark - BRIX Templates" class="brix---dropdown-chevron">
             </div>
             <nav class="brix---dropdown-column-wrapper w-dropdown-list">
               <div data-w-id="3136068b-5c85-f9f4-53cb-ddae8a5af0bc" style="display:none;height:0px;opacity:0;-webkit-transform:translate3d(null, 10px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(null, 10px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(null, 10px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(null, 10px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="brix---dropdown-card">
@@ -139,7 +139,7 @@
                 <h4>Introduktion</h4>
                 <p>Durch seine <strong>hohe Sachkunde</strong> und seine <strong>fachliche Kompetenz</strong> ist der Bausachverständige der Fachmann, der bei allen Baumaßnahmen in Berlin frühzeitig hinzugezogen werden sollte.</p>
                 <figure style="max-width:" class="w-richtext-align-floatright w-richtext-figure-type-image">
-                  <div><img src="images/Blog-Image-9.jpg" loading="lazy" alt="Office setting"></div>
+                  <div><img src="/images/Blog-Image-9.jpg" loading="lazy" alt="Office setting"></div>
                 </figure>
                 <p>Die <strong>Aufgabenbereiche</strong> des Sachverständigen sind vielfältig und reichen von der Beratung bei einem <strong>Bauschaden</strong> über die <strong>Baubegleitung</strong> eines Neubaus bis hin zur <strong>Hauskaufberatung</strong> und <strong>Energieberatung</strong>. Durch seine hohe Sachkunde und seine fachliche Kompetenz ist der Immobiliengutachter ihr Ansprechpartner bei allen Baumaßnahmen in Berlin, der frühzeitig hinzugezogen werden sollte, um Fehleinschätzungen zu vermeiden.</p>
                 <p>Auf den folgenden Seiten können Sie sich einen Einblick in das <strong>Leistungsspektrum</strong> unser Bausachverständige, Baugutachter und Immobiliengutachter in <strong>Berlin</strong> verschaffen. Selbstverständlich können Sie sich auch <strong>telefonisch</strong> oder <strong>per E-Mail</strong> über unsere Leistungen rund um ihre Immobilie informieren lassen.</p>
@@ -148,18 +148,18 @@
               <div id="Baubegleitung">
                 <div class="uui-text-rich-text w-richtext">
                   <h4>Baubegleitung</h4>
-                  <p>Die <strong>baubegleitende Qualitätssicherung</strong> in  Berlin , kurz Baubegleitung, durch einen Bausachverständigen ermöglicht ihnen als Bauherrn eine <strong>neutrale Qualitätskontrolle</strong> für den Bau oder den Umbau ihrer Immobilie. </p>
+                  <p>Die <strong>baubegleitende Qualitätssicherung</strong> in {{$city->stadt}} , kurz Baubegleitung, durch einen Bausachverständigen ermöglicht ihnen als Bauherrn eine <strong>neutrale Qualitätskontrolle</strong> für den Bau oder den Umbau ihrer Immobilie. </p>
                   <figure class="w-richtext-align-floatright w-richtext-figure-type-image">
-                    <div><img src="images/baubegleitung.jpeg" alt="Berlin Bausachverständiger bei der Baubegleitung"></div>
+                    <div><img src="/images/baubegleitung.jpeg" alt="Berlin Bausachverständiger bei der Baubegleitung"></div>
                   </figure>
                   <p>Durch die <strong>steigende Konkurrenz</strong> und den Kostendruck in der Baubranche leidet die <strong>Bauqualität</strong> in der heutigen Zeit immer mehr. Hier kann ein Gutachter helfend eingreifen. Im Rahmen einer baubegleitenden Qualitätssicherung (Baubegleitung) stellt ihr Baugutachter sicher, dass die <strong>Baubeschreibung</strong>, die <strong>Bauplanung</strong> und im weiteren Verlauf auch die <strong>Bauausführung</strong> übereinstimmen. Ein Bausachverständiger sollte schon bereits vor dem Unterzeichnen der Bauunterlagen hinzugezogen werden, um mögliche <strong>Planungsfehler</strong> und teure Umwege zu vermeiden. </p>
                   <p>Hierzu bieten wir in unserem Ersttermin die <strong>Prüfung der Unterlagen</strong> auf Plausibilität und Vollständigkeit sowie eine Überprüfung der Bauunterlagen in fachtechnischer und qualitätstechnischer Hinsicht an. Zu einem vollständigen Ersttermin im Rahmen der qualitätssichernden Baubegleitung gehört auch die Besichtigung des Grundstücks, um auch hier im Hinblick auf Baugrund und Lage des Gebäudes <strong>kostenintensive Fehler</strong> zu vermeiden</p>
-                  <p>Nach dem eigentlichen <strong>Baubeginn</strong> in  Berlin  werden durch den Sachverständigen einzelne Routinetermine, also Baustellentermine, wahrgenommen, die nach der Fertigstellung einzelner Bauabschnitte erfolgen.</p>
+                  <p>Nach dem eigentlichen <strong>Baubeginn</strong> in {{$city->stadt}}  werden durch den Sachverständigen einzelne Routinetermine, also Baustellentermine, wahrgenommen, die nach der Fertigstellung einzelner Bauabschnitte erfolgen.</p>
                   <p>Diese <strong>Bauabschnitte</strong> sind z.B. nach der Fertigstellung des Kellers inkl. der Abdichtung, der Erstellung des Rohbaus und des Dachstuhls oder vor dem Einbringen des Innenputzes, nach erfolgter Elektro- und Sanitärinstallation errecht.</p>
                   <p>Kurz gesagt, alle Arbeiten, die durch eines der nachfolgenden <strong>Gewerke</strong> verdeckt werden, werden im Verlauf der Baubegleitung durch den Baugutachter in Augenschein genommen. So wird sichergestellt, dass evtl. <strong>Mängel</strong> zeitnah erkannt und schnellst möglichst <strong>beseitigt werden</strong>, damit der Bauablauf nicht gestört und wird und sich nicht verzögert. Denn jeder Fehler auf der Baustelle kostet ihr Geld und ihre Nerven.</p>
                   <p>Am Ende der Bauphase steht die <strong>Bauabnahme</strong> oder auch <strong>Schlussabnahme</strong>. Dieser Abnahmetermin ist für den Bauherrn besonders wichtig, da zum einen meist die letzte Rate für die Bauleistung fällig wird, zum anderen sich die <strong>Beweislast umkehrt</strong> und die Verjährungsfrist beginnt. Daher sollte die Abnahme nicht ohne <strong>qualifizierte Unterstützung</strong> durch einen Bausachverständigen durchgeführt werden. Anlässlich dieses Termins werden alle evtl. vorhandenen Mängel aufgenommen, aufgelistet und den Handwerkern oder dem Bauträger mit der Auflage zur zeitnahen Beseitigung der Mängel übergeben.</p>
                   <figure style="max-width:" class="w-richtext-align-floatleft w-richtext-figure-type-image">
-                    <div><img src="images/baubegleitung_1.jpeg" alt="Immobiliengutachter hilft bei Baubegleitung"></div>
+                    <div><img src="/images/baubegleitung_1.jpeg" alt="Immobiliengutachter hilft bei Baubegleitung"></div>
                   </figure>
                   <p>Weiter wird die Vollständigkeit der vorhandenen Bauunterlagen geprüft und so manche kleinere Unstimmigkeit aus dem Weg geräumt, damit sie <strong>ohne Sorgen</strong> in ihr neues Heim <strong>einziehen</strong> können. </p>
                   <p>Alle Termine, die unsere Sachverständigen im Rahmen der <strong>baubegleitenden Qualitätssicherung</strong> durchführen, können flexibel als <strong>Einzeltermine beauftragt</strong> werden. So können sie für ihr Bauprojekt sicherstellen, dass genau zu der Zeit, wenn sie <strong>Hilfe</strong> auf der Baustelle benötigen, unsere Bausachverständigen für sie da sind.</p>
@@ -171,7 +171,7 @@
                   <h4>Bausachverständiger - Bauschaden und Baumangel</h4>
                   <p>Das Thema <strong> Bauschaden</strong> und Baumangel an einem Gebäude ist breit gefächert und reicht von tatsächlich gebauten Mängeln über <strong>Feuchteschäden</strong> zu <strong>Schimmelpilzschäden</strong> und von <strong>Sturmschäden</strong> und <strong>Hagelschäden</strong> über <strong>Brandschäden</strong> bis hin zu <strong> Unfallschaden und Anfahrschaden</strong>. Bei all diesen Bauschäden kann ein Bausachverständiger eine neutrale Ursachenermittlung sowie eine fachlich kompetente Einschätzung vornehmen und helfen, das <strong> Ausmaß des Schadens zu begrenzen</strong>. </p>
                   <figure class="w-richtext-align-floatright w-richtext-figure-type-image">
-                    <div><img src="images/bauschaden.jpeg" alt="Untersuchung Bauschaden Berlin"></div>
+                    <div><img src="/images/bauschaden.jpeg" alt="Untersuchung Bauschaden Berlin"></div>
                   </figure>
                   <p>Gerade Feuchteschäden und die häufig damit einhergehende Bildung von <strong> Schimmelpilz</strong> ist nicht nur ein optisches Problem, sondern kann auch <strong>gesundheitliche Beeinträchtigungen</strong> nach sich ziehen. Gerade hier ist eine schnelle und versierte Beratung durch einen Baugutachter notwendig, um die möglichen Folgeschäden durch zu späte oder falsche Maßnahmen zu vermeiden.</p>
                   <p>Doch auch <strong>Baumängel</strong>, die aufgrund von Umbau und Modernisierungsmaßnahmen entstanden sind, können neben den optischen auch häufig <strong>funktionelle Beeinträchtigungen</strong> nach sich ziehen und bedürfen der Begutachtung durch einen Bausachverständigen. Nur so erhält ein Bauherr die richtigen Informationen, um gegenüber den Handwerkern mit der notwendigen Sicherheit auftreten zu können und gemeinsam mit dem Bausachverständigen diese auch durchzusetzen.</p>
@@ -192,13 +192,13 @@
                   <h4>Hauskaufberatung in Berlin</h4>
                   <p>Beim Kauf eines <strong>Hauses</strong> oder einer <strong>Eigentumswohnung</strong> in Berlin stellen sich dem Käufer viele Fragen, denn die <strong>Bausubstanz</strong>, der energetische Zustand oder auch der mögliche Sanierungsbedarf eines Gebäudes in Berlin lassen sich nur schwer abschätzen. Gerade in der jetzigen Zeit entsteht aufgrund der hohen Nachfrage nach Häusern und Eigentumswohnungen ein enormer Druck, der von ihnen als Käufer eine <strong>schnelle Entscheidung</strong> verlangt. Doch gerade hier ist besondere Vorsicht geboten, denn beim Hauskauf gilt: gekauft wie besehen!</p>
                   <figure class="w-richtext-align-floatleft w-richtext-figure-type-image">
-                    <div><img src="images/hauskaufberatung.jpeg" alt="Berlin Hauskaufberatung mit Immobiliengutachter"></div>
+                    <div><img src="/images/hauskaufberatung.jpeg" alt="Berlin Hauskaufberatung mit Immobiliengutachter"></div>
                   </figure>
                   <p>Mit einer professionellen und unabhängigen Hauskaufberatung in Berlin durch unsere Bausachverständigen gehen Sie hier den richtigen Schritt, um <strong>schwerwiegende Fehlentscheidungen</strong> zu vermeiden und ein Haus oder eine Eigentumswohnung in Berlin auf der Basis klarer zu erwerben. </p>
                   <p>Im Vorfeld der Hauskaufberatung prüft ihr <strong>Bausachverständiger</strong> die vorhandenen Unterlagen, meist das Exposé und bereitet den Termin anhand der Eckdaten des Gebäudes durch eine Marktwerteinschätzung vor. Vor Ort begeht der Sachverständige mit Ihnen gemeinsam die Immobilie, die Sie erwerben möchten. Er stellt den <strong>baulichen Zustand</strong>, den eventuellen Sanierungsbedarf und den energetischen Zustand des Objektes fest. Oft sind es Kleinigkeiten, wie ein unscheinbarer Fleck, Holzmehl oder leichte Verfärbungen, die dem geschulten Auge des Bausachverständigen Hinweise auf durchfeuchtete Dämmungen, Schädlingsbefall durch Insekten oder Abdichtungsschäden geben. Zudem beantwortet der Baugutachter Fragestellungen, auf die es Ihnen besonders ankommt, z.B. welche <strong>Umbau-</strong> und <strong>Modernisierungsmaßnahmen</strong> notwendig oder möglich sind und selbstverständlich auch, welche energetischen Sanierungsmaßnahmen Sie in Betracht ziehen sollten.</p>
                   <p>Im Anschluss an die Besichtigung der Immobilie in Berlin findet eine abschließende Besprechung statt. Im Rahmen dieses Gesprächs erörtert ihnen ihr Immobiliengutachter noch einmal den baulichen Zustand und schätzt den evtl. vorhandenen Sanierungsbedarf. Weiter gibt ihr Gutachter ihnen gezielte <strong>Ratschläge</strong>, wie sie bei Sanierungs- und Modernisierungsmaßnahmen am besten vorgehen. Kurz gesagt, ihr Bausachverständiger erklärt Ihnen <strong>verständlich</strong> und klar <strong>nachvollziehbar</strong> noch einmal alle Fakten, die Sie zum Kauf der Immobilie wissen müssen. </p>
                   <figure class="w-richtext-align-floatright w-richtext-figure-type-image">
-                    <div><img src="images/haus.jpeg" alt="Baugutachter bei der Hauskaufberatung"></div>
+                    <div><img src="/images/haus.jpeg" alt="Baugutachter bei der Hauskaufberatung"></div>
                   </figure>
                   <p>Am Ende der Hauskaufberatung wird aufgrund der vorhandenen Informationen über das Gebäude sowie der <strong>Marktlage</strong> noch einmal neutral betrachtet, ob der Kaufpreis angemessen ist, mit welchen Kosten für Modernisierung und Sanierung unmittelbar nach dem Kauf und mit welchen Kosten auf längere Sicht zu rechnen ist. Die Beratung durch unsere Bausachverständigen beim Kauf eines Hauses oder einer Eigentumswohnung gibt Ihnen <strong>Sicherheit</strong>, sodass Sie ihre Kaufentscheidung beruhigt treffen können und ihre auch auf lange Sicht finanzierbar bleibt.</p>
                   <p>Viele Hauskäufer haben Angst vor hohen Kosten, die durch die <strong>Begutachtung</strong> einer Immobilie durch einen <strong>Bausachverständigen</strong> entstehen könnten. Dabei ist die Besorgnis unbegründet, da die Kosten für einen Bausachverständigen im Verhältnis zum Kauf verschwindend gering sind. Dennoch ist für den Käufer diese &quot;Investion&quot; fast unabdingbar, um schwerwiegende finanzielle Fehler beim Kauf des Hauses zu vermeiden.</p>
@@ -248,7 +248,7 @@
               </div>
             </div>
             <div class="uui-blogpost04_newsletter">
-              <div class="uui-heading-xsmall">Olivier Schmidt</div><img src="images/thispersondoesnotexist5.jpg" loading="lazy" width="132" sizes="(max-width: 479px) 50vw, 132px" srcset="images/thispersondoesnotexist5-p-500.jpg 500w, images/thispersondoesnotexist5-p-800.jpg 800w, images/thispersondoesnotexist5.jpg 1024w" alt="" class="image-2">
+              <div class="uui-heading-xsmall">Olivier Schmidt</div><img src="/images/thispersondoesnotexist5.jpg" loading="lazy" width="132" sizes="(max-width: 479px) 50vw, 132px" srcset="/images/thispersondoesnotexist5-p-500.jpg 500w, /images/thispersondoesnotexist5-p-800.jpg 800w, /images/thispersondoesnotexist5.jpg 1024w" alt="" class="image-2">
               <section class="uui-section_contact01">
                 <div class="uui-page-padding-3">
                   <div class="uui-container-small">
@@ -302,14 +302,14 @@
                 </div>
                 <div>
                   <div class="w-layout-grid brix---grid-1-column-gap-row-24px">
-                    <a href="http://contact@example.com" class="brix---link-wrapper-color-primary w-inline-block"><img src="images/line-rounded-email-accent-brix-templates.svg" loading="lazy" alt="Email - Elements Webflow Library - BRIX Templates" class="brix---link-icon-left">
+                    <a href="http://contact@example.com" class="brix---link-wrapper-color-primary w-inline-block"><img src="/images/line-rounded-email-accent-brix-templates.svg" loading="lazy" alt="Email - Elements Webflow Library - BRIX Templates" class="brix---link-icon-left">
                       <div class="text-block-7">kontakt@baucampus.de</div>
                     </a>
-                    <a href="tel:(414)850-0417" class="brix---link-wrapper-color-primary w-inline-block"><img src="images/line-rounded-phone-accent-brix-templates.svg" loading="lazy" alt="Phone - Elements Webflow Library - BRIX Templates" class="brix---link-icon-left">
+                    <a href="tel:(414)850-0417" class="brix---link-wrapper-color-primary w-inline-block"><img src="/images/line-rounded-phone-accent-brix-templates.svg" loading="lazy" alt="Phone - Elements Webflow Library - BRIX Templates" class="brix---link-icon-left">
                       <div class="brix---link-text">+49 5722 913800</div>
                     </a>
                     <div class="brix---icon-pagraph-wrapper">
-                      <div class="brix---icon-mg-top"><img src="images/icon-line-rounded-mark-elements-brix-templates.svg" loading="lazy" alt="Mark Icon - Elements Webflow Library - BRIX Templates" class="brix---link-icon-left"></div>
+                      <div class="brix---icon-mg-top"><img src="/images/icon-line-rounded-mark-elements-brix-templates.svg" loading="lazy" alt="Mark Icon - Elements Webflow Library - BRIX Templates" class="brix---link-icon-left"></div>
                       <p class="brix---paragraph-default-3">Waltherstrasse 18,<br>80337 München</p>
                     </div>
                   </div>
@@ -327,7 +327,7 @@
                     </div>
                   </form>
                   <div class="brix---success-message w-form-done">
-                    <div><img src="images/line-rounded-check-circle-white-brix-templates.svg" alt="Check - Elements Webflow Library - BRIX Templates" class="brix---icon-success-message-big">
+                    <div><img src="/images/line-rounded-check-circle-white-brix-templates.svg" alt="Check - Elements Webflow Library - BRIX Templates" class="brix---icon-success-message-big">
                       <h3 class="brix---color-neutral-803">Thank you</h3>
                       <div>Thanks for reaching out. We will get back to you soon.</div>
                     </div>
