@@ -89,10 +89,10 @@
 @php
 $p = 0;
 @endphp
-@foreach ($expert as $row)
-@if($domainort == $row->stadt_umlaut)
+@foreach ($expert as $es)
+@if($domainort == $ex->stadt)
 @if ($p++ == 1)
-<a href="tel:{{$row->Phone}}" class="button-cta w-button">{{$row->Phone}}</a> 
+<a href="tel:{{$ex->Phone}}" class="button-cta w-button">{{$ex->Phone}}</a> 
 @endif
 @else
 <a href="tel:+495722913800" class="button-cta w-button">+49 5722 913800</a>
