@@ -284,7 +284,7 @@
         </div>
         <div id="w-node-a8ad3526-f411-3c20-8d7e-29f2c8f8b986-d9f271bb">
           <p>Baucampus ist ein Netzwerk von Immobilienexperten. Diese Plattform bringt Immobilienexperten zusammen und bietet vielfältiges Fachwissen in verschiedenen Bereichen der Immobilienbranche. Baucampus-Mitglieder sind in der Lage, genaue Immobilienbewertungen und -Schadensfeststellungen abzugeben und so zu einem transparenteren und effizienteren Immobilienmarkt beizutragen. Die Dienstleistungen von Baucampus können für jede Einzelperson oder jedes Unternehmen, das Immobilien kaufen, verkaufen, vermieten oder in Immobilien investieren möchte, von unschätzbarem Wert sein.</p>
-          <a href="/csr" class="button-main w-button">Mehr Erfahren</a>
+          <a href="https://baucampus.com" class="button-main w-button">Mehr Erfahren</a>
         </div>
       </div>
     </div>
