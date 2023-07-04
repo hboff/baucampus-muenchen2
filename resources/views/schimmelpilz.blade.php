@@ -3,12 +3,12 @@
 <html data-wf-page="648d0891096d52bfd9f271d7" data-wf-site="648d0891096d52bfd9f271dc" lang="fr">
 <head>
   <meta charset="utf-8">
-  <title>Schimmelpilz Beratung - Baucampus STADT</title>
-  <meta content="Bekämpfen Sie Schimmelpilzbefall effektiv mit unserer professionellen Beratung in [STADT]. Unsere Experten analysieren, beraten und unterstützen Sie bei der Beseitigung und Prävention von Schimmelproblemen. Baucampus [STADT] - Ihr verlässlicher Partner gegen Schimmel." name="description">
-  <meta content="Schimmelpilz Beratung - Baucampus STADT" property="og:title">
-  <meta content="Bekämpfen Sie Schimmelpilzbefall effektiv mit unserer professionellen Beratung in [STADT]. Unsere Experten analysieren, beraten und unterstützen Sie bei der Beseitigung und Prävention von Schimmelproblemen. Baucampus [STADT] - Ihr verlässlicher Partner gegen Schimmel." property="og:description">
-  <meta content="Schimmelpilz Beratung - Baucampus STADT" property="twitter:title">
-  <meta content="Bekämpfen Sie Schimmelpilzbefall effektiv mit unserer professionellen Beratung in [STADT]. Unsere Experten analysieren, beraten und unterstützen Sie bei der Beseitigung und Prävention von Schimmelproblemen. Baucampus [STADT] - Ihr verlässlicher Partner gegen Schimmel." property="twitter:description">
+  <title>Schimmelpilz Beratung - Baucampus {{$domainort}}</title>
+  <meta content="Bekämpfen Sie Schimmelpilzbefall effektiv mit unserer professionellen Beratung in [{{$domainort}}]. Unsere Experten analysieren, beraten und unterstützen Sie bei der Beseitigung und Prävention von Schimmelproblemen. Baucampus [{{$domainort}}] - Ihr verlässlicher Partner gegen Schimmel." name="description">
+  <meta content="Schimmelpilz Beratung - Baucampus {{$domainort}}" property="og:title">
+  <meta content="Bekämpfen Sie Schimmelpilzbefall effektiv mit unserer professionellen Beratung in [{{$domainort}}]. Unsere Experten analysieren, beraten und unterstützen Sie bei der Beseitigung und Prävention von Schimmelproblemen. Baucampus [{{$domainort}}] - Ihr verlässlicher Partner gegen Schimmel." property="og:description">
+  <meta content="Schimmelpilz Beratung - Baucampus {{$domainort}}" property="twitter:title">
+  <meta content="Bekämpfen Sie Schimmelpilzbefall effektiv mit unserer professionellen Beratung in [{{$domainort}}]. Unsere Experten analysieren, beraten und unterstützen Sie bei der Beseitigung und Prävention von Schimmelproblemen. Baucampus [{{$domainort}}] - Ihr verlässlicher Partner gegen Schimmel." property="twitter:description">
   <meta property="og:type" content="website">
   <meta content="summary_large_image" name="twitter:card">
   <meta content="width=device-width, initial-scale=1" name="viewport">
@@ -33,7 +33,7 @@
         <div class="logo-wrapper"><img src="../images/logo.png" loading="lazy" width="49" sizes="49px" srcset="../images/logo-p-500.png 500w, ../images/logo-p-800.png 800w, ../images/logo-p-1080.png 1080w, ../images/logo.png 1172w" alt="">
           <div class="text-logo-wrapper">
             <div class="logo-text">Baucampus</div>
-            <div class="logo-text subtext">München</div>
+            <div class="logo-text subtext">{{$domainort}}</div>
           </div>
         </div>
       </a>
@@ -102,7 +102,7 @@
             <div class="logo-wrapper"><img src="../images/logo.png" loading="lazy" width="49" sizes="49px" srcset="../images/logo-p-500.png 500w, ../images/logo-p-800.png 800w, ../images/logo-p-1080.png 1080w, ../images/logo.png 1172w" alt="">
               <div class="text-logo-wrapper">
                 <div class="logo-text">Baucampus<br></div>
-                <div class="logo-text subtext">München</div>
+                <div class="logo-text subtext">{{$domainort}}</div>
               </div>
             </div>
           </a>
@@ -170,7 +170,7 @@
             <div class="logo-wrapper"><img src="../images/logo.png" loading="lazy" width="49" sizes="49px" srcset="../images/logo-p-500.png 500w, ../images/logo-p-800.png 800w, ../images/logo-p-1080.png 1080w, ../images/logo.png 1172w" alt="">
               <div class="text-logo-wrapper">
                 <div class="logo-text">Baucampus</div>
-                <div class="logo-text subtext">München</div>
+                <div class="logo-text subtext">{{$domainort}}</div>
               </div>
             </div>
           </a>
@@ -236,7 +236,7 @@
             <div class="logo-wrapper"><img src="../images/logo.png" loading="lazy" width="49" sizes="49px" srcset="../images/logo-p-500.png 500w, ../images/logo-p-800.png 800w, ../images/logo-p-1080.png 1080w, ../images/logo.png 1172w" alt="">
               <div class="text-logo-wrapper">
                 <div class="logo-text">Baucampus</div>
-                <div class="logo-text subtext">München</div>
+                <div class="logo-text subtext">{{$domainort}}</div>
               </div>
             </div>
           </a>
