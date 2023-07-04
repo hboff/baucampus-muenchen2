@@ -97,7 +97,7 @@ $p = 0;
 @endphp
 
 @foreach ($expert as $row)
-    @if ($orstname == $row->stadt_umlaut)
+    @if ($ortsname == $row->stadt_umlaut)
         @if ($p++ == 1)
             <a href="tel:{{$row->Phone}}" class="button-cta w-button">{{$row->Phone}}</a> 
         @endif
