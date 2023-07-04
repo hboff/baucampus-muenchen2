@@ -94,11 +94,12 @@ $p = 0;
 @if ($p++ == 1)
 <a href="tel:{{$row->Phone}}" class="button-cta w-button">{{$row->Phone}}</a> 
 @endif
-@endif
-@if ($p == 0)
+@else
 <a href="tel:+495722913800" class="button-cta w-button">+49 5722 913800</a>
+@break
 @endif
 @endforeach
+
       </nav>
       <div class="menu-button w-nav-button">
         <div class="w-icon-nav-menu"></div>
@@ -175,11 +176,12 @@ $p = 0;
 @if ($p++ == 1)
 <a href="tel:{{$row->Phone}}" class="button-cta w-button">{{$row->Phone}}</a> 
 @endif
-@endif
-@if ($p == 0)
+@else
 <a href="tel:+495722913800" class="button-cta w-button">+49 5722 913800</a>
+@break
 @endif
 @endforeach
+
           </nav>
           <div class="menu-button w-nav-button">
             <div class="w-icon-nav-menu"></div>
@@ -334,25 +336,11 @@ $p = 0;
 @if ($p++ == 1)
 <a href="tel:{{$row->Phone}}" class="button-cta w-button">{{$row->Phone}}</a> 
 @endif
-@endif
-@if ($p == 0)
+@else
 <a href="tel:+495722913800" class="button-cta w-button">+49 5722 913800</a>
+@break
 @endif
-@endforeach
-          </nav>
-          <div class="menu-button w-nav-button">
-            <div class="w-icon-nav-menu"></div>
-          </div>
-        </div>
-      </div>
-    </div><img src="../images/Trimble-GPS-Machine-Control-.webp" loading="lazy" sizes="100vw" srcset="../images/Trimble-GPS-Machine-Control--p-500.webp 500w, ../images/Trimble-GPS-Machine-Control--p-800.webp 800w, ../images/Trimble-GPS-Machine-Control-.webp 1024w" alt="" class="background-img">
-  </div>
-  <div data-w-id="4c341b8b-2ef7-5a8c-1192-6185da71e66f" class="section sub-main wf-section">
-    <div class="container">
-      <div class="column-grid-post-main two">
-        <div data-w-id="04297b0d-1249-7c77-a3e2-8c234f4ef296" style="opacity:0" class="card-name-text">Schimmelpilz</div>
-        <div data-w-id="04297b0d-1249-7c77-a3e2-8c234f4ef293" style="opacity:0">
-          <p><em>Sagen Sie Schimmel den Kampf an und stellen Sie den Wert und die Gesundheit Ihres Zuhauses wieder her. Mit unserer professionellen Schimmelpilzberatung decken wir die Ursachen auf, schlagen effiziente Sanierungsmaßnahmen vor und überprüfen deren Erfolg. Gemeinsam verwandeln wir Ihre Immobilie in ein sicheres, schimmelfreies Zuhause, in dem Sie und Ihre Mieter beruhigt und gesund leben können.</em><br></p>
+@endforeachziente Sanierungsmaßnahmen vor und überprüfen deren Erfolg. Gemeinsam verwandeln wir Ihre Immobilie in ein sicheres, schimmelfreies Zuhause, in dem Sie und Ihre Mieter beruhigt und gesund leben können.</em><br></p>
         </div>
       </div>
     </div>
