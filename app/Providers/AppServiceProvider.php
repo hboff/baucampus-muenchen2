@@ -7,6 +7,7 @@ use Illuminate\Support\Facades\View;
 use App\Models\Ort;
 use App\Models\Orteat;
 use App\Models\Gutachter;
+use App\Models\Media;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -30,5 +31,6 @@ class AppServiceProvider extends ServiceProvider
         View::share('ort', Ort::all());
         View::share('ortat', Orteat::all());
         View::share('gutachter', Gutachter::all());
+        View::Share('media', Media::all());
     }
 }
