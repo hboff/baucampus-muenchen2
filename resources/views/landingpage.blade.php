@@ -229,6 +229,9 @@
                 </div>
               </div>
             </div>
+            @php
+$p = 0;
+@endphp
             @foreach ($expert as $row)
 @if($ortsname == $row->stadt)
 @if ($p++ < 2)
