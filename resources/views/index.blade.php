@@ -89,14 +89,15 @@
         @php
 $p = 0;
 @endphp
-        @foreach ($expert as $row)
-@if($domainort == $row->stadt)
+@foreach ($expert as $row)
 @if ($p++ == 1)
+@if($domainort == $row->stadt)
         <a href="tel:{{$row->Phone}}" class="button-cta w-button">{{$row->Phone}}</a>
-        
-        @endif
         @else
+        
         <a href="tel:+495722913800" class="button-cta w-button">+49 5722 913800</a>
+        @endif
+        
         @endif
         @endforeach
 
