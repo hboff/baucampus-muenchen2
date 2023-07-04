@@ -233,7 +233,7 @@
 $p = 0;
 @endphp
 @foreach ($expert as $row)
-@if($ortsname == $row->stadt)
+@if($ortsname == $row->stadt_umlaut)
 @if ($p++ == 1)            
 
             <div class="uui-blogpost04_newsletter">
