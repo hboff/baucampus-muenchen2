@@ -48,6 +48,11 @@ $domains = [
         'breitengrad' => [47.79, 48.9],
         'domainort' => 'München',
     ],
+    'bausachverstaendiger-berlin.com' => [
+        'laengengrad' => [12.71, 15.2],
+        'breitengrad' => [51.68, 53.14],
+        'domainort' => 'Berlin',
+    ],
     
 ];
 
