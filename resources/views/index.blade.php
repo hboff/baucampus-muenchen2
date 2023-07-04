@@ -88,18 +88,22 @@
         <a href="kontakt" class="nav-link w-nav-link">Kontakt</a>
         @php
 $p = 0;
+$found = false;
 @endphp
+
 @foreach ($expert as $row)
-@if ($p++ == 1)
-@if($domainort == $row->stadt)
-        <a href="tel:{{$row->Phone}}" class="button-cta w-button">{{$row->Phone}}</a>
-        @else
-        
-        <a href="tel:+495722913800" class="button-cta w-button">+49 5722 913800</a>
+    @if ($domainort == $row->stadt)
+        @if ($p++ == 1)
+            <a href="tel:{{$row->Phone}}" class="button-cta w-button">{{$row->Phone}}</a>
+            @php $found = true; @endphp
         @endif
-        
-        @endif
-        @endforeach
+    @endif
+@endforeach
+
+@if (!$found)
+    <a href="tel:+495722913800" class="button-cta w-button">+49 5722 913800</a>
+@endif
+
 
       </nav>
       <div class="menu-button w-nav-button">
