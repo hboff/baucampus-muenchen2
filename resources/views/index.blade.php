@@ -93,9 +93,10 @@ $p = 0;
 @if($domainort == $row->stadt)
 @if ($p++ == 1)
         <a href="tel:{{$row->Phone}}" class="button-cta w-button">{{$row->Phone}}</a>
+        
+        @endif
         @else
         <a href="tel:+495722913800" class="button-cta w-button">+49 5722 913800</a>
-        @endif
         @endif
         @endforeach
 
