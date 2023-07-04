@@ -3,12 +3,12 @@
 <html data-wf-page="648d0891096d52bfd9f271c9" data-wf-site="648d0891096d52bfd9f271dc" lang="fr">
 <head>
   <meta charset="utf-8">
-  <title>Immobilienbewertung - Baucampus STADT</title>
-  <meta content="Lassen Sie Ihre Immobilie von unseren Experten in [STADT] bewerten. Mit unserer Erfahrung und Marktkenntnis garantieren wir eine faire und realistische Einschätzung Ihres Eigentums. Baucampus [STADT] - Ihr professioneller Partner für Immobilienbewertungen." name="description">
-  <meta content="Immobilienbewertung - Baucampus STADT" property="og:title">
-  <meta content="Lassen Sie Ihre Immobilie von unseren Experten in [STADT] bewerten. Mit unserer Erfahrung und Marktkenntnis garantieren wir eine faire und realistische Einschätzung Ihres Eigentums. Baucampus [STADT] - Ihr professioneller Partner für Immobilienbewertungen." property="og:description">
-  <meta content="Immobilienbewertung - Baucampus STADT" property="twitter:title">
-  <meta content="Lassen Sie Ihre Immobilie von unseren Experten in [STADT] bewerten. Mit unserer Erfahrung und Marktkenntnis garantieren wir eine faire und realistische Einschätzung Ihres Eigentums. Baucampus [STADT] - Ihr professioneller Partner für Immobilienbewertungen." property="twitter:description">
+  <title>Immobilienbewertung - Baucampus {{$domainort}}</title>
+  <meta content="Lassen Sie Ihre Immobilie von unseren Experten in {{$domainort}} bewerten. Mit unserer Erfahrung und Marktkenntnis garantieren wir eine faire und realistische Einschätzung Ihres Eigentums. Baucampus {{$domainort}} - Ihr professioneller Partner für Immobilienbewertungen." name="description">
+  <meta content="Immobilienbewertung - Baucampus {{$domainort}}" property="og:title">
+  <meta content="Lassen Sie Ihre Immobilie von unseren Experten in {{$domainort}} bewerten. Mit unserer Erfahrung und Marktkenntnis garantieren wir eine faire und realistische Einschätzung Ihres Eigentums. Baucampus {{$domainort}} - Ihr professioneller Partner für Immobilienbewertungen." property="og:description">
+  <meta content="Immobilienbewertung - Baucampus {{$domainort}}" property="twitter:title">
+  <meta content="Lassen Sie Ihre Immobilie von unseren Experten in {{$domainort}} bewerten. Mit unserer Erfahrung und Marktkenntnis garantieren wir eine faire und realistische Einschätzung Ihres Eigentums. Baucampus {{$domainort}} - Ihr professioneller Partner für Immobilienbewertungen." property="twitter:description">
   <meta property="og:type" content="website">
   <meta content="summary_large_image" name="twitter:card">
   <meta content="width=device-width, initial-scale=1" name="viewport">
@@ -33,7 +33,7 @@
         <div class="logo-wrapper"><img src="../images/logo.png" loading="lazy" width="49" sizes="49px" srcset="../images/logo-p-500.png 500w, ../images/logo-p-800.png 800w, ../images/logo-p-1080.png 1080w, ../images/logo.png 1172w" alt="">
           <div class="text-logo-wrapper">
             <div class="logo-text">Baucampus<br></div>
-            <div class="logo-text subtext">München</div>
+            <div class="logo-text subtext">{{$domainort}}</div>
           </div>
         </div>
       </a>

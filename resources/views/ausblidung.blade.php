@@ -3,12 +3,12 @@
 <html data-wf-page="64986a10967f83483932a627" data-wf-site="648d0891096d52bfd9f271dc" lang="fr">
 <head>
   <meta charset="utf-8">
-  <title>Ausblidung - Baucampus STADT</title>
-  <meta content="Starten Sie Ihre Karriere im Bauwesen in [STADT] mit einer Ausbildung bei Baucampus. Lernen Sie von unseren erfahrenen Experten und profitieren Sie von unserem praxisorientierten Lehrplan. Baucampus [STADT] - Ihre Chance für eine erfolgreiche Zukunft im Bauwesen." name="description">
-  <meta content="Ausblidung - Baucampus STADT" property="og:title">
-  <meta content="Starten Sie Ihre Karriere im Bauwesen in [STADT] mit einer Ausbildung bei Baucampus. Lernen Sie von unseren erfahrenen Experten und profitieren Sie von unserem praxisorientierten Lehrplan. Baucampus [STADT] - Ihre Chance für eine erfolgreiche Zukunft im Bauwesen." property="og:description">
-  <meta content="Ausblidung - Baucampus STADT" property="twitter:title">
-  <meta content="Starten Sie Ihre Karriere im Bauwesen in [STADT] mit einer Ausbildung bei Baucampus. Lernen Sie von unseren erfahrenen Experten und profitieren Sie von unserem praxisorientierten Lehrplan. Baucampus [STADT] - Ihre Chance für eine erfolgreiche Zukunft im Bauwesen." property="twitter:description">
+  <title>Ausblidung - Baucampus {{$domainort}}</title>
+  <meta content="Starten Sie Ihre Karriere im Bauwesen in {{$domainort}} mit einer Ausbildung bei Baucampus. Lernen Sie von unseren erfahrenen Experten und profitieren Sie von unserem praxisorientierten Lehrplan. Baucampus {{$domainort}} - Ihre Chance für eine erfolgreiche Zukunft im Bauwesen." name="description">
+  <meta content="Ausblidung - Baucampus {{$domainort}}" property="og:title">
+  <meta content="Starten Sie Ihre Karriere im Bauwesen in {{$domainort}} mit einer Ausbildung bei Baucampus. Lernen Sie von unseren erfahrenen Experten und profitieren Sie von unserem praxisorientierten Lehrplan. Baucampus {{$domainort}} - Ihre Chance für eine erfolgreiche Zukunft im Bauwesen." property="og:description">
+  <meta content="Ausblidung - Baucampus {{$domainort}}" property="twitter:title">
+  <meta content="Starten Sie Ihre Karriere im Bauwesen in {{$domainort}} mit einer Ausbildung bei Baucampus. Lernen Sie von unseren erfahrenen Experten und profitieren Sie von unserem praxisorientierten Lehrplan. Baucampus {{$domainort}} - Ihre Chance für eine erfolgreiche Zukunft im Bauwesen." property="twitter:description">
   <meta property="og:type" content="website">
   <meta content="summary_large_image" name="twitter:card">
   <meta content="width=device-width, initial-scale=1" name="viewport">
@@ -33,7 +33,7 @@
         <div class="logo-wrapper"><img src="../images/logo.png" loading="lazy" width="49" sizes="49px" srcset="../images/logo-p-500.png 500w, ../images/logo-p-800.png 800w, ../images/logo-p-1080.png 1080w, ../images/logo.png 1172w" alt="">
           <div class="text-logo-wrapper">
             <div class="logo-text">Baucampus<br></div>
-            <div class="logo-text subtext">München</div>
+            <div class="logo-text subtext">{{$domainort}}</div>
           </div>
         </div>
       </a>

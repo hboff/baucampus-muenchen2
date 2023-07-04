@@ -74,7 +74,7 @@
           <div id="w-node-_4aa0d7f3-2a4a-6a6b-69be-35f8e84120f6-e84120df" class="logo-wrapper fo-footer">
             <div class="text-logo-wrapper for-footer"><img src="images/logo.png" loading="lazy" width="50" height="50" srcset="images/logo-p-500.png 500w, images/logo-p-800.png 800w, images/logo-p-1080.png 1080w, images/logo.png 1172w" sizes="50px" alt="">
               <div class="logo-text">Baucampus</div>
-              <div class="logo-text subtext">München</div>
+              <div class="logo-text subtext">{{$domainort}}</div>
             </div>
           </div>
           <p id="w-node-_4aa0d7f3-2a4a-6a6b-69be-35f8e84120fd-e84120df" class="footer-text copyright">© 2023 Baucampus by <a href="https://ariet.is" target="_blank">Arietis </a>- <a href="legal/impressum">Impressum</a> - <a href="legal/datenschutz">Datenschutz</a>

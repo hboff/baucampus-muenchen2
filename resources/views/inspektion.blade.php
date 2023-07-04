@@ -3,12 +3,12 @@
 <html data-wf-page="649869f63a344d8f4a3df7ae" data-wf-site="648d0891096d52bfd9f271dc" lang="fr">
 <head>
   <meta charset="utf-8">
-  <title>Inspektion - Baucampus STADT</title>
-  <meta content="Vertrauen Sie auf unser geschultes Auge für Ihre Bauprojekte in [STADT]. Unsere erfahrenen Experten bieten detaillierte Inspektionen, um die Qualität und den Fortschritt Ihres Projekts sicherzustellen. Baucampus [STADT] - Ihr Partner für eine zuverlässige Baustellenkontrolle." name="description">
-  <meta content="Inspektion - Baucampus STADT" property="og:title">
-  <meta content="Vertrauen Sie auf unser geschultes Auge für Ihre Bauprojekte in [STADT]. Unsere erfahrenen Experten bieten detaillierte Inspektionen, um die Qualität und den Fortschritt Ihres Projekts sicherzustellen. Baucampus [STADT] - Ihr Partner für eine zuverlässige Baustellenkontrolle." property="og:description">
-  <meta content="Inspektion - Baucampus STADT" property="twitter:title">
-  <meta content="Vertrauen Sie auf unser geschultes Auge für Ihre Bauprojekte in [STADT]. Unsere erfahrenen Experten bieten detaillierte Inspektionen, um die Qualität und den Fortschritt Ihres Projekts sicherzustellen. Baucampus [STADT] - Ihr Partner für eine zuverlässige Baustellenkontrolle." property="twitter:description">
+  <title>Inspektion - Baucampus {{$domainort}}</title>
+  <meta content="Vertrauen Sie auf unser geschultes Auge für Ihre Bauprojekte in {{$domainort}}. Unsere erfahrenen Experten bieten detaillierte Inspektionen, um die Qualität und den Fortschritt Ihres Projekts sicherzustellen. Baucampus {{$domainort}} - Ihr Partner für eine zuverlässige Baustellenkontrolle." name="description">
+  <meta content="Inspektion - Baucampus {{$domainort}}" property="og:title">
+  <meta content="Vertrauen Sie auf unser geschultes Auge für Ihre Bauprojekte in {{$domainort}}. Unsere erfahrenen Experten bieten detaillierte Inspektionen, um die Qualität und den Fortschritt Ihres Projekts sicherzustellen. Baucampus {{$domainort}} - Ihr Partner für eine zuverlässige Baustellenkontrolle." property="og:description">
+  <meta content="Inspektion - Baucampus {{$domainort}}" property="twitter:title">
+  <meta content="Vertrauen Sie auf unser geschultes Auge für Ihre Bauprojekte in {{$domainort}}. Unsere erfahrenen Experten bieten detaillierte Inspektionen, um die Qualität und den Fortschritt Ihres Projekts sicherzustellen. Baucampus {{$domainort}} - Ihr Partner für eine zuverlässige Baustellenkontrolle." property="twitter:description">
   <meta property="og:type" content="website">
   <meta content="summary_large_image" name="twitter:card">
   <meta content="width=device-width, initial-scale=1" name="viewport">
@@ -33,7 +33,7 @@
         <div class="logo-wrapper"><img src="../images/logo.png" loading="lazy" width="49" sizes="49px" srcset="../images/logo-p-500.png 500w, ../images/logo-p-800.png 800w, ../images/logo-p-1080.png 1080w, ../images/logo.png 1172w" alt="">
           <div class="text-logo-wrapper">
             <div class="logo-text">Baucampus<br></div>
-            <div class="logo-text subtext">München</div>
+            <div class="logo-text subtext">{{$domainort}}</div>
           </div>
         </div>
       </a>

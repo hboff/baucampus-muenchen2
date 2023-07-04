@@ -3,12 +3,12 @@
 <html data-wf-page="648d0891096d52bfd9f271d0" data-wf-site="648d0891096d52bfd9f271dc" lang="fr">
 <head>
   <meta charset="utf-8">
-  <title>Baubegleitung - Baucampus STADT</title>
-  <meta content="Lassen Sie Ihr Bauprojekt in [STADT] von unseren Experten begleiten. Wir unterstützen Sie bei jedem Schritt, von der Planung bis zur Fertigstellung, um Qualität und Effizienz sicherzustellen. Baucampus [STADT] - Ihr verlässlicher Partner für eine erfolgreiche Baubegleitung." name="description">
-  <meta content="Baubegleitung - Baucampus STADT" property="og:title">
-  <meta content="Lassen Sie Ihr Bauprojekt in [STADT] von unseren Experten begleiten. Wir unterstützen Sie bei jedem Schritt, von der Planung bis zur Fertigstellung, um Qualität und Effizienz sicherzustellen. Baucampus [STADT] - Ihr verlässlicher Partner für eine erfolgreiche Baubegleitung." property="og:description">
-  <meta content="Baubegleitung - Baucampus STADT" property="twitter:title">
-  <meta content="Lassen Sie Ihr Bauprojekt in [STADT] von unseren Experten begleiten. Wir unterstützen Sie bei jedem Schritt, von der Planung bis zur Fertigstellung, um Qualität und Effizienz sicherzustellen. Baucampus [STADT] - Ihr verlässlicher Partner für eine erfolgreiche Baubegleitung." property="twitter:description">
+  <title>Baubegleitung - Baucampus {{$domainort}}</title>
+  <meta content="Lassen Sie Ihr Bauprojekt in {{$domainort}} von unseren Experten begleiten. Wir unterstützen Sie bei jedem Schritt, von der Planung bis zur Fertigstellung, um Qualität und Effizienz sicherzustellen. Baucampus {{$domainort}} - Ihr verlässlicher Partner für eine erfolgreiche Baubegleitung." name="description">
+  <meta content="Baubegleitung - Baucampus {{$domainort}}" property="og:title">
+  <meta content="Lassen Sie Ihr Bauprojekt in {{$domainort}} von unseren Experten begleiten. Wir unterstützen Sie bei jedem Schritt, von der Planung bis zur Fertigstellung, um Qualität und Effizienz sicherzustellen. Baucampus {{$domainort}} - Ihr verlässlicher Partner für eine erfolgreiche Baubegleitung." property="og:description">
+  <meta content="Baubegleitung - Baucampus {{$domainort}}" property="twitter:title">
+  <meta content="Lassen Sie Ihr Bauprojekt in {{$domainort}} von unseren Experten begleiten. Wir unterstützen Sie bei jedem Schritt, von der Planung bis zur Fertigstellung, um Qualität und Effizienz sicherzustellen. Baucampus {{$domainort}} - Ihr verlässlicher Partner für eine erfolgreiche Baubegleitung." property="twitter:description">
   <meta property="og:type" content="website">
   <meta content="summary_large_image" name="twitter:card">
   <meta content="width=device-width, initial-scale=1" name="viewport">
@@ -33,7 +33,7 @@
         <div class="logo-wrapper"><img src="../images/logo.png" loading="lazy" width="49" sizes="49px" srcset="../images/logo-p-500.png 500w, ../images/logo-p-800.png 800w, ../images/logo-p-1080.png 1080w, ../images/logo.png 1172w" alt="">
           <div class="text-logo-wrapper">
             <div class="logo-text">Baucampus<br></div>
-            <div class="logo-text subtext">München</div>
+            <div class="logo-text subtext">{{$domainort}}</div>
           </div>
         </div>
       </a>

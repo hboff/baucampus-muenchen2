@@ -3,11 +3,11 @@
 <html data-wf-page="648d0891096d52bfd9f271bb" data-wf-site="648d0891096d52bfd9f271dc" lang="fr">
 <head>
   <meta charset="utf-8">
-  <title>Bausachverstaendige - Baucampus Muenchen</title>
+  <title>Bausachverstaendige - Baucampus {{$domainort}}</title>
   <meta content="Entdecken Sie erstklassige Bauexperten, die Ihnen qualifizierte Unterstützung in allen Phasen Ihres Bauprojekts bieten. Wir stehen für Qualität, Kompetenz und transparente Prozesse im Bauwesen." name="description">
-  <meta content="Bausachverstaendige - Baucampus Muenchen" property="og:title">
+  <meta content="Bausachverstaendige - Baucampus {{$domainort}}" property="og:title">
   <meta content="Entdecken Sie erstklassige Bauexperten, die Ihnen qualifizierte Unterstützung in allen Phasen Ihres Bauprojekts bieten. Wir stehen für Qualität, Kompetenz und transparente Prozesse im Bauwesen." property="og:description">
-  <meta content="Bausachverstaendige - Baucampus Muenchen" property="twitter:title">
+  <meta content="Bausachverstaendige - Baucampus {{$domainort}}" property="twitter:title">
   <meta content="Entdecken Sie erstklassige Bauexperten, die Ihnen qualifizierte Unterstützung in allen Phasen Ihres Bauprojekts bieten. Wir stehen für Qualität, Kompetenz und transparente Prozesse im Bauwesen." property="twitter:description">
   <meta property="og:type" content="website">
   <meta content="summary_large_image" name="twitter:card">

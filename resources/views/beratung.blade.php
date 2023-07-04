@@ -3,11 +3,11 @@
 <html data-wf-page="64986a06ab9a6cff127c6fb1" data-wf-site="648d0891096d52bfd9f271dc" lang="fr">
 <head>
   <meta charset="utf-8">
-  <title>Beratung - Baucampus STADT</title>
+  <title>Beratung - Baucampus {{$domainort}}</title>
   <meta content="Baucampus bietet umfassende Beratungsleistungen in den Bereichen Immobilienbewertung, strategische Planung und Entscheidungsfindung. Unsere Expertise und langjährige Erfahrung helfen Ihnen, fundierte Immobilieninvestitionen zu tätigen und Ihr Vermögen optimal zu verwalten." name="description">
-  <meta content="Beratung - Baucampus STADT" property="og:title">
+  <meta content="Beratung - Baucampus {{$domainort}}" property="og:title">
   <meta content="Baucampus bietet umfassende Beratungsleistungen in den Bereichen Immobilienbewertung, strategische Planung und Entscheidungsfindung. Unsere Expertise und langjährige Erfahrung helfen Ihnen, fundierte Immobilieninvestitionen zu tätigen und Ihr Vermögen optimal zu verwalten." property="og:description">
-  <meta content="Beratung - Baucampus STADT" property="twitter:title">
+  <meta content="Beratung - Baucampus {{$domainort}}" property="twitter:title">
   <meta content="Baucampus bietet umfassende Beratungsleistungen in den Bereichen Immobilienbewertung, strategische Planung und Entscheidungsfindung. Unsere Expertise und langjährige Erfahrung helfen Ihnen, fundierte Immobilieninvestitionen zu tätigen und Ihr Vermögen optimal zu verwalten." property="twitter:description">
   <meta property="og:type" content="website">
   <meta content="summary_large_image" name="twitter:card">
@@ -33,7 +33,7 @@
         <div class="logo-wrapper"><img src="../images/logo.png" loading="lazy" width="49" sizes="49px" srcset="../images/logo-p-500.png 500w, ../images/logo-p-800.png 800w, ../images/logo-p-1080.png 1080w, ../images/logo.png 1172w" alt="">
           <div class="text-logo-wrapper">
             <div class="logo-text">Baucampus<br></div>
-            <div class="logo-text subtext">München</div>
+            <div class="logo-text subtext">{{$domainort}}</div>
           </div>
         </div>
       </a>

@@ -3,11 +3,11 @@
 <html data-wf-page="648e29e14fdf34ba5270c1b0" data-wf-site="648d0891096d52bfd9f271dc" lang="fr">
 <head>
   <meta charset="utf-8">
-  <title>Preise - Baucampus STADT</title>
+  <title>Preise - Baucampus {{$domainort}}</title>
   <meta content="Investieren Sie in Qualität und Transparenz. Unsere Preise spiegeln die hohen Standards unserer Leistungen und das Fachwissen unserer Experten wider. Entdecken Sie unsere fairen und marktgerechten Preisstrukturen für alle Phasen Ihres Bauprojekts." name="description">
-  <meta content="Preise - Baucampus STADT" property="og:title">
+  <meta content="Preise - Baucampus {{$domainort}}" property="og:title">
   <meta content="Investieren Sie in Qualität und Transparenz. Unsere Preise spiegeln die hohen Standards unserer Leistungen und das Fachwissen unserer Experten wider. Entdecken Sie unsere fairen und marktgerechten Preisstrukturen für alle Phasen Ihres Bauprojekts." property="og:description">
-  <meta content="Preise - Baucampus STADT" property="twitter:title">
+  <meta content="Preise - Baucampus {{$domainort}}" property="twitter:title">
   <meta content="Investieren Sie in Qualität und Transparenz. Unsere Preise spiegeln die hohen Standards unserer Leistungen und das Fachwissen unserer Experten wider. Entdecken Sie unsere fairen und marktgerechten Preisstrukturen für alle Phasen Ihres Bauprojekts." property="twitter:description">
   <meta property="og:type" content="website">
   <meta content="summary_large_image" name="twitter:card">
@@ -33,7 +33,7 @@
         <div class="logo-wrapper"><img src="images/logo.png" loading="lazy" width="49" sizes="49px" srcset="images/logo-p-500.png 500w, images/logo-p-800.png 800w, images/logo-p-1080.png 1080w, images/logo.png 1172w" alt="">
           <div class="text-logo-wrapper">
             <div class="logo-text">Baucampus</div>
-            <div class="logo-text subtext">München</div>
+            <div class="logo-text subtext">{{$domainort}}</div>
           </div>
         </div>
       </a>

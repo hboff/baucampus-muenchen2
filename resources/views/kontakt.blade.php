@@ -3,12 +3,12 @@
 <html data-wf-page="648d0891096d52bfd9f271c1" data-wf-site="648d0891096d52bfd9f271dc" lang="fr">
 <head>
   <meta charset="utf-8">
-  <title>Kontakt - Baucampus STADT</title>
-  <meta content="Treten Sie mit unseren Experten in [STADT] in Kontakt. Wir freuen uns darauf, Ihre Bauprojekte zu besprechen und maßgeschneiderte Lösungen anzubieten. Baucampus [STADT] - Ihr zuverlässiger Partner im Bauwesen." name="description">
-  <meta content="Kontakt - Baucampus STADT" property="og:title">
-  <meta content="Treten Sie mit unseren Experten in [STADT] in Kontakt. Wir freuen uns darauf, Ihre Bauprojekte zu besprechen und maßgeschneiderte Lösungen anzubieten. Baucampus [STADT] - Ihr zuverlässiger Partner im Bauwesen." property="og:description">
-  <meta content="Kontakt - Baucampus STADT" property="twitter:title">
-  <meta content="Treten Sie mit unseren Experten in [STADT] in Kontakt. Wir freuen uns darauf, Ihre Bauprojekte zu besprechen und maßgeschneiderte Lösungen anzubieten. Baucampus [STADT] - Ihr zuverlässiger Partner im Bauwesen." property="twitter:description">
+  <title>Kontakt - Baucampus {{$domainort}}</title>
+  <meta content="Treten Sie mit unseren Experten in {{$domainort}} in Kontakt. Wir freuen uns darauf, Ihre Bauprojekte zu besprechen und maßgeschneiderte Lösungen anzubieten. Baucampus {{$domainort}} - Ihr zuverlässiger Partner im Bauwesen." name="description">
+  <meta content="Kontakt - Baucampus {{$domainort}}" property="og:title">
+  <meta content="Treten Sie mit unseren Experten in {{$domainort}} in Kontakt. Wir freuen uns darauf, Ihre Bauprojekte zu besprechen und maßgeschneiderte Lösungen anzubieten. Baucampus {{$domainort}} - Ihr zuverlässiger Partner im Bauwesen." property="og:description">
+  <meta content="Kontakt - Baucampus {{$domainort}}" property="twitter:title">
+  <meta content="Treten Sie mit unseren Experten in {{$domainort}} in Kontakt. Wir freuen uns darauf, Ihre Bauprojekte zu besprechen und maßgeschneiderte Lösungen anzubieten. Baucampus {{$domainort}} - Ihr zuverlässiger Partner im Bauwesen." property="twitter:description">
   <meta property="og:type" content="website">
   <meta content="summary_large_image" name="twitter:card">
   <meta content="width=device-width, initial-scale=1" name="viewport">
@@ -34,7 +34,7 @@
         <div class="logo-wrapper"><img src="images/logo.png" loading="lazy" width="49" sizes="49px" srcset="images/logo-p-500.png 500w, images/logo-p-800.png 800w, images/logo-p-1080.png 1080w, images/logo.png 1172w" alt="">
           <div class="text-logo-wrapper">
             <div class="logo-text">Baucampus</div>
-            <div class="logo-text subtext">München</div>
+            <div class="logo-text subtext">{{$domainort}}</div>
           </div>
         </div>
       </a>
