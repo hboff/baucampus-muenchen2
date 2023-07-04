@@ -112,26 +112,7 @@
             </div>
           </div>
           <div class="uui-blogpost04_image-wrapper"></div>
-          <div data-hover="true" data-delay="0" data-w-id="3136068b-5c85-f9f4-53cb-ddae8a5af0b6" class="brix---dropdown-wrapper w-dropdown">
-            <div class="brix---dropdown-toggle w-dropdown-toggle">
-              
-            <nav class="brix---dropdown-column-wrapper w-dropdown-list">
-              <div data-w-id="3136068b-5c85-f9f4-53cb-ddae8a5af0bc" style="display:none;height:0px;opacity:0;-webkit-transform:translate3d(null, 10px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(null, 10px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(null, 10px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(null, 10px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="brix---dropdown-card">
-                <div class="brix---dropdown-pd">
-                  <div class="w-layout-grid brix---dropdown-links-grid">
-                    <a href="#Baubegleitung" class="brix---dropdown-link w-dropdown-link">Baubegleitung</a>
-                    <a href="#Bauschaden" class="brix---dropdown-link w-dropdown-link">Bauschaden</a>
-                    <a href="#Sanierung" class="brix---dropdown-link w-dropdown-link">Sanierung</a>
-                    <a href="#Hauskaufberatung" class="brix---dropdown-link w-dropdown-link">Hauskaufberatung</a>
-                    <a href="#Wertermittlung" class="brix---dropdown-link w-dropdown-link">Wertermittlung</a>
-                    <a href="#Energieberatungs" class="brix---dropdown-link w-dropdown-link">Energieberatung</a>
-                    <a href="#" class="brix---dropdown-link w-dropdown-link">Architekt</a>
-                    <a href="#" class="brix---dropdown-link w-dropdown-link">Gewerbekunden</a>
-                  </div>
-                </div>
-              </div>
-            </nav>
-          </div>
+         
           <div class="uui-blogpost04_content-wrapper">
             <div class="uui-blogpost04_content">
               <div class="uui-text-rich-text w-richtext">
