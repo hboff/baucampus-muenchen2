@@ -92,10 +92,8 @@ $p = 0;
 @foreach ($expert as $row)
 @if($domainort == $row->stadt)
 @if ($p++ == 1)
-        <a href="tel:{{$row->Phone}}" class="button-cta w-button">{{$row->Phone}}</a>
-        
+        <a href="tel:{{$row->Phone}}" class="button-cta w-button">{{$row->Phone}}</a> 
         @endif
-
         @endif
         @endforeach
 
