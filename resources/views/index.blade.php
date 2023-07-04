@@ -86,13 +86,13 @@
         <a href="https://baucampus.com" target="_blank" class="nav-link w-nav-link">Baucampus</a>
         <a href="preise" class="nav-link w-nav-link">Preise</a>
         <a href="kontakt" class="nav-link w-nav-link">Kontakt</a>
-@php
+        @php
 $p = 0;
 @endphp
-@foreach ($expert as $ex)
-@if($domainort == $ex->stadt)
+@foreach ($expert as $row)
+@if($domainort == $row->stadt)
 @if ($p++ == 1)
-<a href="tel:{{$ex->Phone}}" class="button-cta w-button">{{$ex->Phone}}</a> 
+<a href="tel:{{$row->Phone}}" class="button-cta w-button">{{$row->Phone}}</a> 
 @endif
 @else
 <a href="tel:+495722913800" class="button-cta w-button">+49 5722 913800</a>
@@ -168,13 +168,16 @@ $p = 0;
         @php
 $p = 0;
 @endphp
-        @foreach ($expert as $row)
+@foreach ($expert as $row)
 @if($domainort == $row->stadt)
 @if ($p++ == 1)
-        <a href="tel:{{$row->Phone}}" class="button-cta w-button">{{$row->Phone}}</a>
-        @endif
-        @endif
-        @endforeach
+<a href="tel:{{$row->Phone}}" class="button-cta w-button">{{$row->Phone}}</a> 
+@endif
+@else
+<a href="tel:+495722913800" class="button-cta w-button">+49 5722 913800</a>
+@break
+@endif
+@endforeach
 
       </nav>
       <div class="menu-button w-nav-button">
