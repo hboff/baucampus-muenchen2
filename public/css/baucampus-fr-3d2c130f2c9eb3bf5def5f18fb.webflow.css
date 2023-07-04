@@ -8188,63 +8188,63 @@ blockquote {
 
 @font-face {
   font-family: 'Gilroy';
-  src: url('../fonts/Gilroy-UltraLight.ttf') format('truetype');
+  src: url('fonts/Gilroy-UltraLight.ttf') format('truetype');
   font-weight: 200;
   font-style: normal;
   font-display: auto;
 }
 @font-face {
   font-family: 'Gilroy';
-  src: url('../fonts/Gilroy-Thin.ttf') format('truetype');
+  src: url('fonts/Gilroy-Thin.ttf') format('truetype');
   font-weight: 100;
   font-style: normal;
   font-display: auto;
 }
 @font-face {
   font-family: 'Gilroy';
-  src: url('../fonts/Gilroy-Regular.ttf') format('truetype');
+  src: url('fonts/Gilroy-Regular.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
   font-display: auto;
 }
 @font-face {
   font-family: 'Gilroy';
-  src: url('../fonts/Gilroy-Medium.ttf') format('truetype');
+  src: url('fonts/Gilroy-Medium.ttf') format('truetype');
   font-weight: 500;
   font-style: normal;
   font-display: auto;
 }
 @font-face {
   font-family: 'Gilroy';
-  src: url('../fonts/Gilroy-SemiBold.ttf') format('truetype');
+  src: url('fonts/Gilroy-SemiBold.ttf') format('truetype');
   font-weight: 600;
   font-style: normal;
   font-display: auto;
 }
 @font-face {
   font-family: 'Gilroy';
-  src: url('../fonts/Gilroy-Light.ttf') format('truetype');
+  src: url('fonts/Gilroy-Light.ttf') format('truetype');
   font-weight: 300;
   font-style: normal;
   font-display: auto;
 }
 @font-face {
   font-family: 'Gilroy';
-  src: url('../fonts/Gilroy-Heavy.ttf') format('truetype'), url('../fonts/Gilroy-Black.ttf') format('truetype');
+  src: url('fonts/Gilroy-Heavy.ttf') format('truetype'), url('fonts/Gilroy-Black.ttf') format('truetype');
   font-weight: 900;
   font-style: normal;
   font-display: auto;
 }
 @font-face {
   font-family: 'Gilroy';
-  src: url('../fonts/Gilroy-ExtraBold.ttf') format('truetype'), url('../fonts/Gilroy-Bold.ttf') format('truetype');
+  src: url('fonts/Gilroy-ExtraBold.ttf') format('truetype'), url('fonts/Gilroy-Bold.ttf') format('truetype');
   font-weight: 700;
   font-style: normal;
   font-display: auto;
 }
 @font-face {
   font-family: 'Fontawesome webfont';
-  src: url('../fonts/fontawesome-webfont.ttf') format('truetype');
+  src: url('fonts/fontawesome-webfont.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
   font-display: auto;

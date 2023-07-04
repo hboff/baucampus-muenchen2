@@ -284,7 +284,7 @@
         </div>
         <div id="w-node-a8ad3526-f411-3c20-8d7e-29f2c8f8b986-d9f271bb">
           <p>Baucampus ist ein Netzwerk von Immobilienexperten. Diese Plattform bringt Immobilienexperten zusammen und bietet vielfältiges Fachwissen in verschiedenen Bereichen der Immobilienbranche. Baucampus-Mitglieder sind in der Lage, genaue Immobilienbewertungen und -Schadensfeststellungen abzugeben und so zu einem transparenteren und effizienteren Immobilienmarkt beizutragen. Die Dienstleistungen von Baucampus können für jede Einzelperson oder jedes Unternehmen, das Immobilien kaufen, verkaufen, vermieten oder in Immobilien investieren möchte, von unschätzbarem Wert sein.</p>
-          <a href="template-strings/csr" class="button-main w-button">Mehr Erfahren</a>
+          <a href="/csr" class="button-main w-button">Mehr Erfahren</a>
         </div>
       </div>
     </div>
@@ -367,19 +367,19 @@
                 <div class="card-name-text project-section">Bewertung</div>
               </div>
             </a>
-            <a data-w-id="56baeb8f-5eca-4120-ae3a-b70381443b7c" href="#" class="link-in-card-project w-inline-block">
+            <a data-w-id="56baeb8f-5eca-4120-ae3a-b70381443b7c" href="/inspektion" class="link-in-card-project w-inline-block">
               <div class="content-for-project-card">
                 <div class="all-caps">Baucampus</div>
                 <div class="card-name-text project-section">Inspektionen</div>
               </div>
             </a>
-            <a data-w-id="56baeb8f-5eca-4120-ae3a-b70381443b82" href="#" class="link-in-card-project w-inline-block">
+            <a data-w-id="56baeb8f-5eca-4120-ae3a-b70381443b82" href="/beratung" class="link-in-card-project w-inline-block">
               <div class="content-for-project-card">
                 <div class="all-caps">Baucampus</div>
                 <div class="card-name-text project-section">Beratung</div>
               </div>
             </a>
-            <a data-w-id="56baeb8f-5eca-4120-ae3a-b70381443b76" href="#" class="link-in-card-project w-inline-block">
+            <a data-w-id="56baeb8f-5eca-4120-ae3a-b70381443b76" href="/ausbildung" class="link-in-card-project w-inline-block">
               <div class="content-for-project-card">
                 <div class="all-caps">Baucampus</div>
                 <div class="card-name-text project-section">Bildung und Ausbildung</div>
@@ -753,7 +753,7 @@
             <div class="wite"><strong>Gleichberechtigung: </strong>Zeigen Sie Fairness und Unparteilichkeit bei allen Geschäftstransaktionen und Interaktionen. Es bedeutet, Diskriminierung, Bevorzugung und Ungerechtigkeit zu vermeiden.</div>
           </li>
         </ul>
-        <a href="#" class="button-main margin-top w-button">Unsere leistungen</a>
+        <a href="/leistungen" class="button-main margin-top w-button">Unsere Leistungen</a>
       </div>
     </div>
     <div class="signature-grid butomn">
