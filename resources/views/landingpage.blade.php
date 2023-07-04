@@ -37,7 +37,9 @@
           <div class="logo-wrapper"><img src="/images/logo.png" loading="lazy" width="49" sizes="49px" srcset="/images/logo-p-500.png 500w, /images/logo-p-800.png 800w, /images/logo-p-1080.png 1080w, /images/logo.png 1172w" alt="">
             <div class="text-logo-wrapper">
               <div class="logo-text">Baucampus<br></div>
-              <div class="logo-text subtext">München</div>
+              @isset($domainort)
+              <div class="logo-text subtext">{{$domainort}}</div>
+              @endisset
             </div>
           </div>
         </a>
@@ -117,12 +119,12 @@
             <div class="uui-blogpost04_content">
               <div class="uui-text-rich-text w-richtext">
                 <h4>Introduktion</h4>
-                <p>Durch seine <strong>hohe Sachkunde</strong> und seine <strong>fachliche Kompetenz</strong> ist der Bausachverständige der Fachmann, der bei allen Baumaßnahmen in Berlin frühzeitig hinzugezogen werden sollte.</p>
+                <p>Durch seine <strong>hohe Sachkunde</strong> und seine <strong>fachliche Kompetenz</strong> ist der Bausachverständige der Fachmann, der bei allen Baumaßnahmen in {{$city->stadt}} frühzeitig hinzugezogen werden sollte.</p>
                 <figure style="max-width:" class="w-richtext-align-floatright w-richtext-figure-type-image">
                   <div><img src="/images/Blog-Image-9.jpg" loading="lazy" alt="Office setting"></div>
                 </figure>
-                <p>Die <strong>Aufgabenbereiche</strong> des Sachverständigen sind vielfältig und reichen von der Beratung bei einem <strong>Bauschaden</strong> über die <strong>Baubegleitung</strong> eines Neubaus bis hin zur <strong>Hauskaufberatung</strong> und <strong>Energieberatung</strong>. Durch seine hohe Sachkunde und seine fachliche Kompetenz ist der Immobiliengutachter ihr Ansprechpartner bei allen Baumaßnahmen in Berlin, der frühzeitig hinzugezogen werden sollte, um Fehleinschätzungen zu vermeiden.</p>
-                <p>Auf den folgenden Seiten können Sie sich einen Einblick in das <strong>Leistungsspektrum</strong> unser Bausachverständige, Baugutachter und Immobiliengutachter in <strong>Berlin</strong> verschaffen. Selbstverständlich können Sie sich auch <strong>telefonisch</strong> oder <strong>per E-Mail</strong> über unsere Leistungen rund um ihre Immobilie informieren lassen.</p>
+                <p>Die <strong>Aufgabenbereiche</strong> des Sachverständigen sind vielfältig und reichen von der Beratung bei einem <strong>Bauschaden</strong> über die <strong>Baubegleitung</strong> eines Neubaus bis hin zur <strong>Hauskaufberatung</strong> und <strong>Energieberatung</strong>. Durch seine hohe Sachkunde und seine fachliche Kompetenz ist der Immobiliengutachter ihr Ansprechpartner bei allen Baumaßnahmen in {{$city->stadt}}, der frühzeitig hinzugezogen werden sollte, um Fehleinschätzungen zu vermeiden.</p>
+                <p>Auf den folgenden Seiten können Sie sich einen Einblick in das <strong>Leistungsspektrum</strong> unser Bausachverständige, Baugutachter und Immobiliengutachter in <strong>{{$city->stadt}}</strong> verschaffen. Selbstverständlich können Sie sich auch <strong>telefonisch</strong> oder <strong>per E-Mail</strong> über unsere Leistungen rund um ihre Immobilie informieren lassen.</p>
               </div>
               <a href="/kontakt" class="button-cta w-button">Kontaktieren</a>
               <div id="Baubegleitung">
@@ -130,7 +132,7 @@
                   <h4>Baubegleitung</h4>
                   <p>Die <strong>baubegleitende Qualitätssicherung</strong> in {{$city->stadt}} , kurz Baubegleitung, durch einen Bausachverständigen ermöglicht ihnen als Bauherrn eine <strong>neutrale Qualitätskontrolle</strong> für den Bau oder den Umbau ihrer Immobilie. </p>
                   <figure class="w-richtext-align-floatright w-richtext-figure-type-image">
-                    <div><img src="/images/baubegleitung.jpeg" alt="Berlin Bausachverständiger bei der Baubegleitung"></div>
+                    <div><img src="/images/baubegleitung.jpeg" alt="{{$city->stadt}} Bausachverständiger bei der Baubegleitung"></div>
                   </figure>
                   <p>Durch die <strong>steigende Konkurrenz</strong> und den Kostendruck in der Baubranche leidet die <strong>Bauqualität</strong> in der heutigen Zeit immer mehr. Hier kann ein Gutachter helfend eingreifen. Im Rahmen einer baubegleitenden Qualitätssicherung (Baubegleitung) stellt ihr Baugutachter sicher, dass die <strong>Baubeschreibung</strong>, die <strong>Bauplanung</strong> und im weiteren Verlauf auch die <strong>Bauausführung</strong> übereinstimmen. Ein Bausachverständiger sollte schon bereits vor dem Unterzeichnen der Bauunterlagen hinzugezogen werden, um mögliche <strong>Planungsfehler</strong> und teure Umwege zu vermeiden. </p>
                   <p>Hierzu bieten wir in unserem Ersttermin die <strong>Prüfung der Unterlagen</strong> auf Plausibilität und Vollständigkeit sowie eine Überprüfung der Bauunterlagen in fachtechnischer und qualitätstechnischer Hinsicht an. Zu einem vollständigen Ersttermin im Rahmen der qualitätssichernden Baubegleitung gehört auch die Besichtigung des Grundstücks, um auch hier im Hinblick auf Baugrund und Lage des Gebäudes <strong>kostenintensive Fehler</strong> zu vermeiden</p>
@@ -151,7 +153,7 @@
                   <h4>Bausachverständiger - Bauschaden und Baumangel</h4>
                   <p>Das Thema <strong> Bauschaden</strong> und Baumangel an einem Gebäude ist breit gefächert und reicht von tatsächlich gebauten Mängeln über <strong>Feuchteschäden</strong> zu <strong>Schimmelpilzschäden</strong> und von <strong>Sturmschäden</strong> und <strong>Hagelschäden</strong> über <strong>Brandschäden</strong> bis hin zu <strong> Unfallschaden und Anfahrschaden</strong>. Bei all diesen Bauschäden kann ein Bausachverständiger eine neutrale Ursachenermittlung sowie eine fachlich kompetente Einschätzung vornehmen und helfen, das <strong> Ausmaß des Schadens zu begrenzen</strong>. </p>
                   <figure class="w-richtext-align-floatright w-richtext-figure-type-image">
-                    <div><img src="/images/bauschaden.jpeg" alt="Untersuchung Bauschaden Berlin"></div>
+                    <div><img src="/images/bauschaden.jpeg" alt="Untersuchung Bauschaden {{$city->stadt}}"></div>
                   </figure>
                   <p>Gerade Feuchteschäden und die häufig damit einhergehende Bildung von <strong> Schimmelpilz</strong> ist nicht nur ein optisches Problem, sondern kann auch <strong>gesundheitliche Beeinträchtigungen</strong> nach sich ziehen. Gerade hier ist eine schnelle und versierte Beratung durch einen Baugutachter notwendig, um die möglichen Folgeschäden durch zu späte oder falsche Maßnahmen zu vermeiden.</p>
                   <p>Doch auch <strong>Baumängel</strong>, die aufgrund von Umbau und Modernisierungsmaßnahmen entstanden sind, können neben den optischen auch häufig <strong>funktionelle Beeinträchtigungen</strong> nach sich ziehen und bedürfen der Begutachtung durch einen Bausachverständigen. Nur so erhält ein Bauherr die richtigen Informationen, um gegenüber den Handwerkern mit der notwendigen Sicherheit auftreten zu können und gemeinsam mit dem Bausachverständigen diese auch durchzusetzen.</p>
@@ -161,22 +163,22 @@
               <a href="/kontakt" class="button-cta w-button">Kontaktieren</a>
               <div id="Sanierung">
                 <div class="uui-text-rich-text w-richtext">
-                  <h4>Sanierung -  Baugutachter Berlin</h4>
+                  <h4>Sanierung -  Baugutachter {{$city->stadt}}</h4>
                   <p><strong>Bei Sanierungsmaßnahmen</strong> ist es oft ratsam einen Baugutachter zurate zu ziehen, denn bei der Vielzahl an Vorschriften, Materialien und Durchführungsvarianten ist es schwierig das Richtige herauszufinden. Der <strong>Bausachverständige</strong> kann aufgrund seiner umfassenden Kenntnisse über den Aufbau eines Gebäudes die fachlich richtigen <strong>Sanierungsmethoden</strong> bestimmen und im Anschluss die Baumaßnahmen kompetent begleiten, um etwaige Folgeschäden, die gerade energetische Sanierungsmaßnahmen nach sich ziehen, zu vermeiden.</p>
-                  <p>Die <strong>besondere Sachkunde des Gutachters</strong> ist bei sogenannten Altbauten besonders wichtig. Ist bereits ein Schaden bei der Immobilie in Berlin aufgetreten, verlangt es die besondere Umsicht und Kenntnis des Bausachverständigen, um schnell und fachlich richtig die <strong>Ursachen</strong> zu erkennen und zielgenau die ersten Maßnahmen zu ergreifen, damit der <strong>Schaden</strong> nicht noch größer wird. Das kompetente Eingreifen eines Immobiliengutachters ermöglicht einen reibungslosen Bauablauf und hilft teure Folgekosten aufgrund falscher Sanierungsmaßnahmen zu vermeiden.</p>
+                  <p>Die <strong>besondere Sachkunde des Gutachters</strong> ist bei sogenannten Altbauten besonders wichtig. Ist bereits ein Schaden bei der Immobilie in {{$city->stadt}} aufgetreten, verlangt es die besondere Umsicht und Kenntnis des Bausachverständigen, um schnell und fachlich richtig die <strong>Ursachen</strong> zu erkennen und zielgenau die ersten Maßnahmen zu ergreifen, damit der <strong>Schaden</strong> nicht noch größer wird. Das kompetente Eingreifen eines Immobiliengutachters ermöglicht einen reibungslosen Bauablauf und hilft teure Folgekosten aufgrund falscher Sanierungsmaßnahmen zu vermeiden.</p>
                 </div>
               </div>
               <a href="/kontakt" class="button-cta w-button">Kontaktieren</a>
               <div id="Hauskaufberatung">
                 <div class="uui-text-rich-text w-richtext">
-                  <h4>Hauskaufberatung in Berlin</h4>
-                  <p>Beim Kauf eines <strong>Hauses</strong> oder einer <strong>Eigentumswohnung</strong> in Berlin stellen sich dem Käufer viele Fragen, denn die <strong>Bausubstanz</strong>, der energetische Zustand oder auch der mögliche Sanierungsbedarf eines Gebäudes in Berlin lassen sich nur schwer abschätzen. Gerade in der jetzigen Zeit entsteht aufgrund der hohen Nachfrage nach Häusern und Eigentumswohnungen ein enormer Druck, der von ihnen als Käufer eine <strong>schnelle Entscheidung</strong> verlangt. Doch gerade hier ist besondere Vorsicht geboten, denn beim Hauskauf gilt: gekauft wie besehen!</p>
+                  <h4>Hauskaufberatung in {{$city->stadt}}</h4>
+                  <p>Beim Kauf eines <strong>Hauses</strong> oder einer <strong>Eigentumswohnung</strong> in {{$city->stadt}} stellen sich dem Käufer viele Fragen, denn die <strong>Bausubstanz</strong>, der energetische Zustand oder auch der mögliche Sanierungsbedarf eines Gebäudes in {{$city->stadt}} lassen sich nur schwer abschätzen. Gerade in der jetzigen Zeit entsteht aufgrund der hohen Nachfrage nach Häusern und Eigentumswohnungen ein enormer Druck, der von ihnen als Käufer eine <strong>schnelle Entscheidung</strong> verlangt. Doch gerade hier ist besondere Vorsicht geboten, denn beim Hauskauf gilt: gekauft wie besehen!</p>
                   <figure class="w-richtext-align-floatleft w-richtext-figure-type-image">
-                    <div><img src="/images/hauskaufberatung.jpeg" alt="Berlin Hauskaufberatung mit Immobiliengutachter"></div>
+                    <div><img src="/images/hauskaufberatung.jpeg" alt="{{$city->stadt}} Hauskaufberatung mit Immobiliengutachter"></div>
                   </figure>
-                  <p>Mit einer professionellen und unabhängigen Hauskaufberatung in Berlin durch unsere Bausachverständigen gehen Sie hier den richtigen Schritt, um <strong>schwerwiegende Fehlentscheidungen</strong> zu vermeiden und ein Haus oder eine Eigentumswohnung in Berlin auf der Basis klarer zu erwerben. </p>
+                  <p>Mit einer professionellen und unabhängigen Hauskaufberatung in {{$city->stadt}} durch unsere Bausachverständigen gehen Sie hier den richtigen Schritt, um <strong>schwerwiegende Fehlentscheidungen</strong> zu vermeiden und ein Haus oder eine Eigentumswohnung in {{$city->stadt}} auf der Basis klarer zu erwerben. </p>
                   <p>Im Vorfeld der Hauskaufberatung prüft ihr <strong>Bausachverständiger</strong> die vorhandenen Unterlagen, meist das Exposé und bereitet den Termin anhand der Eckdaten des Gebäudes durch eine Marktwerteinschätzung vor. Vor Ort begeht der Sachverständige mit Ihnen gemeinsam die Immobilie, die Sie erwerben möchten. Er stellt den <strong>baulichen Zustand</strong>, den eventuellen Sanierungsbedarf und den energetischen Zustand des Objektes fest. Oft sind es Kleinigkeiten, wie ein unscheinbarer Fleck, Holzmehl oder leichte Verfärbungen, die dem geschulten Auge des Bausachverständigen Hinweise auf durchfeuchtete Dämmungen, Schädlingsbefall durch Insekten oder Abdichtungsschäden geben. Zudem beantwortet der Baugutachter Fragestellungen, auf die es Ihnen besonders ankommt, z.B. welche <strong>Umbau-</strong> und <strong>Modernisierungsmaßnahmen</strong> notwendig oder möglich sind und selbstverständlich auch, welche energetischen Sanierungsmaßnahmen Sie in Betracht ziehen sollten.</p>
-                  <p>Im Anschluss an die Besichtigung der Immobilie in Berlin findet eine abschließende Besprechung statt. Im Rahmen dieses Gesprächs erörtert ihnen ihr Immobiliengutachter noch einmal den baulichen Zustand und schätzt den evtl. vorhandenen Sanierungsbedarf. Weiter gibt ihr Gutachter ihnen gezielte <strong>Ratschläge</strong>, wie sie bei Sanierungs- und Modernisierungsmaßnahmen am besten vorgehen. Kurz gesagt, ihr Bausachverständiger erklärt Ihnen <strong>verständlich</strong> und klar <strong>nachvollziehbar</strong> noch einmal alle Fakten, die Sie zum Kauf der Immobilie wissen müssen. </p>
+                  <p>Im Anschluss an die Besichtigung der Immobilie in {{$city->stadt}} findet eine abschließende Besprechung statt. Im Rahmen dieses Gesprächs erörtert ihnen ihr Immobiliengutachter noch einmal den baulichen Zustand und schätzt den evtl. vorhandenen Sanierungsbedarf. Weiter gibt ihr Gutachter ihnen gezielte <strong>Ratschläge</strong>, wie sie bei Sanierungs- und Modernisierungsmaßnahmen am besten vorgehen. Kurz gesagt, ihr Bausachverständiger erklärt Ihnen <strong>verständlich</strong> und klar <strong>nachvollziehbar</strong> noch einmal alle Fakten, die Sie zum Kauf der Immobilie wissen müssen. </p>
                   <figure class="w-richtext-align-floatright w-richtext-figure-type-image">
                     <div><img src="/images/haus.jpeg" alt="Baugutachter bei der Hauskaufberatung"></div>
                   </figure>
@@ -196,7 +198,7 @@
               <a href="/kontakt" class="button-cta w-button">Kontaktieren</a>
               <div id="Energieberatungs">
                 <div class="uui-text-rich-text w-richtext">
-                  <h4> Energieberatung Berlin</h4>
+                  <h4> Energieberatung {{$city->stadt}}</h4>
                   <p>Bei einer gebrauchten Immobilie, d. h. bei einem <strong>Altbau</strong>, ist in der Regel davon auszugehen, dass sie aus energetischer Sicht nicht mehr auf Stand ist. Hier empfiehlt sich das frühzeitige Einschalten eines Bausachverständigen, der die <strong>energetischen Schwachstellen</strong> eines <strong>Gebäudes</strong> kompetent erkennt und aus der Vielzahl der Sanierungsmöglichkeiten durch individuelle Beratung die Richtigen auswählt.</p>
                   <p>Zudem ist ein unabhängiger Bausachverständiger in der Lage, die notwendigen Maßnahmen zu koordinieren, der Wichtigkeit nach einzuordnen und die <strong>finanziellen</strong> und <strong>wirtschaftlichen</strong> Aspekte der Sanierungsmaßnahmen stets im Blick zu behalten. So ermöglicht ein Bausachverständiger durch seine besondere Sachkunde im Rahmen der <strong>Energieberatung</strong> und der energetischen Sanierung eine reibungslose und fachlich richtige Aufwertung und somit einen Werterhalt ihres Gebäudes.</p>
                   <p>Somit ist Bausachverständige durch seine hohe fachliche Kompetenz der optimale <strong>regionale Partner</strong> bei allen Bau-, Umbau-, Kauf- und Sanierungsmaßnahmen rund um ihre <strong>Immobilie</strong>.</p>
@@ -215,7 +217,7 @@
               <div id="GewerbeKunden">
                 <div class="uui-text-rich-text w-richtext">
                   <h4>Gewerbekunden</h4>
-                  <p>Gewerbekunden aus Berlin haben häufig spezielle oder größere Wünsche beim Kauf oder der Anmietung einer Immobilie. Dies liegt häufig an den an Gewerbetreibende gerichtete <strong>spezielle gesetzliche Vorgaben</strong> oder auch an die von dem Unternehmen selbst festgelegten Standards. Wegen der <strong>zahlreichen Möglichkeiten</strong> und die ebenso unterschiedliche Ausgestaltung der jeweils für ein Projekt anfallenden Kosten sind hier nur nach individueller Beratung ein stimmiges <strong>Gesamtkonzept</strong> möglich.</p>
+                  <p>Gewerbekunden aus {{$city->stadt}} haben häufig spezielle oder größere Wünsche beim Kauf oder der Anmietung einer Immobilie. Dies liegt häufig an den an Gewerbetreibende gerichtete <strong>spezielle gesetzliche Vorgaben</strong> oder auch an die von dem Unternehmen selbst festgelegten Standards. Wegen der <strong>zahlreichen Möglichkeiten</strong> und die ebenso unterschiedliche Ausgestaltung der jeweils für ein Projekt anfallenden Kosten sind hier nur nach individueller Beratung ein stimmiges <strong>Gesamtkonzept</strong> möglich.</p>
                   <p>Aufgrund der großen Unterschiede sind hier keine pauschalen Preise ohne mehr Informationen zum Objekt möglich. Daher bitten wir Sie um eine <strong>Kontaktaufnahme</strong> per E-Mail oder Telefon, um uns einen Überblick über ihr Vorhaben verschaffen zu können.</p>
                 </div>
               </div>
@@ -227,8 +229,11 @@
                 </div>
               </div>
             </div>
+            @foreach ($expert as $row)
+@if($ortsname == $row->stadt)
+@if ($p++ < 2)
             <div class="uui-blogpost04_newsletter">
-              <div class="uui-heading-xsmall">Olivier Schmidt</div><img src="/images/thispersondoesnotexist5.jpg" loading="lazy" width="132" sizes="(max-width: 479px) 50vw, 132px" srcset="/images/thispersondoesnotexist5-p-500.jpg 500w, /images/thispersondoesnotexist5-p-800.jpg 800w, /images/thispersondoesnotexist5.jpg 1024w" alt="" class="image-2">
+              <div class="uui-heading-xsmall">{{$row->FirstName}} {{$row->LastName}}</div><img src="/images/{{$row->Photo}}" loading="lazy" width="132" sizes="(max-width: 479px) 50vw, 132px" srcset="/images/thispersondoesnotexist5-p-500.jpg 500w, /images/thispersondoesnotexist5-p-800.jpg 800w, /images/thispersondoesnotexist5.jpg 1024w" alt="" class="image-2">
               <section class="uui-section_contact01">
                 <div class="uui-page-padding-3">
                   <div class="uui-container-small">
@@ -236,8 +241,8 @@
                       <div class="uui-text-align-center-3">
                         <div class="uui-max-width-large-3 align-center">
                           <div class="uui-heading-subheading-2">
-                            <a href="tel:+495722913800">+49 5722913800</a><br>
-                            <a href="mailto:info@baucampus.de?subject=Anfrage">info@baucampus.de</a>
+                            <a href="tel:+495722913800">{{$row->Phone}}</a><br>
+                            <a href="mailto:info@baucampus.de?subject=Anfrage">{{$row->Email}}</a>
                           </div>
                           <h2 class="uui-heading-medium-3">Buchen Sie ein Termin</h2>
                         </div>
@@ -263,6 +268,9 @@
                 </div>
               </section>
             </div>
+            @endif
+@endif
+@endforeach
           </div>
         </div>
       </div>
