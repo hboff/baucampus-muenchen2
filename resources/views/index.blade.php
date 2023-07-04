@@ -361,7 +361,7 @@
         </div>
         <div data-w-tab="Tab 3" class="w-tab-pane w--tab-active">
           <div class="grid-for-card-project">
-            <a data-w-id="56baeb8f-5eca-4120-ae3a-b70381443b88" href="/berwertung" class="link-in-card-project last w-inline-block">
+            <a data-w-id="56baeb8f-5eca-4120-ae3a-b70381443b88" href="/bewertung" class="link-in-card-project last w-inline-block">
               <div class="content-for-project-card">
                 <div class="all-caps">Baucampus</div>
                 <div class="card-name-text project-section">Bewertung</div>
