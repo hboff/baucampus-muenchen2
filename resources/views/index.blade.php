@@ -97,9 +97,9 @@ $t = 0;
         
         @endif
         @else
-        @if ($t++ == 1)
+        
         <a href="tel:+495722913800" class="button-cta w-button">+49 5722 913800</a>
-        @endif
+        
         @endif
         @endforeach
 
