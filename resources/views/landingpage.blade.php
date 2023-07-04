@@ -234,7 +234,7 @@ $p = 0;
 @endphp
 @foreach ($expert as $row)
 @if($ortsname == $row->stadt)
-@if ($p++ = 1)            
+@if ($p++ == 1)            
 
             <div class="uui-blogpost04_newsletter">
               <div class="uui-heading-xsmall">{{$row->FirstName}} {{$row->LastName}}</div><img src="/images/{{$row->Photo}}" loading="lazy" width="132" sizes="(max-width: 479px) 50vw, 132px" srcset="/images/thispersondoesnotexist5-p-500.jpg 500w, /images/thispersondoesnotexist5-p-800.jpg 800w, /images/thispersondoesnotexist5.jpg 1024w" alt="" class="image-2">
