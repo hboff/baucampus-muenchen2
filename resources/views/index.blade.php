@@ -179,10 +179,14 @@ $p = 0;
       </div>
     </div>
   </div>
-  <section data-poster-url="https://uploads-ssl.webflow.com/648d0891096d52bfd9f271dc/648dac4950ffe3644351be29_Sequence geschnitten-poster-00001.jpg" data-video-urls="https://uploads-ssl.webflow.com/648d0891096d52bfd9f271dc/648dac4950ffe3644351be29_Sequence geschnitten-transcode.mp4,https://uploads-ssl.webflow.com/648d0891096d52bfd9f271dc/648dac4950ffe3644351be29_Sequence geschnitten-transcode.webm" data-autoplay="true" data-loop="true" data-wf-ignore="true" id="main" data-w-id="5b27a792-d95e-b4d4-5cba-c7f138bec2ee" class="section-with-video w-background-video w-background-video-atom"><video id="5b27a792-d95e-b4d4-5cba-c7f138bec2ee-video" autoplay="" loop="" style="background-image:url(&quot;{{$media->video}}&quot;)" muted="" playsinline="" data-wf-ignore="true" data-object-fit="cover">
+  @foreach ($media as $medias)
+  @if($domainort == $medias->Ort)
+  <section data-poster-url="https://uploads-ssl.webflow.com/648d0891096d52bfd9f271dc/648dac4950ffe3644351be29_Sequence geschnitten-poster-00001.jpg" data-video-urls="https://uploads-ssl.webflow.com/648d0891096d52bfd9f271dc/648dac4950ffe3644351be29_Sequence geschnitten-transcode.mp4,https://uploads-ssl.webflow.com/648d0891096d52bfd9f271dc/648dac4950ffe3644351be29_Sequence geschnitten-transcode.webm" data-autoplay="true" data-loop="true" data-wf-ignore="true" id="main" data-w-id="5b27a792-d95e-b4d4-5cba-c7f138bec2ee" class="section-with-video w-background-video w-background-video-atom"><video id="5b27a792-d95e-b4d4-5cba-c7f138bec2ee-video" autoplay="" loop="" style="background-image:url(&quot;{{$medias->video}}&quot;)" muted="" playsinline="" data-wf-ignore="true" data-object-fit="cover">
       <source src="https://uploads-ssl.webflow.com/648d0891096d52bfd9f271dc/648dac4950ffe3644351be29_Sequence geschnitten-transcode.mp4" data-wf-ignore="true">
       <source src="https://uploads-ssl.webflow.com/648d0891096d52bfd9f271dc/648dac4950ffe3644351be29_Sequence geschnitten-transcode.webm" data-wf-ignore="true">
     </video>
+    @endif
+    @endforeach
     <header class="container">
       <div data-w-id="54adabf2-cbb8-69b7-1079-c5629eba7362" style="opacity:0" class="greed-for-slogan">
         <div class="line-element"></div>
@@ -839,8 +843,13 @@ $p = 0;
           <h3 class="h1">Baucampus in {{$domainort}}</h3>
           <p>Baucampus in {{$domainort}} bietet hochwertige Immobiliendienstleistungen und fügt dem gesamten Großraum {{$domainort}} einen Mehrwert hinzu. Unser lokales Team von Immobilienexperten verfügt über tiefgreifende Kenntnisse des Münchner Immobilienmarktes, was es uns ermöglicht, genaue Bewertungen, gründliche Inspektionen, fundierte Beratungen und professionelle Schulungen anzubieten. <br><br>{{$domainort}}, gelegen im schönen Bayern in Deutschland, ist eine pulsierende Stadt, reich an Kultur und Geschichte und bekannt für ihr gemäßigtes kontinentales Klima. Mit seinen malerischen Biergärten, faszinierender Architektur, lebhaften Märkten und exquisiter Küche zieht {{$domainort}} Besucher aus der ganzen Welt an. Der Münchner Immobilienmarkt ist dynamisch und vielfältig, mit einer Palette von Immobilien, die von Stadtwohnungen bis hin zu luxuriösen Villen am Starnberger See reichen. Als wichtiger Akteur auf diesem Markt ist Baucampus stolz darauf, zur Prosperität der Stadt beizutragen, indem es seinen Kunden hilft, erfolgreich durch die Immobilienlandschaft {{$domainort}}s zu navigieren.</p>
         </div>
-        <div id="w-node-cbf1b3bc-8d5c-db86-10f6-dd363cb5250b-d9f271bb" class="parallax-image-wrapper"><img src="images/{{$media->img}}" sizes="(max-width: 479px) 100vw, (max-width: 767px) 95vw, (max-width: 991px) 52vw, (max-width: 1439px) 53vw, 685.7166748046875px" srcset="{{$media->img-set}}" alt="" class="parallax-image"></div>
+        @foreach ($media as $medias)
+  @if($domainort == $medias->Ort)
+        <div id="w-node-cbf1b3bc-8d5c-db86-10f6-dd363cb5250b-d9f271bb" class="parallax-image-wrapper"><img src="images/{{$medias->img}}" sizes="(max-width: 479px) 100vw, (max-width: 767px) 95vw, (max-width: 991px) 52vw, (max-width: 1439px) 53vw, 685.7166748046875px" srcset="{{$medias->img-set}}" alt="" class="parallax-image"></div>
       </div>
+
+    @endif
+    @endforeach
     </div>
   </section>
   @include('partials.footer')
