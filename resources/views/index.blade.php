@@ -89,7 +89,7 @@
 @php
 $p = 0;
 @endphp
-@foreach ($expert as $es)
+@foreach ($expert as $ex)
 @if($domainort == $ex->stadt)
 @if ($p++ == 1)
 <a href="tel:{{$ex->Phone}}" class="button-cta w-button">{{$ex->Phone}}</a> 
