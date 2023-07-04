@@ -271,13 +271,13 @@ $p = 0;
                 </div>
               </section>
             </div>
-            @endif
-@endif
-@endforeach
           </div>
         </div>
       </div>
       <div>
+      @endif
+@endif
+@endforeach
         <div class="brix---section-position-relative wf-section">
           <div class="brix---container-default-3 w-container">
             <div class="w-layout-grid brix---grid-contact-v7">
