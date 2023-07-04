@@ -79,7 +79,17 @@
         <a href="https://baucampus.com" target="_blank" class="nav-link w-nav-link">Baucampus</a>
         <a href="preise" class="nav-link w-nav-link">Preise</a>
         <a href="kontakt" class="nav-link w-nav-link">Kontakt</a>
-        <a href="tel:+495722913800" class="button-cta w-button">+49 5722 913800</a>
+        @php
+$p = 0;
+@endphp
+        @foreach ($expert as $row)
+@if($domainort == $row->stadt)
+@if ($p++ == 1)
+        <a href="tel:{{$row->Phone}}" class="button-cta w-button">{{$row->Phone}}</a>
+        @endif
+        @endif
+        @endforeach
+
       </nav>
       <div class="menu-button w-nav-button">
         <div class="w-icon-nav-menu"></div>
