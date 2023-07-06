@@ -1,13 +1,13 @@
 <!DOCTYPE html><!--  This site was created in Webflow. https://www.webflow.com  -->
-<!--  Last Published: Thu Jul 06 2023 08:21:26 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Thu Jun 29 2023 21:31:35 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="648d0891096d52bfd9f271bb" data-wf-site="648d0891096d52bfd9f271dc" lang="fr">
 <head>
   <meta charset="utf-8">
-  <title>Bausachverstaendige - Baucampus Muenchen</title>
+  <title>Bausachverstaendige - Baucampus {{$domainort}}</title>
   <meta content="Entdecken Sie erstklassige Bauexperten, die Ihnen qualifizierte Unterstützung in allen Phasen Ihres Bauprojekts bieten. Wir stehen für Qualität, Kompetenz und transparente Prozesse im Bauwesen." name="description">
-  <meta content="Bausachverstaendige - Baucampus Muenchen" property="og:title">
+  <meta content="Bausachverstaendige - Baucampus {{$domainort}}" property="og:title">
   <meta content="Entdecken Sie erstklassige Bauexperten, die Ihnen qualifizierte Unterstützung in allen Phasen Ihres Bauprojekts bieten. Wir stehen für Qualität, Kompetenz und transparente Prozesse im Bauwesen." property="og:description">
-  <meta content="Bausachverstaendige - Baucampus Muenchen" property="twitter:title">
+  <meta content="Bausachverstaendige - Baucampus {{$domainort}}" property="twitter:title">
   <meta content="Entdecken Sie erstklassige Bauexperten, die Ihnen qualifizierte Unterstützung in allen Phasen Ihres Bauprojekts bieten. Wir stehen für Qualität, Kompetenz und transparente Prozesse im Bauwesen." property="twitter:description">
   <meta property="og:type" content="website">
   <meta content="summary_large_image" name="twitter:card">
@@ -44,7 +44,7 @@
             <div class="dropdown-icon w-embed"><svg width="20" height="20" viewbox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M5 7.5L10 12.5L15 7.5" stroke="currentColor" stroke-width="1.67" stroke-linecap="round" stroke-linejoin="round"></path>
               </svg></div>
-            <a href="/leistungen" class="link-for-dropdown w-inline-block">
+            <a href="leistungen" class="link-for-dropdown w-inline-block">
               <div>Dienstleistungen</div>
             </a>
           </aside>
@@ -84,8 +84,8 @@
           </nav>
         </div>
         <a href="https://baucampus.com" target="_blank" class="nav-link w-nav-link">Baucampus</a>
-        <a href="/preise" class="nav-link w-nav-link">Preise</a>
-        <a href="/kontakt" class="nav-link w-nav-link">Kontakt</a>
+        <a href="preise" class="nav-link w-nav-link">Preise</a>
+        <a href="kontakt" class="nav-link w-nav-link">Kontakt</a>
         @php
 $p = 0;
 @endphp
@@ -98,6 +98,8 @@ $p = 0;
         @endif
     @endif
 @endforeach
+
+
       </nav>
       <div class="menu-button w-nav-button">
         <div class="w-icon-nav-menu"></div>
@@ -121,7 +123,7 @@ $p = 0;
             <div class="dropdown-icon w-embed"><svg width="20" height="20" viewbox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M5 7.5L10 12.5L15 7.5" stroke="currentColor" stroke-width="1.67" stroke-linecap="round" stroke-linejoin="round"></path>
               </svg></div>
-            <a href="/leistungen" class="link-for-dropdown w-inline-block">
+            <a href="leistungen" class="link-for-dropdown w-inline-block">
               <div>Dienstleistungen</div>
             </a>
           </aside>
@@ -161,8 +163,8 @@ $p = 0;
           </nav>
         </div>
         <a href="https://baucampus.com" target="_blank" class="nav-link w-nav-link">Baucampus</a>
-        <a href="/preise" class="nav-link w-nav-link">Preise</a>
-        <a href="/kontakt" class="nav-link w-nav-link">Kontakt</a>
+        <a href="preise" class="nav-link w-nav-link">Preise</a>
+        <a href="kontakt" class="nav-link w-nav-link">Kontakt</a>
         @php
 $p = 0;
 @endphp
@@ -175,16 +177,22 @@ $p = 0;
         @endif
     @endif
 @endforeach
+
+
       </nav>
       <div class="menu-button w-nav-button">
         <div class="w-icon-nav-menu"></div>
       </div>
     </div>
   </div>
-  <section data-poster-url="https://uploads-ssl.webflow.com/648d0891096d52bfd9f271dc/648dac4950ffe3644351be29_Sequence geschnitten-poster-00001.jpg" data-video-urls="https://uploads-ssl.webflow.com/648d0891096d52bfd9f271dc/648dac4950ffe3644351be29_Sequence geschnitten-transcode.mp4,https://uploads-ssl.webflow.com/648d0891096d52bfd9f271dc/648dac4950ffe3644351be29_Sequence geschnitten-transcode.webm" data-autoplay="true" data-loop="true" data-wf-ignore="true" id="main" data-w-id="5b27a792-d95e-b4d4-5cba-c7f138bec2ee" class="section-with-video w-background-video w-background-video-atom"><video id="5b27a792-d95e-b4d4-5cba-c7f138bec2ee-video" autoplay="" loop="" style="background-image:url(&quot;https://uploads-ssl.webflow.com/648d0891096d52bfd9f271dc/648dac4950ffe3644351be29_Sequence geschnitten-poster-00001.jpg&quot;)" muted="" playsinline="" data-wf-ignore="true" data-object-fit="cover">
+  @foreach ($media as $medias)
+  @if($domainort == $medias->Ort)
+  <section data-poster-url="https://uploads-ssl.webflow.com/648d0891096d52bfd9f271dc/648dac4950ffe3644351be29_Sequence geschnitten-poster-00001.jpg" data-video-urls="https://uploads-ssl.webflow.com/648d0891096d52bfd9f271dc/648dac4950ffe3644351be29_Sequence geschnitten-transcode.mp4,https://uploads-ssl.webflow.com/648d0891096d52bfd9f271dc/648dac4950ffe3644351be29_Sequence geschnitten-transcode.webm" data-autoplay="true" data-loop="true" data-wf-ignore="true" id="main" data-w-id="5b27a792-d95e-b4d4-5cba-c7f138bec2ee" class="section-with-video w-background-video w-background-video-atom"><video id="5b27a792-d95e-b4d4-5cba-c7f138bec2ee-video" autoplay="" loop="" style="background-image:url(&quot;{{$medias->video}}&quot;)" muted="" playsinline="" data-wf-ignore="true" data-object-fit="cover">
       <source src="https://uploads-ssl.webflow.com/648d0891096d52bfd9f271dc/648dac4950ffe3644351be29_Sequence geschnitten-transcode.mp4" data-wf-ignore="true">
       <source src="https://uploads-ssl.webflow.com/648d0891096d52bfd9f271dc/648dac4950ffe3644351be29_Sequence geschnitten-transcode.webm" data-wf-ignore="true">
     </video>
+    @endif
+    @endforeach
     <header class="container">
       <div data-w-id="54adabf2-cbb8-69b7-1079-c5629eba7362" style="opacity:0" class="greed-for-slogan">
         <div class="line-element"></div>
@@ -192,7 +200,7 @@ $p = 0;
       </div>
       <h1 data-w-id="54adabf2-cbb8-69b7-1079-c5629eba7366" style="opacity:0" class="display-text for-home-page">Bausachverständige in<br>{{$domainort}}</h1>
       <div data-w-id="54adabf2-cbb8-69b7-1079-c5629eba736a" style="opacity:0" class="button-wrapper">
-        <a href="/leistungen" class="button-withe w-button">Leistungen</a>
+        <a href="leistungen" class="button-withe w-button">Leistungen</a>
         <a href="#" data-w-id="54adabf2-cbb8-69b7-1079-c5629eba736d" style="opacity:0" class="lightbox-link w-inline-block w-lightbox">
           <div data-w-id="337f525a-79a0-edda-9bde-b1b29fb47704" class="crecl-icon-wrapper">
             <div class="cercl-figure one"></div>
@@ -237,7 +245,7 @@ $p = 0;
         <li>
           <a href="/baubegleitung" class="blog-card w-inline-block">
             <div class="img-wrapper-blog-card">
-              <div class="read-more-blog">Mehr Erfahren</div><img sizes="(max-width: 479px) 100vw, (max-width: 767px) 34vw, (max-width: 991px) 30vw, (max-width: 1439px) 31vw, 28vw" srcset="images/baubegleitung-p-500.webp 500w, images/baubegleitung-p-800.webp 800w, images/baubegleitung-p-1080.webp 1080w, images/baubegleitung.webp 1456w" src="images/baubegleitung.webp" alt="" class="blog-prew-img">
+              <div class="read-more-blog">Mehr Erfahren</div><img sizes="(max-width: 479px) 161.13333129882812px, (max-width: 767px) 34vw, (max-width: 991px) 30vw, (max-width: 1439px) 31vw, 396.66668701171875px" srcset="images/baubegleitung-p-500.webp 500w, images/baubegleitung-p-800.webp 800w, images/baubegleitung-p-1080.webp 1080w, images/baubegleitung.webp 1456w" src="images/baubegleitung.webp" alt="" class="blog-prew-img">
             </div>
             <div id="w-node-_0d4d1566-88b8-bf56-6e3e-e88cd5fce1d8-d9f271bb" class="blog-description">
               <div class="card-name-text blog">Baubegleitung</div>
@@ -247,7 +255,7 @@ $p = 0;
         <li>
           <a href="/bauschaden" class="blog-card w-inline-block">
             <div class="img-wrapper-blog-card">
-              <div class="read-more-blog">Mehr Erfahren</div><img sizes="(max-width: 479px) 100vw, (max-width: 767px) 40vw, (max-width: 991px) 30vw, (max-width: 1439px) 31vw, 28vw" srcset="images/bauschaden-p-500.webp 500w, images/bauschaden-p-800.webp 800w, images/bauschaden-p-1080.webp 1080w, images/bauschaden.webp 1456w" src="images/bauschaden.webp" alt="" class="blog-prew-img">
+              <div class="read-more-blog">Mehr Erfahren</div><img sizes="(max-width: 479px) 190px, (max-width: 767px) 40vw, (max-width: 991px) 30vw, (max-width: 1439px) 31vw, 396.6666564941406px" srcset="images/bauschaden-p-500.webp 500w, images/bauschaden-p-800.webp 800w, images/bauschaden-p-1080.webp 1080w, images/bauschaden.webp 1456w" src="images/bauschaden.webp" alt="" class="blog-prew-img">
             </div>
             <div id="w-node-_2341024a-32ba-690d-76da-a3ddf69fe7ca-d9f271bb" class="blog-description">
               <div class="card-name-text blog">Bauschaden</div>
@@ -257,7 +265,7 @@ $p = 0;
         <li>
           <a href="/energieberatung" class="blog-card w-inline-block">
             <div class="img-wrapper-blog-card">
-              <div class="read-more-blog">Mehr Erfahren</div><img sizes="(max-width: 479px) 100vw, (max-width: 991px) 30vw, (max-width: 1439px) 31vw, 28vw" srcset="images/energieberatung-p-500.webp 500w, images/energieberatung-p-800.webp 800w, images/energieberatung-p-1080.webp 1080w, images/energieberatung.webp 1456w" src="images/energieberatung.webp" alt="" class="blog-prew-img">
+              <div class="read-more-blog">Mehr Erfahren</div><img sizes="(max-width: 479px) 144.43333435058594px, (max-width: 991px) 30vw, (max-width: 1439px) 31vw, 396.66668701171875px" srcset="images/energieberatung-p-500.webp 500w, images/energieberatung-p-800.webp 800w, images/energieberatung-p-1080.webp 1080w, images/energieberatung.webp 1456w" src="images/energieberatung.webp" alt="" class="blog-prew-img">
             </div>
             <div id="w-node-c15dde64-b567-8a3f-2429-fec5b38702e7-d9f271bb" class="blog-description">
               <div class="card-name-text blog">Energieberatung</div>
@@ -267,7 +275,7 @@ $p = 0;
         <li>
           <a href="/hauskaufberatung" class="blog-card w-inline-block">
             <div class="img-wrapper-blog-card">
-              <div class="read-more-blog">Mehr Erfahren</div><img sizes="(max-width: 479px) 100vw, (max-width: 767px) 34vw, (max-width: 991px) 30vw, (max-width: 1439px) 31vw, 28vw" srcset="images/beratung-p-500.webp 500w, images/beratung-p-800.webp 800w, images/beratung-p-1080.webp 1080w, images/beratung.webp 1456w" src="images/beratung.webp" alt="" class="blog-prew-img">
+              <div class="read-more-blog">Mehr Erfahren</div><img sizes="(max-width: 479px) 161.13333129882812px, (max-width: 767px) 34vw, (max-width: 991px) 30vw, (max-width: 1439px) 31vw, 396.66668701171875px" srcset="images/beratung-p-500.webp 500w, images/beratung-p-800.webp 800w, images/beratung-p-1080.webp 1080w, images/beratung.webp 1456w" src="images/beratung.webp" alt="" class="blog-prew-img">
             </div>
             <div id="w-node-_73a03fa4-da08-081f-1dfd-2b08c270e871-d9f271bb" class="blog-description">
               <div class="card-name-text blog">Hauskaufberatung</div>
@@ -277,7 +285,7 @@ $p = 0;
         <li>
           <a href="/immobilienbewertung" class="blog-card w-inline-block">
             <div class="img-wrapper-blog-card">
-              <div class="read-more-blog">Mehr Erfahren</div><img sizes="(max-width: 479px) 100vw, (max-width: 767px) 40vw, (max-width: 991px) 30vw, (max-width: 1439px) 31vw, 28vw" srcset="images/inspektionen-p-500.webp 500w, images/inspektionen-p-800.webp 800w, images/inspektionen-p-1080.webp 1080w, images/inspektionen.webp 1456w" src="images/inspektionen.webp" alt="" class="blog-prew-img">
+              <div class="read-more-blog">Mehr Erfahren</div><img sizes="(max-width: 479px) 190px, (max-width: 767px) 40vw, (max-width: 991px) 30vw, (max-width: 1439px) 31vw, 396.6666564941406px" srcset="images/inspektionen-p-500.webp 500w, images/inspektionen-p-800.webp 800w, images/inspektionen-p-1080.webp 1080w, images/inspektionen.webp 1456w" src="images/inspektionen.webp" alt="" class="blog-prew-img">
             </div>
             <div id="w-node-b67d4319-1e87-e1b5-6898-86b8f901ba70-d9f271bb" class="blog-description">
               <div class="card-name-text blog">Immobilienbewertung</div>
@@ -285,9 +293,9 @@ $p = 0;
           </a>
         </li>
         <li>
-          <a href="/schimmelpilz" class="blog-card w-inline-block">
+          <a href="/schimmlepilz" class="blog-card w-inline-block">
             <div class="img-wrapper-blog-card">
-              <div class="read-more-blog">Mehr Erfahren</div><img sizes="(max-width: 479px) 100vw, (max-width: 991px) 30vw, (max-width: 1439px) 31vw, 28vw" srcset="images/pilz-p-500.webp 500w, images/pilz-p-800.webp 800w, images/pilz-p-1080.webp 1080w, images/pilz.webp 1166w" src="images/pilz.webp" alt="" class="blog-prew-img">
+              <div class="read-more-blog">Mehr Erfahren</div><img sizes="(max-width: 479px) 144.43333435058594px, (max-width: 991px) 30vw, (max-width: 1439px) 31vw, 396.66668701171875px" srcset="images/pilz-p-500.webp 500w, images/pilz-p-800.webp 800w, images/pilz-p-1080.webp 1080w, images/pilz.webp 1166w" src="images/pilz.webp" alt="" class="blog-prew-img">
             </div>
             <div id="w-node-da7a5d2c-0746-5726-c5d6-ab7bb28fbc76-d9f271bb" class="blog-description">
               <div class="card-name-text blog">Beratung Schimmelpilz</div>
@@ -319,7 +327,7 @@ $p = 0;
             <div class="sub-heding">Leistungen</div>
             <h3 class="h1">Baucampus Leistungen</h3>
           </div>
-          <a id="w-node-a86e36c0-b746-a6c2-3a93-93ce3483522b-d9f271bb" href="/kontakt" class="button-main w-button">Kontaktieren</a>
+          <a id="w-node-a86e36c0-b746-a6c2-3a93-93ce3483522b-d9f271bb" href="kontakt" class="button-main w-button">Kontaktieren</a>
         </div>
       </div>
     </div>
@@ -678,7 +686,7 @@ $p = 0;
           <div class="dont-dilate_"></div>
           <div class="step-name one">Vorteil 1</div>
         </div>
-        <div id="w-node-b4f11b0c-1539-beab-14be-1a6143e7710c-d9f271bb" class="parallax-image-wrapper"><img src="images/4.jpg" loading="eager" srcset="images/4-p-500.jpg 500w, images/4-p-800.jpg 800w, images/4.jpg 1080w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 83vw, (max-width: 991px) 78vw, (max-width: 1439px) 51vw, 688.86669921875px" alt="" class="image-for-card-step one"></div>
+        <div id="w-node-b4f11b0c-1539-beab-14be-1a6143e7710c-d9f271bb" class="parallax-image-wrapper"><img src="images/4.jpg" loading="eager" srcset="images/4-p-500.jpg 500w, images/4-p-800.jpg 800w, images/4.jpg 1080w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 83vw, (max-width: 991px) 600px, (max-width: 1439px) 51vw, 688px" alt="" class="image-for-card-step one"></div>
       </div>
       <div id="w-node-e0095dda-132d-d79a-079e-782cf0f7a466-d9f271bb" class="big-darck-card step-two">
         <div id="w-node-e0095dda-132d-d79a-079e-782cf0f7a467-d9f271bb" class="darck-card-text-wrapper">
@@ -690,7 +698,7 @@ $p = 0;
           <div class="dont-dilate_"></div>
           <div class="step-name two">Vorteil 2</div>
         </div>
-        <div id="w-node-e7ab23b0-83ee-7d3f-afa8-cc58f21d744f-d9f271bb" class="parallax-image-wrapper"><img src="images/3.jpg" loading="lazy" srcset="images/3-p-500.jpg 500w, images/3-p-800.jpg 800w, images/3.jpg 1080w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 83vw, (max-width: 991px) 78vw, (max-width: 1439px) 51vw, 688.86669921875px" alt="" class="image-for-card-step two"></div>
+        <div id="w-node-e7ab23b0-83ee-7d3f-afa8-cc58f21d744f-d9f271bb" class="parallax-image-wrapper"><img src="images/3.jpg" loading="lazy" srcset="images/3-p-500.jpg 500w, images/3-p-800.jpg 800w, images/3.jpg 1080w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 83vw, (max-width: 991px) 600px, (max-width: 1439px) 51vw, 688px" alt="" class="image-for-card-step two"></div>
       </div>
       <div id="w-node-e0095dda-132d-d79a-079e-782cf0f7a474-d9f271bb" class="big-darck-card step-thre">
         <div id="w-node-e0095dda-132d-d79a-079e-782cf0f7a475-d9f271bb" class="darck-card-text-wrapper">
@@ -702,7 +710,7 @@ $p = 0;
           <div class="dont-dilate_"></div>
           <div class="step-name three">Vorteil 3</div>
         </div>
-        <div id="w-node-_2b192dea-e542-cb45-4dfb-5d0647c24d69-d9f271bb" class="parallax-image-wrapper"><img src="images/5.jpg" loading="lazy" srcset="images/5-p-500.jpg 500w, images/5-p-800.jpg 800w, images/5.jpg 1080w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 83vw, (max-width: 991px) 78vw, (max-width: 1439px) 51vw, 688.86669921875px" alt="" class="image-for-card-step three"></div>
+        <div id="w-node-_2b192dea-e542-cb45-4dfb-5d0647c24d69-d9f271bb" class="parallax-image-wrapper"><img src="images/5.jpg" loading="lazy" srcset="images/5-p-500.jpg 500w, images/5-p-800.jpg 800w, images/5.jpg 1080w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 83vw, (max-width: 991px) 600px, (max-width: 1439px) 51vw, 688px" alt="" class="image-for-card-step three"></div>
       </div>
       <div id="w-node-e0095dda-132d-d79a-079e-782cf0f7a483-d9f271bb" class="big-darck-card step-fore">
         <div id="w-node-e0095dda-132d-d79a-079e-782cf0f7a484-d9f271bb" class="darck-card-text-wrapper">
@@ -714,7 +722,7 @@ $p = 0;
           <div class="dont-dilate_"></div>
           <div class="step-name fore">Vorteil 4</div>
         </div>
-        <div id="w-node-_830ea43b-d1cc-24e8-2ed6-8a8240ec2140-d9f271bb" class="parallax-image-wrapper"><img src="images/My-project-1.jpg" loading="lazy" srcset="images/My-project-1-p-500.jpg 500w, images/My-project-1-p-800.jpg 800w, images/My-project-1.jpg 1080w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 83vw, (max-width: 991px) 78vw, (max-width: 1439px) 51vw, 688.86669921875px" alt="" class="image-for-card-step fore"></div>
+        <div id="w-node-_830ea43b-d1cc-24e8-2ed6-8a8240ec2140-d9f271bb" class="parallax-image-wrapper"><img src="images/My-project-1.jpg" loading="lazy" srcset="images/My-project-1-p-500.jpg 500w, images/My-project-1-p-800.jpg 800w, images/My-project-1.jpg 1080w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 83vw, (max-width: 991px) 600px, (max-width: 1439px) 51vw, 688px" alt="" class="image-for-card-step fore"></div>
       </div>
     </div>
   </div>
@@ -733,7 +741,7 @@ $p = 0;
       <div class="quet-wrapper">
         <div id="w-node-_81b93628-ea38-0898-c4d5-6a9b91b4bbf4-d9f271bb" class="stiky-track-for-head-wrapper">
           <div class="head-wrapper">
-            <div id="w-node-b5abc97a-d305-6f9b-d21a-b8af91b4d892-d9f271bb" class="parallax-image-wrapper"><img src="images/thispersondoesnotexist5.jpg" loading="lazy" srcset="images/thispersondoesnotexist5-p-500.jpg 500w, images/thispersondoesnotexist5-p-800.jpg 800w, images/thispersondoesnotexist5.jpg 1024w" sizes="(max-width: 479px) 92vw, (max-width: 991px) 86vw, 440px" alt="" class="parallax-image"></div>
+            <div id="w-node-b5abc97a-d305-6f9b-d21a-b8af91b4d892-d9f271bb" class="parallax-image-wrapper"><img src="images/thispersondoesnotexist5.jpg" loading="lazy" srcset="images/thispersondoesnotexist5-p-500.jpg 500w, images/thispersondoesnotexist5-p-800.jpg 800w, images/thispersondoesnotexist5.jpg 1024w" sizes="(max-width: 479px) 92vw, (max-width: 767px) 86vw, (max-width: 991px) 90vw, 440px" alt="" class="parallax-image"></div>
             <div>
               <h3>Olivier Schmidt</h3>
               <p>Immobilienexperte und Partner von Baucampus</p>
@@ -775,7 +783,7 @@ $p = 0;
             <div class="wite"><strong>Gleichberechtigung: </strong>Zeigen Sie Fairness und Unparteilichkeit bei allen Geschäftstransaktionen und Interaktionen. Es bedeutet, Diskriminierung, Bevorzugung und Ungerechtigkeit zu vermeiden.</div>
           </li>
         </ul>
-        <a href="#" class="button-main margin-top w-button">Unsere leistungen</a>
+        <a href="/leistungen" class="button-main margin-top w-button">Unsere Leistungen</a>
       </div>
     </div>
     <div class="signature-grid butomn">
@@ -812,7 +820,7 @@ $p = 0;
   <section class="section pre-footer-section wf-section">
     <div class="container">
       <div class="grid-two-column">
-        <div class="region-card"><img src="images/office2.webp" id="w-node-_329641f7-453d-6aba-3596-018a0e89361c-d9f271bb" sizes="(max-width: 479px) 100vw, (max-width: 991px) 46vw, (max-width: 1439px) 28vw, 375.3666687011719px" srcset="images/office2-p-500.webp 500w, images/office2-p-800.webp 800w, images/office2.webp 1024w" alt="" class="img-for-card">
+        <div class="region-card"><img src="images/office2.webp" id="w-node-_329641f7-453d-6aba-3596-018a0e89361c-d9f271bb" sizes="(max-width: 479px) 100vw, (max-width: 767px) 46vw, (max-width: 991px) 47vw, (max-width: 1439px) 28vw, 375.3666687011719px" srcset="images/office2-p-500.webp 500w, images/office2-p-800.webp 800w, images/office2.webp 1024w" alt="" class="img-for-card">
           <a id="w-node-_15d1f59d-95d2-1eff-567b-4170040f9f6f-d9f271bb" href="https://baucampus.com" target="_blank" class="w-inline-block">
             <div id="w-node-a2c9b91e-62bf-8d7d-a5ad-4646c457362d-d9f271bb" class="content-description-card">
               <div class="card-name-text">Baucampus.com</div>
@@ -821,7 +829,7 @@ $p = 0;
             </div>
           </a>
         </div>
-        <div class="region-card"><img src="images/office-f1.webp" id="w-node-ecb86d83-5010-c8a1-8ec8-c87cb8191ddd-d9f271bb" sizes="(max-width: 479px) 100vw, (max-width: 991px) 46vw, (max-width: 1439px) 32vw, 28vw" srcset="images/office-f1-p-500.webp 500w, images/office-f1-p-800.webp 800w, images/office-f1.webp 1024w" alt="" class="img-for-card">
+        <div class="region-card"><img src="images/office-f1.webp" id="w-node-ecb86d83-5010-c8a1-8ec8-c87cb8191ddd-d9f271bb" sizes="(max-width: 479px) 100vw, (max-width: 767px) 46vw, (max-width: 991px) 47vw, (max-width: 1439px) 32vw, 406.66668701171875px" srcset="images/office-f1-p-500.webp 500w, images/office-f1-p-800.webp 800w, images/office-f1.webp 1024w" alt="" class="img-for-card">
           <a id="w-node-ebb722fe-880e-b584-ad93-549f6c8fe90a-d9f271bb" href="https://baucampus.at" target="_blank" class="w-inline-block">
             <div id="w-node-ecb86d83-5010-c8a1-8ec8-c87cb8191dde-d9f271bb" class="content-description-card">
               <div class="card-name-text">Baucampus Österreich</div>
@@ -839,13 +847,18 @@ $p = 0;
         <div id="w-node-_9ab59575-c0ef-d0eb-9bd1-882e58bbdbe5-d9f271bb">
           <div class="sub-heding">Standort</div>
           <h3 class="h1">Baucampus in {{$domainort}}</h3>
-          <p>Baucampus in {{$domainort}} bietet hochwertige Immobiliendienstleistungen und fügt dem gesamten Großraum {{$domainort}} einen Mehrwert hinzu. Unser lokales Team von Immobilienexperten verfügt über tiefgreifende Kenntnisse des {{$domainort}}er Immobilienmarktes, was es uns ermöglicht, genaue Bewertungen, gründliche Inspektionen, fundierte Beratungen und professionelle Schulungen anzubieten. <br><br>München, gelegen im schönen Bayern in Deutschland, ist eine pulsierende Stadt, reich an Kultur und Geschichte und bekannt für ihr gemäßigtes kontinentales Klima. Mit seinen malerischen Biergärten, faszinierender Architektur, lebhaften Märkten und exquisiter Küche zieht München Besucher aus der ganzen Welt an. Der Münchner Immobilienmarkt ist dynamisch und vielfältig, mit einer Palette von Immobilien, die von Stadtwohnungen bis hin zu luxuriösen Villen am Starnberger See reichen. Als wichtiger Akteur auf diesem Markt ist Baucampus stolz darauf, zur Prosperität der Stadt beizutragen, indem es seinen Kunden hilft, erfolgreich durch die Immobilienlandschaft Münchens zu navigieren.</p>
+          <p>Baucampus in {{$domainort}} bietet hochwertige Immobiliendienstleistungen und fügt dem gesamten Großraum {{$domainort}} einen Mehrwert hinzu. Unser lokales Team von Immobilienexperten verfügt über tiefgreifende Kenntnisse des Münchner Immobilienmarktes, was es uns ermöglicht, genaue Bewertungen, gründliche Inspektionen, fundierte Beratungen und professionelle Schulungen anzubieten. <br><br>{{$domainort}}, gelegen im schönen Bayern in Deutschland, ist eine pulsierende Stadt, reich an Kultur und Geschichte und bekannt für ihr gemäßigtes kontinentales Klima. Mit seinen malerischen Biergärten, faszinierender Architektur, lebhaften Märkten und exquisiter Küche zieht {{$domainort}} Besucher aus der ganzen Welt an. Der Münchner Immobilienmarkt ist dynamisch und vielfältig, mit einer Palette von Immobilien, die von Stadtwohnungen bis hin zu luxuriösen Villen am Starnberger See reichen. Als wichtiger Akteur auf diesem Markt ist Baucampus stolz darauf, zur Prosperität der Stadt beizutragen, indem es seinen Kunden hilft, erfolgreich durch die Immobilienlandschaft {{$domainort}}s zu navigieren.</p>
         </div>
-        <div id="w-node-cbf1b3bc-8d5c-db86-10f6-dd363cb5250b-d9f271bb" class="parallax-image-wrapper"><img src="images/3cb45f6e59190e8213ce0a35394d0e11-nice-3612225719.jpg" sizes="(max-width: 479px) 100vw, (max-width: 767px) 91vw, (max-width: 991px) 52vw, (max-width: 1439px) 53vw, 685.7166748046875px" srcset="images/3cb45f6e59190e8213ce0a35394d0e11-nice-3612225719-p-500.jpg 500w, images/3cb45f6e59190e8213ce0a35394d0e11-nice-3612225719-p-800.jpg 800w, images/3cb45f6e59190e8213ce0a35394d0e11-nice-3612225719.jpg 1200w" alt="" class="parallax-image"></div>
+        @foreach ($media as $medias)
+  @if($domainort == $medias->Ort)
+        <div id="w-node-cbf1b3bc-8d5c-db86-10f6-dd363cb5250b-d9f271bb" class="parallax-image-wrapper"><img src="images/{{$medias->img}}" sizes="(max-width: 479px) 100vw, (max-width: 767px) 95vw, (max-width: 991px) 52vw, (max-width: 1439px) 53vw, 685.7166748046875px" srcset="{{$medias->imgSet}}" alt="" class="parallax-image"></div>
       </div>
+
+    @endif
+    @endforeach
     </div>
   </section>
-  @include(partials.footer)
+  @include('partials.footer')
   <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=648d0891096d52bfd9f271dc" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
   <script src="js/webflow.js" type="text/javascript"></script>
 </body>

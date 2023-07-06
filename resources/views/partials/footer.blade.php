@@ -1,24 +1,23 @@
  <footer>
-    <section class="section social-media-banner wf-section">
+ <section class="section social-media-banner wf-section">
       <div class="container">
         <div class="grid-card-social">
           <h3 id="w-node-_4aa0d7f3-2a4a-6a6b-69be-35f8e84120e3-e84120df">Baucampus in den Medien</h3>
-          <a id="w-node-_4aa0d7f3-2a4a-6a6b-69be-35f8e84120e5-e84120df" href="/" class="social-card center w-inline-block"><img src="images/F2x_1F2x.png" id="w-node-_4aa0d7f3-2a4a-6a6b-69be-35f8e84120e6-e84120df" width="23" alt="">
+          <a id="w-node-_4aa0d7f3-2a4a-6a6b-69be-35f8e84120e5-e84120df" href="#" class="social-card center w-inline-block">
             <div id="w-node-_4aa0d7f3-2a4a-6a6b-69be-35f8e84120e7-e84120df">
               <div class="card-name-text social">Baucampus Deutschland</div>
-              <p>Unserer Seite beitreten!</p>
+              <p>Unserer Facebook Seite beitreten!</p>
             </div>
           </a>
-          <a id="w-node-_4aa0d7f3-2a4a-6a6b-69be-35f8e84120ec-e84120df" href="#" class="social-card w-inline-block"><img src="images/T2x_1T2x.png" width="42" id="w-node-_4aa0d7f3-2a4a-6a6b-69be-35f8e84120ed-e84120df" alt="">
+          <a id="w-node-_4aa0d7f3-2a4a-6a6b-69be-35f8e84120ec-e84120df" href="#" class="social-card w-inline-block">
             <div id="w-node-_4aa0d7f3-2a4a-6a6b-69be-35f8e84120ee-e84120df">
               <div class="card-name-text social">Baucampus Deutschland</div>
-              <p>Folgen Sie uns!</p>
+              <p>Folgen SIe uns auf LinkedIn!</p>
             </div>
           </a>
         </div>
       </div>
     </section>
-
     <section class="section footer wf-section">
       <div class="container">
         <div class="footer-grid">
