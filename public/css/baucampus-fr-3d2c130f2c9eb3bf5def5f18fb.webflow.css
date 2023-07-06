@@ -380,6 +380,7 @@ blockquote {
 
 .section.blog-section {
   padding-bottom: 100px;
+  display: flex;
 }
 
 .section.pre-footer-section {
@@ -3539,6 +3540,7 @@ blockquote {
   grid-template-rows: auto auto auto;
   grid-template-columns: 1fr 1fr 1fr;
   grid-auto-columns: 1fr;
+  list-style-type: none;
   display: grid;
 }
 
@@ -5474,6 +5476,10 @@ blockquote {
   padding-top: 0;
 }
 
+.list-item {
+  list-style-type: none;
+}
+
 @media screen and (min-width: 1440px) {
   .brix---form-grid-2-columns {
     grid-column-gap: 32px;
@@ -6348,6 +6354,18 @@ blockquote {
   .uui-page-padding {
     padding-left: 1rem;
     padding-right: 1rem;
+  }
+
+  .list {
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    grid-template: ". ."
+                   ". Area"
+                   ". ."
+                   / 1fr 1fr;
+    grid-auto-columns: 1fr;
+    align-content: stretch;
+    display: grid;
   }
 
   .uui-button {

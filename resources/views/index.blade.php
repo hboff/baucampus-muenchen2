@@ -1,13 +1,13 @@
 <!DOCTYPE html><!--  This site was created in Webflow. https://www.webflow.com  -->
-<!--  Last Published: Thu Jul 06 2023 08:21:26 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Thu Jul 06 2023 09:39:27 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="648d0891096d52bfd9f271bb" data-wf-site="648d0891096d52bfd9f271dc" lang="fr">
 <head>
   <meta charset="utf-8">
-  <title>Bausachverstaendige - Baucampus Muenchen</title>
+  <title>Bausachverstaendige - Baucampus {{$domainort}}</title>
   <meta content="Entdecken Sie erstklassige Bauexperten, die Ihnen qualifizierte Unterstützung in allen Phasen Ihres Bauprojekts bieten. Wir stehen für Qualität, Kompetenz und transparente Prozesse im Bauwesen." name="description">
-  <meta content="Bausachverstaendige - Baucampus Muenchen" property="og:title">
+  <meta content="Bausachverstaendige - Baucampus {{$domainort}}" property="og:title">
   <meta content="Entdecken Sie erstklassige Bauexperten, die Ihnen qualifizierte Unterstützung in allen Phasen Ihres Bauprojekts bieten. Wir stehen für Qualität, Kompetenz und transparente Prozesse im Bauwesen." property="og:description">
-  <meta content="Bausachverstaendige - Baucampus Muenchen" property="twitter:title">
+  <meta content="Bausachverstaendige - Baucampus {{$domainort}}" property="twitter:title">
   <meta content="Entdecken Sie erstklassige Bauexperten, die Ihnen qualifizierte Unterstützung in allen Phasen Ihres Bauprojekts bieten. Wir stehen für Qualität, Kompetenz und transparente Prozesse im Bauwesen." property="twitter:description">
   <meta property="og:type" content="website">
   <meta content="summary_large_image" name="twitter:card">
@@ -237,7 +237,7 @@ $p = 0;
         <li>
           <a href="/baubegleitung" class="blog-card w-inline-block">
             <div class="img-wrapper-blog-card">
-              <div class="read-more-blog">Mehr Erfahren</div><img sizes="(max-width: 479px) 100vw, (max-width: 767px) 34vw, (max-width: 991px) 30vw, (max-width: 1439px) 31vw, 28vw" srcset="images/baubegleitung-p-500.webp 500w, images/baubegleitung-p-800.webp 800w, images/baubegleitung-p-1080.webp 1080w, images/baubegleitung.webp 1456w" src="images/baubegleitung.webp" alt="" class="blog-prew-img">
+              <div class="read-more-blog">Mehr Erfahren</div><img sizes="(max-width: 479px) 100vw, (max-width: 767px) 42vw, (max-width: 991px) 30vw, (max-width: 1439px) 31vw, 28vw" srcset="images/baubegleitung-p-500.webp 500w, images/baubegleitung-p-800.webp 800w, images/baubegleitung-p-1080.webp 1080w, images/baubegleitung.webp 1456w" src="images/baubegleitung.webp" alt="" class="blog-prew-img">
             </div>
             <div id="w-node-_0d4d1566-88b8-bf56-6e3e-e88cd5fce1d8-d9f271bb" class="blog-description">
               <div class="card-name-text blog">Baubegleitung</div>
@@ -247,17 +247,17 @@ $p = 0;
         <li>
           <a href="/bauschaden" class="blog-card w-inline-block">
             <div class="img-wrapper-blog-card">
-              <div class="read-more-blog">Mehr Erfahren</div><img sizes="(max-width: 479px) 100vw, (max-width: 767px) 40vw, (max-width: 991px) 30vw, (max-width: 1439px) 31vw, 28vw" srcset="images/bauschaden-p-500.webp 500w, images/bauschaden-p-800.webp 800w, images/bauschaden-p-1080.webp 1080w, images/bauschaden.webp 1456w" src="images/bauschaden.webp" alt="" class="blog-prew-img">
+              <div class="read-more-blog">Mehr Erfahren</div><img sizes="(max-width: 479px) 100vw, (max-width: 767px) 42vw, (max-width: 991px) 30vw, (max-width: 1439px) 31vw, 28vw" srcset="images/bauschaden-p-500.webp 500w, images/bauschaden-p-800.webp 800w, images/bauschaden-p-1080.webp 1080w, images/bauschaden.webp 1456w" src="images/bauschaden.webp" alt="" class="blog-prew-img">
             </div>
             <div id="w-node-_2341024a-32ba-690d-76da-a3ddf69fe7ca-d9f271bb" class="blog-description">
               <div class="card-name-text blog">Bauschaden</div>
             </div>
           </a>
         </li>
-        <li>
+        <li class="list-item">
           <a href="/energieberatung" class="blog-card w-inline-block">
             <div class="img-wrapper-blog-card">
-              <div class="read-more-blog">Mehr Erfahren</div><img sizes="(max-width: 479px) 100vw, (max-width: 991px) 30vw, (max-width: 1439px) 31vw, 28vw" srcset="images/energieberatung-p-500.webp 500w, images/energieberatung-p-800.webp 800w, images/energieberatung-p-1080.webp 1080w, images/energieberatung.webp 1456w" src="images/energieberatung.webp" alt="" class="blog-prew-img">
+              <div class="read-more-blog">Mehr Erfahren</div><img sizes="(max-width: 479px) 100vw, (max-width: 767px) 42vw, (max-width: 991px) 30vw, (max-width: 1439px) 31vw, 28vw" srcset="images/energieberatung-p-500.webp 500w, images/energieberatung-p-800.webp 800w, images/energieberatung-p-1080.webp 1080w, images/energieberatung.webp 1456w" src="images/energieberatung.webp" alt="" class="blog-prew-img">
             </div>
             <div id="w-node-c15dde64-b567-8a3f-2429-fec5b38702e7-d9f271bb" class="blog-description">
               <div class="card-name-text blog">Energieberatung</div>
@@ -267,7 +267,7 @@ $p = 0;
         <li>
           <a href="/hauskaufberatung" class="blog-card w-inline-block">
             <div class="img-wrapper-blog-card">
-              <div class="read-more-blog">Mehr Erfahren</div><img sizes="(max-width: 479px) 100vw, (max-width: 767px) 34vw, (max-width: 991px) 30vw, (max-width: 1439px) 31vw, 28vw" srcset="images/beratung-p-500.webp 500w, images/beratung-p-800.webp 800w, images/beratung-p-1080.webp 1080w, images/beratung.webp 1456w" src="images/beratung.webp" alt="" class="blog-prew-img">
+              <div class="read-more-blog">Mehr Erfahren</div><img sizes="(max-width: 479px) 100vw, (max-width: 767px) 42vw, (max-width: 991px) 30vw, (max-width: 1439px) 31vw, 28vw" srcset="images/beratung-p-500.webp 500w, images/beratung-p-800.webp 800w, images/beratung-p-1080.webp 1080w, images/beratung.webp 1456w" src="images/beratung.webp" alt="" class="blog-prew-img">
             </div>
             <div id="w-node-_73a03fa4-da08-081f-1dfd-2b08c270e871-d9f271bb" class="blog-description">
               <div class="card-name-text blog">Hauskaufberatung</div>
@@ -277,7 +277,7 @@ $p = 0;
         <li>
           <a href="/immobilienbewertung" class="blog-card w-inline-block">
             <div class="img-wrapper-blog-card">
-              <div class="read-more-blog">Mehr Erfahren</div><img sizes="(max-width: 479px) 100vw, (max-width: 767px) 40vw, (max-width: 991px) 30vw, (max-width: 1439px) 31vw, 28vw" srcset="images/inspektionen-p-500.webp 500w, images/inspektionen-p-800.webp 800w, images/inspektionen-p-1080.webp 1080w, images/inspektionen.webp 1456w" src="images/inspektionen.webp" alt="" class="blog-prew-img">
+              <div class="read-more-blog">Mehr Erfahren</div><img sizes="(max-width: 479px) 100vw, (max-width: 767px) 42vw, (max-width: 991px) 30vw, (max-width: 1439px) 31vw, 28vw" srcset="images/inspektionen-p-500.webp 500w, images/inspektionen-p-800.webp 800w, images/inspektionen-p-1080.webp 1080w, images/inspektionen.webp 1456w" src="images/inspektionen.webp" alt="" class="blog-prew-img">
             </div>
             <div id="w-node-b67d4319-1e87-e1b5-6898-86b8f901ba70-d9f271bb" class="blog-description">
               <div class="card-name-text blog">Immobilienbewertung</div>
@@ -285,9 +285,9 @@ $p = 0;
           </a>
         </li>
         <li>
-          <a href="/schimmelpilz" class="blog-card w-inline-block">
+          <a href="/schimmlepilz" class="blog-card w-inline-block">
             <div class="img-wrapper-blog-card">
-              <div class="read-more-blog">Mehr Erfahren</div><img sizes="(max-width: 479px) 100vw, (max-width: 991px) 30vw, (max-width: 1439px) 31vw, 28vw" srcset="images/pilz-p-500.webp 500w, images/pilz-p-800.webp 800w, images/pilz-p-1080.webp 1080w, images/pilz.webp 1166w" src="images/pilz.webp" alt="" class="blog-prew-img">
+              <div class="read-more-blog">Mehr Erfahren</div><img sizes="(max-width: 479px) 100vw, (max-width: 767px) 42vw, (max-width: 991px) 30vw, (max-width: 1439px) 31vw, 28vw" srcset="images/pilz-p-500.webp 500w, images/pilz-p-800.webp 800w, images/pilz-p-1080.webp 1080w, images/pilz.webp 1166w" src="images/pilz.webp" alt="" class="blog-prew-img">
             </div>
             <div id="w-node-da7a5d2c-0746-5726-c5d6-ab7bb28fbc76-d9f271bb" class="blog-description">
               <div class="card-name-text blog">Beratung Schimmelpilz</div>
@@ -741,7 +741,7 @@ $p = 0;
           </div>
         </div>
         <div id="w-node-_81b93628-ea38-0898-c4d5-6a9b91b4bbfd-d9f271bb"><img src="images/qq_pp-1.svg" loading="lazy" alt="" class="qoute-q">
-          <p><strong>Mein Name ist Olivier Schmidt und ich bin stolz, Teil des Baucampus-Netzwerks zu sein. </strong>Die Arbeit in dieser Gemeinschaft ist etwas ganz Besonderes und es ist diese Einzigartigkeit, die mich jeden Tag aufs Neue anzieht und begeistert. <br><br>Was Baucampus für mich wirklich auszeichnet, ist sein reiches und vielfältiges Netzwerk. Als Immobilienfachmann staune ich über die Fülle an Wissen und Fähigkeiten, die ich hier vorfinde. Jeden Tag habe ich die Gelegenheit, mit einer Vielzahl qualifizierter und engagierter Fachleute zu interagieren, von denen jeder eine einzigartige und wertvolle Perspektive einbringt. Es ist diese Zusammenarbeit, die meine Arbeit bereichert, die mich dazu inspiriert, die Grenzen zu überschreiten und weiter zu lernen. <br><br>Als potenzieller Baucampus-Partner haben Sie die Möglichkeit, einem Netzwerk außergewöhnlicher Fachkräfte beizutreten. Es ist eine Gemeinschaft, die Exzellenz schätzt, ihre Dienstleistungen ständig verbessert und sich dafür einsetzt, ihren Partnern zum Erfolg zu verhelfen. Egal, ob Sie ein Immobilienexperte sind, der sein Netzwerk erweitern möchte, oder ein Unternehmen, das von erstklassigen Immobiliendienstleistungen profitieren möchte, Baucampus ist ein wertvoller Partner. <br><br>Als potenzieller Kunde bedeutet die Wahl von Baucampus, einen engagierten und leidenschaftlichen Partner zu wählen. Wir verstehen die Bedeutung Ihrer Immobilieninvestition und sind bestrebt, Ihnen Immobiliendienstleistungen zu bieten, die Ihre Erwartungen übertreffen. Unser Expertenteam steht Ihnen bei jedem Schritt zur Seite und bietet genaue Einschätzungen, fachkundige Beratung und fortlaufende Unterstützung. Für uns ist jeder Kunde ein Partner und wir setzen uns dafür ein, gemeinsam mit Ihnen Ihre Immobilienziele zu erreichen. <br><br>Zusammenfassend ist Baucampus mehr als ein Netzwerk von Immobilienexperten. Es handelt sich um eine Gemeinschaft leidenschaftlicher Fachleute, die sich dafür einsetzen, den bestmöglichen Service zu bieten. Und es ist diese Leidenschaft, diese Hingabe und dieser ständige Wunsch nach Exzellenz, die meine Arbeit am Baucampus so lohnend macht. Ob Sie potenzieller Partner oder Kunde sind, ich lade Sie ein, den Unterschied von Baucampus zu erleben und zu sehen, wie wir Ihnen beim Erreichen Ihrer Immobilienziele helfen können.</p>
+          <p><strong>Mein Name ist Olivier Leclerc und ich bin stolz, Teil des Baucampus-Netzwerks zu sein. </strong>Die Arbeit in dieser Gemeinschaft ist etwas ganz Besonderes und es ist diese Einzigartigkeit, die mich jeden Tag aufs Neue anzieht und begeistert. <br><br>Was Baucampus für mich wirklich auszeichnet, ist sein reiches und vielfältiges Netzwerk. Als Immobilienfachmann staune ich über die Fülle an Wissen und Fähigkeiten, die ich hier vorfinde. Jeden Tag habe ich die Gelegenheit, mit einer Vielzahl qualifizierter und engagierter Fachleute zu interagieren, von denen jeder eine einzigartige und wertvolle Perspektive einbringt. Es ist diese Zusammenarbeit, die meine Arbeit bereichert, die mich dazu inspiriert, die Grenzen zu überschreiten und weiter zu lernen. <br><br>Als potenzieller Baucampus-Partner haben Sie die Möglichkeit, einem Netzwerk außergewöhnlicher Fachkräfte beizutreten. Es ist eine Gemeinschaft, die Exzellenz schätzt, ihre Dienstleistungen ständig verbessert und sich dafür einsetzt, ihren Partnern zum Erfolg zu verhelfen. Egal, ob Sie ein Immobilienexperte sind, der sein Netzwerk erweitern möchte, oder ein Unternehmen, das von erstklassigen Immobiliendienstleistungen profitieren möchte, Baucampus ist ein wertvoller Partner. <br><br>Als potenzieller Kunde bedeutet die Wahl von Baucampus, einen engagierten und leidenschaftlichen Partner zu wählen. Wir verstehen die Bedeutung Ihrer Immobilieninvestition und sind bestrebt, Ihnen Immobiliendienstleistungen zu bieten, die Ihre Erwartungen übertreffen. Unser Expertenteam steht Ihnen bei jedem Schritt zur Seite und bietet genaue Einschätzungen, fachkundige Beratung und fortlaufende Unterstützung. Für uns ist jeder Kunde ein Partner und wir setzen uns dafür ein, gemeinsam mit Ihnen Ihre Immobilienziele zu erreichen. <br><br>Zusammenfassend ist Baucampus mehr als ein Netzwerk von Immobilienexperten. Es handelt sich um eine Gemeinschaft leidenschaftlicher Fachleute, die sich dafür einsetzen, den bestmöglichen Service zu bieten. Und es ist diese Leidenschaft, diese Hingabe und dieser ständige Wunsch nach Exzellenz, die meine Arbeit am Baucampus so lohnend macht. Ob Sie potenzieller Partner oder Kunde sind, ich lade Sie ein, den Unterschied von Baucampus zu erleben und zu sehen, wie wir Ihnen beim Erreichen Ihrer Immobilienziele helfen können.</p>
           <div>
             <div id="w-node-_81b93628-ea38-0898-c4d5-6a9b91b4bc14-d9f271bb"><strong>Mit Baucampus gestalten wir gemeinsam die Zukunft der Immobilienbranche, übertreffen Erwartungen und verwirklichen unsere Ambitionen bei jedem Schritt.</strong></div>
           </div>
