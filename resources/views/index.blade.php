@@ -839,10 +839,14 @@ $p = 0;
         <div id="w-node-_9ab59575-c0ef-d0eb-9bd1-882e58bbdbe5-d9f271bb">
           <div class="sub-heding">Standort</div>
           <h3 class="h1">Baucampus in {{$domainort}}</h3>
-          <p>Baucampus in {{$domainort}} bietet hochwertige Immobiliendienstleistungen und fügt dem gesamten Großraum {{$domainort}} einen Mehrwert hinzu. Unser lokales Team von Immobilienexperten verfügt über tiefgreifende Kenntnisse des {{$domainort}}er Immobilienmarktes, was es uns ermöglicht, genaue Bewertungen, gründliche Inspektionen, fundierte Beratungen und professionelle Schulungen anzubieten. <br><br>München, gelegen im schönen Bayern in Deutschland, ist eine pulsierende Stadt, reich an Kultur und Geschichte und bekannt für ihr gemäßigtes kontinentales Klima. Mit seinen malerischen Biergärten, faszinierender Architektur, lebhaften Märkten und exquisiter Küche zieht München Besucher aus der ganzen Welt an. Der Münchner Immobilienmarkt ist dynamisch und vielfältig, mit einer Palette von Immobilien, die von Stadtwohnungen bis hin zu luxuriösen Villen am Starnberger See reichen. Als wichtiger Akteur auf diesem Markt ist Baucampus stolz darauf, zur Prosperität der Stadt beizutragen, indem es seinen Kunden hilft, erfolgreich durch die Immobilienlandschaft Münchens zu navigieren.</p>
+          @foreach($media as $medias)
+          @if($medias->Ort == §domainort)
+          <p>{{$medias->ortText}}</p>
         </div>
-        <div id="w-node-cbf1b3bc-8d5c-db86-10f6-dd363cb5250b-d9f271bb" class="parallax-image-wrapper"><img src="images/3cb45f6e59190e8213ce0a35394d0e11-nice-3612225719.jpg" sizes="(max-width: 479px) 100vw, (max-width: 767px) 91vw, (max-width: 991px) 52vw, (max-width: 1439px) 53vw, 685.7166748046875px" srcset="images/3cb45f6e59190e8213ce0a35394d0e11-nice-3612225719-p-500.jpg 500w, images/3cb45f6e59190e8213ce0a35394d0e11-nice-3612225719-p-800.jpg 800w, images/3cb45f6e59190e8213ce0a35394d0e11-nice-3612225719.jpg 1200w" alt="" class="parallax-image"></div>
+        <div id="w-node-cbf1b3bc-8d5c-db86-10f6-dd363cb5250b-d9f271bb" class="parallax-image-wrapper"><img src="{{$medias->img}}" sizes="(max-width: 479px) 100vw, (max-width: 767px) 91vw, (max-width: 991px) 52vw, (max-width: 1439px) 53vw, 685.7166748046875px" srcset="{{$medias->imgSet}}" alt="" class="parallax-image"></div>
       </div>
+      @endif
+      @endforeach
     </div>
   </section>
   @include('partials.footer')
