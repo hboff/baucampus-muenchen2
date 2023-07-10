@@ -840,7 +840,7 @@ $p = 0;
           <div class="sub-heding">Standort</div>
           <h3 class="h1">Baucampus in {{$domainort}}</h3>
           @foreach($media as $medias)
-          @if($medias->Ort == §domainort)
+          @if($medias->Ort == $domainort)
           <p>{{$medias->ortText}}</p>
         </div>
         <div id="w-node-cbf1b3bc-8d5c-db86-10f6-dd363cb5250b-d9f271bb" class="parallax-image-wrapper"><img src="{{$medias->img}}" sizes="(max-width: 479px) 100vw, (max-width: 767px) 91vw, (max-width: 991px) 52vw, (max-width: 1439px) 53vw, 685.7166748046875px" srcset="{{$medias->imgSet}}" alt="" class="parallax-image"></div>
